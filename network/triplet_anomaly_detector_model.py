@@ -28,6 +28,6 @@ class TripletAnomalyDetector(nn.Module):
         x = self.dropout1(self.relu1(self.fc1(x)))
         x = self.dropout2(self.fc2(x))
         if self.use_last_bn:
-            x = self.bn_last(self.fc3(x))
-        x = F.normalize(x, p=2, dim=-1)
+            x = self.bn_last(self.fc3(x).permute(0, 2, 1))
+        x = F.normalize(x.permute(0, 2, 1), p=2, dim=-1)
         return x
