@@ -52,8 +52,8 @@ def triplet_objective(normalized_embeddings, y_true):
     """
     Triplet loss
     """
-    triplet_loss = F.normalize(positive_frames - anchors, p=2, dim=-1).pow(2).mean() \
-                   - F.normalize(negative_frames - anchors, p=2, dim=-1).pow(2).mean() + margin
+    triplet_loss = (positive_frames - anchors).pow(2).sum(-1).mean() \
+                    - (negative_frames - anchors).pow(2).sum(-1).mean() + margin
     triplet_loss = torch.relu(triplet_loss)
     """
     Smoothness of anomalous video
