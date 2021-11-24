@@ -9,8 +9,17 @@ from torch.utils.tensorboard import SummaryWriter
 from features_loader import FeaturesLoader
 from network.TorchUtils import TorchModel
 from network.anomaly_detector_model import AnomalyDetector, custom_objective, RegularizedLoss
+from network.triplet_anomaly_detector_model import TripletAnomalyDetector
+from network.triplet_loss import triplet_objective
 from utils.callbacks import DefaultModelCallback, TensorBoardCallback
 from utils.utils import register_logger, get_torch_device
+
+custom_namespace = {
+    'TripletAnomalyDetector': TripletAnomalyDetector,
+    'AnomalyDetector': AnomalyDetector,
+    'custom_objective': custom_objective,
+    'triplet_objective': triplet_objective
+}
 
 
 def get_args():
@@ -41,6 +50,10 @@ def get_args():
                         help="number of training iterations")
     parser.add_argument('--epochs', type=int, default=2,
                         help="number of training epochs")
+    parser.add_argument('--network_name', type=str, default='AnomalyDetector',
+                        help="name of network")
+    parser.add_argument('--objective_name', type=str, default='custom_objective',
+                        help="name of objective function")
 
     return parser.parse_args()
 
@@ -69,7 +82,7 @@ if __name__ == "__main__":
     if args.checkpoint is not None and path.exists(args.checkpoint):
         model = TorchModel.load_model(args.checkpoint)
     else:
-        network = AnomalyDetector(args.feature_dim)
+        network = custom_namespace[args.network_name](args.feature_dim)
         model = TorchModel(network)
 
     model = model.to(device).train()
@@ -81,7 +94,7 @@ if __name__ == "__main__":
     """
     optimizer = torch.optim.Adadelta(model.parameters(), lr=args.lr_base, eps=1e-8)
 
-    criterion = RegularizedLoss(network, custom_objective).to(device)
+    criterion = RegularizedLoss(network, custom_namespace[args.objective_name]).to(device)
 
     # Callbacks
     tb_writer = SummaryWriter(log_dir=tb_dir)
