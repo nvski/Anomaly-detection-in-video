@@ -46,13 +46,15 @@ Arguments:
 * features_path - path to the directory containing the extracted features (pre-computed features are available for download above, or supply your own features extracted from the previous stage)
 * annotation_path - path to the annotations file (Available in this repository as `Train_annotations.txt`
 ```python TrainingAnomalyDetector_public.py --features_path "path-to-dataset" --annotation_path "path-to-train-annos"```
-
+* to train with triplet loss you have to add 2 flags:
+```--network_name TripletAnomalyDetector --objective_name triplet_objective```
 ## Generate ROC Curve
 Arguments:
 * features_path - path to the directory containing the extracted features (pre-computed features are available for download above, or supply your own features extracted from the previous stage)
 * annotation_path - path to the annotations file (Available in this repository as `Test_annotations.txt`
 * model_path - path to the trained anomaly detection model
 ```python generate_ROC.py --features_path "path-to-dataset" --annotation_path "path-to-annos" --model_path "path-to-model"```
+* to calculate ROC for the triplet-based training you have add ```--calc_mode triplet```
 
 Using my pre-trained model after 40K iterations, I achieve this following performance on the test-set. I'm aware that the current model doesn't achieve AUC of 0.75 as reported in the original paper. This can be caused by different weights of the C3D model.
 
