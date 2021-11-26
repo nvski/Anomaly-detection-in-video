@@ -39,7 +39,7 @@ def triplet_objective(normalized_embeddings, y_true):
     To do that we pick N=top_normal_frames frames from normal videos that are distant from the anchors
     Here we calculate pairwise distance to pick hard negative examples for each anchor
     """
-    n_norm_video, _, _ = anomal_segments_embeddings.shape
+    n_norm_video, _, _ = normal_segments_embeddings.shape
     fp_frame_inds = torch.cdist(normal_segments_embeddings, anchors).argsort(dim=1)[:, -top_normal_frames:, 0]
     fp_frame_mask = torch.zeros((n_norm_video, n_frames), dtype=torch.bool).to(anomal_segments_embeddings.device)
     for row_idx in range(fp_frame_inds.shape[0]):

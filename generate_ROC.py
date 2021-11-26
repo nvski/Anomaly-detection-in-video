@@ -4,7 +4,7 @@ import torch
 import torch.backends.cudnn as cudnn
 
 from network.TorchUtils import TorchModel
-from features_loader import FeaturesLoaderVal
+from features_loader import FeaturesLoaderVal, FeaturesLoader
 from tqdm import tqdm
 from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
@@ -14,7 +14,7 @@ import numpy as np
 
 def get_args():
     parser = argparse.ArgumentParser(description="PyTorch Video Classification Parser")
-    parser.add_argument('--features_path', default='../anomaly_features',
+    parser.add_argument('--features_path', default='./data/anomaly_features',
                         help="path to features")
     parser.add_argument('--annotation_path', default="Test_Annotation.txt",
                         help="path to annotations")
@@ -22,8 +22,47 @@ def get_args():
                         help="set logging file.")
     parser.add_argument('--calc_mode', type=str, default="mil",
                         help="metrics calculation mode")
+    
+    parser.add_argument('--train_features_path', default='data/anomaly_features',
+                        help="path to features")
+    parser.add_argument('--train_annotation_path', default="Train_Annotation.txt",
+                        help="path to annotations")
     return parser.parse_args()
 
+
+def get_centroids(model, data_iter):
+    
+    device = torch.device("cuda" if torch.cuda.is_available()
+                          else "cpu")
+    
+    normal_embed = np.zeros(128)
+    anomaly_embed = np.zeros(128)
+    
+    n_normal = 0
+    n_anomaly = 0
+
+    with torch.no_grad():
+        for features, labels in tqdm(data_iter):
+            # features is a batch where each item is a tensor of 32 4096D features
+            features = features.to(device).squeeze()
+            labels = labels.squeeze()
+            outputs = model(features)  # (batch_size, 32, embed_size)
+        
+            embed = outputs.mean(1).cpu().numpy()
+            y_true = labels.cpu().numpy()
+            
+            normal_embed += embed[y_true == 0].mean(0)
+            anomaly_embed += embed[y_true == 1].mean(0)
+            
+            n_normal += (y_true == 0).sum()
+            n_anomaly += (y_true == 1).sum()
+
+            torch.cuda.empty_cache()
+
+    centroids = np.array([normal_embed/n_normal, anomaly_embed/n_anomaly]) 
+    
+    return centroids
+    
 
 if __name__ == "__main__":
     args = get_args()
@@ -38,14 +77,27 @@ if __name__ == "__main__":
                                             shuffle=False,
                                             num_workers=0,  # 4, # change this part accordingly
                                             pin_memory=True)
+    
+    
+    train_data_loader = FeaturesLoader(features_path=args.train_features_path,
+                                       annotation_path=args.train_annotation_path)
+
+    train_data_iter = torch.utils.data.DataLoader(train_data_loader,
+                                            batch_size=1,
+                                            shuffle=False,
+                                            num_workers=0,  # 4, # change this part accordingly
+                                            pin_memory=True)
 
     model = TorchModel.load_model(args.model_path).to(device).eval()
 
     # enable cudnn tune
     cudnn.benchmark = True
 
+
     y_trues = torch.tensor([])
     y_preds = torch.tensor([])
+    
+    centroids = get_centroids(model, train_data_iter)
 
     with torch.no_grad():
         for features, start_end_couples, lengths in tqdm(data_iter):
@@ -68,7 +120,8 @@ if __name__ == "__main__":
                     segment_start_frame = i * segments_len
                     segment_end_frame = (i + 1) * segments_len
                     if args.calc_mode == 'triplet':
-                        y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0])**2).sum(-1)
+                        #y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0])**2).sum(-1)
+                        y_pred[segment_start_frame: segment_end_frame] = ((output[i] - centroids[0])**2).sum(-1)
                     else: # default MIL calculation
                         y_pred[segment_start_frame: segment_end_frame] = output[i]
 
