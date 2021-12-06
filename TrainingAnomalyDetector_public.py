@@ -10,7 +10,7 @@ from features_loader import FeaturesLoader
 from network.TorchUtils import TorchModel
 from network.anomaly_detector_model import AnomalyDetector, custom_objective, RegularizedLoss
 from network.triplet_anomaly_detector_model import TripletAnomalyDetector
-from network.triplet_loss import triplet_objective
+from network.triplet_loss import triplet_objective, triplet_objective_sampling
 from utils.callbacks import DefaultModelCallback, TensorBoardCallback
 from utils.utils import register_logger, get_torch_device
 
@@ -18,9 +18,9 @@ custom_namespace = {
     'TripletAnomalyDetector': TripletAnomalyDetector,
     'AnomalyDetector': AnomalyDetector,
     'custom_objective': custom_objective,
-    'triplet_objective': triplet_objective
+    'triplet_objective': triplet_objective,
+    'triplet_objective_sampling': triplet_objective_sampling
 }
-
 
 def get_args():
     parser = argparse.ArgumentParser(description="PyTorch Video Classification Parser")

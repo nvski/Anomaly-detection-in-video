@@ -10,7 +10,7 @@ from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
 from os import path
 import numpy as np
-
+from scipy import spatial
 
 def get_args():
     parser = argparse.ArgumentParser(description="PyTorch Video Classification Parser")
@@ -35,8 +35,8 @@ def get_centroids(model, data_iter):
     device = torch.device("cuda" if torch.cuda.is_available()
                           else "cpu")
     
-    normal_embed = np.zeros(128)
-    anomaly_embed = np.zeros(128)
+    normal_embed = None
+    anomaly_embed = None
     
     n_normal = 0
     n_anomaly = 0
@@ -51,9 +51,16 @@ def get_centroids(model, data_iter):
             embed = outputs.mean(1).cpu().numpy()
             y_true = labels.cpu().numpy()
             
-            normal_embed += embed[y_true == 0].mean(0)
-            anomaly_embed += embed[y_true == 1].mean(0)
-            
+            if normal_embed is None:
+                normal_embed = embed[y_true == 0].mean(0)
+            else:
+                normal_embed += embed[y_true == 0].mean(0)
+                
+            if anomaly_embed is None:
+                anomaly_embed = embed[y_true == 1].mean(0)
+            else:
+                anomaly_embed += embed[y_true == 1].mean(0)
+
             n_normal += (y_true == 0).sum()
             n_anomaly += (y_true == 1).sum()
 
@@ -97,7 +104,8 @@ if __name__ == "__main__":
     y_trues = torch.tensor([])
     y_preds = torch.tensor([])
     
-    centroids = get_centroids(model, train_data_iter)
+    if args.calc_mode == 'triplet_centroid':
+        centroids = get_centroids(model, train_data_iter)
 
     with torch.no_grad():
         for features, start_end_couples, lengths in tqdm(data_iter):
@@ -119,9 +127,10 @@ if __name__ == "__main__":
                 for i in range(32):
                     segment_start_frame = i * segments_len
                     segment_end_frame = (i + 1) * segments_len
-                    if args.calc_mode == 'triplet':
-                        #y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0])**2).sum(-1)
+                    if args.calc_mode == 'triplet_centroid':
                         y_pred[segment_start_frame: segment_end_frame] = ((output[i] - centroids[0])**2).sum(-1)
+                    elif args.calc_mode == 'triplet':
+                        y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0])**2).sum(-1)
                     else: # default MIL calculation
                         y_pred[segment_start_frame: segment_end_frame] = output[i]
 
