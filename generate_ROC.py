@@ -27,6 +27,8 @@ def get_args():
                         help="path to features")
     parser.add_argument('--train_annotation_path', default="Train_Annotation.txt",
                         help="path to annotations")
+    parser.add_argument('--filename', type=str, default="roc_auc.png",
+                        help="filename for ROC-AUC image")
     return parser.parse_args()
 
 
@@ -155,6 +157,6 @@ if __name__ == "__main__":
     plt.legend(loc="lower right")
 
     os.makedirs('graphs', exist_ok=True)
-    plt.savefig(path.join('graphs', 'roc_auc.png'))
+    plt.savefig(path.join('graphs', args.filename))
     plt.close()
     print('ROC curve (area = %0.2f)' % roc_auc)

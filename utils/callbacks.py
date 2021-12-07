@@ -48,7 +48,7 @@ class DefaultModelCallback(Callback):
     """
     A callback that simply logs the loss for epochs during training and evaluation
     """
-    def __init__(self, log_every=10, visualization_dir=None):
+    def __init__(self, log_every=1000, visualization_dir=None):
         """
         Args:
             log_every (iterations): logging intervals

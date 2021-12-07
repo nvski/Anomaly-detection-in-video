@@ -8,7 +8,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 from features_loader import FeaturesLoader
 from network.TorchUtils import TorchModel
-from network.anomaly_detector_model import AnomalyDetector, custom_objective, RegularizedLoss
+from network.anomaly_detector_model import AnomalyDetector, custom_objective, RegularizedLoss, TripletRegularizedLoss
 from network.triplet_anomaly_detector_model import TripletAnomalyDetector
 from network.triplet_loss import triplet_objective, triplet_objective_sampling
 from utils.callbacks import DefaultModelCallback, TensorBoardCallback
@@ -19,7 +19,7 @@ custom_namespace = {
     'AnomalyDetector': AnomalyDetector,
     'custom_objective': custom_objective,
     'triplet_objective': triplet_objective,
-    'triplet_objective_sampling': triplet_objective_sampling
+    'triplet_objective_sampling': triplet_objective_sampling,
 }
 
 def get_args():
@@ -54,6 +54,19 @@ def get_args():
                         help="name of network")
     parser.add_argument('--objective_name', type=str, default='custom_objective',
                         help="name of objective function")
+    
+    parser.add_argument('--output_dim', type=int, default=128,
+                        help="dimension of output of network for triplet loss")
+    parser.add_argument('--dropout_rate', type=float, default=0.5,
+                        help="dropout rate in network for triplet loss")
+    parser.add_argument('--lambdas', type=float, default=8e-5,
+                        help="lambdas value for smoothness part in triplet loss")
+    parser.add_argument('--top_anomaly_frames', type=int, default=3,
+                        help="number of anomaly segments in triplet loss")
+    parser.add_argument('--top_normal_frames', type=int, default=3,
+                        help="number of normal segments in triplet loss")
+    parser.add_argument('--margin', type=float, default=0.2,
+                        help="margin constant in triplet lossn")
 
     return parser.parse_args()
 
@@ -82,7 +95,12 @@ if __name__ == "__main__":
     if args.checkpoint is not None and path.exists(args.checkpoint):
         model = TorchModel.load_model(args.checkpoint)
     else:
-        network = custom_namespace[args.network_name](args.feature_dim)
+        if 'Triplet' in args.network_name:
+            network = custom_namespace[args.network_name](input_dim=args.feature_dim, 
+                                                          output_dim=args.output_dim, 
+                                                          dropout_rate=args.dropout_rate)
+        else:
+            network = custom_namespace[args.network_name](input_dim=args.feature_dim)
         model = TorchModel(network)
 
     model = model.to(device).train()
@@ -94,7 +112,15 @@ if __name__ == "__main__":
     """
     optimizer = torch.optim.Adadelta(model.parameters(), lr=args.lr_base, eps=1e-8)
 
-    criterion = RegularizedLoss(network, custom_namespace[args.objective_name]).to(device)
+    if 'triplet' in args.objective_name:
+        criterion = TripletRegularizedLoss(network, 
+                                           custom_namespace[args.objective_name], 
+                                           triplet_lambdas=args.lambdas, 
+                                           top_anomaly_frames=args.top_anomaly_frames,
+                                           top_normal_frames=args.top_normal_frames, 
+                                           margin=args.margin).to(device)
+    else:
+        criterion = RegularizedLoss(network, custom_namespace[args.objective_name]).to(device)
 
     # Callbacks
     tb_writer = SummaryWriter(log_dir=tb_dir)
