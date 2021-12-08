@@ -3373,3 +3373,1131 @@ Epoch 1/2     Train loss: 0.0767056841634214        time: 0:13:13.568516
 2021-12-07 06:53:57,190 Epoch 0/2      Iteration 9000/20000    loss: 0.06696844100952148    Time: 0.059 seconds/iteration
 2021-12-07 06:54:01,966 Epoch 0/2      Iteration 10000/20000    loss: 0.0669725090265274    Time: 0.054 seconds/iteration
 2021-12-07 06:54:16,670 Epoch 0/2      Iteration 11000/20000    loss: 0.06739634275436401    Time: 0.05 seconds/iteration
+2021-12-07 06:54:45,363 Epoch 0/2      Iteration 11000/20000    loss: 0.0669415146112442    Time: 0.053 seconds/iteration
+2021-12-07 06:54:59,320 Epoch 0/2      Iteration 10000/20000    loss: 0.06693871319293976    Time: 0.06 seconds/iteration
+2021-12-07 06:55:00,491 Epoch 0/2      Iteration 12000/20000    loss: 0.06737972795963287    Time: 0.05 seconds/iteration
+2021-12-07 06:55:28,680 Epoch 0/2      Iteration 12000/20000    loss: 0.06691238284111023    Time: 0.052 seconds/iteration
+2021-12-07 06:55:43,120 Epoch 0/2      Iteration 13000/20000    loss: 0.06737492233514786    Time: 0.049 seconds/iteration
+2021-12-07 06:55:57,644 Epoch 0/2      Iteration 11000/20000    loss: 0.06690846383571625    Time: 0.06 seconds/iteration
+2021-12-07 06:56:10,974 Epoch 0/2      Iteration 13000/20000    loss: 0.0668821930885315    Time: 0.051 seconds/iteration
+2021-12-07 06:56:25,671 Epoch 0/2      Iteration 14000/20000    loss: 0.06735780090093613    Time: 0.049 seconds/iteration
+2021-12-07 06:57:14,252 Epoch 0/2      Iteration 14000/20000    loss: 0.06685203313827515    Time: 0.052 seconds/iteration
+2021-12-07 06:57:36,405 Epoch 0/2      Iteration 12000/20000    loss: 0.06687919795513153    Time: 0.063 seconds/iteration
+2021-12-07 06:57:41,171 Epoch 0/2      Iteration 15000/20000    loss: 0.06733709573745728    Time: 0.051 seconds/iteration
+2021-12-07 06:58:34,439 Epoch 0/2      Iteration 15000/20000    loss: 0.0668226107954979    Time: 0.054 seconds/iteration
+2021-12-07 06:58:48,624 Epoch 0/2      Iteration 16000/20000    loss: 0.06732114404439926    Time: 0.052 seconds/iteration
+2021-12-07 06:59:26,855 Epoch 0/2      Iteration 13000/20000    loss: 0.06684958934783936    Time: 0.066 seconds/iteration
+2021-12-07 06:59:41,539 Epoch 0/2      Iteration 16000/20000    loss: 0.06679201126098633    Time: 0.055 seconds/iteration
+2021-12-07 07:00:11,300 Epoch 0/2      Iteration 17000/20000    loss: 0.0673191025853157    Time: 0.053 seconds/iteration
+2021-12-07 07:01:26,942 Epoch 0/2      Iteration 17000/20000    loss: 0.06676174700260162    Time: 0.058 seconds/iteration
+2021-12-07 07:02:39,510 Epoch 0/2      Iteration 14000/20000    loss: 0.06681720167398453    Time: 0.075 seconds/iteration
+2021-12-07 07:03:34,312 Epoch 0/2      Iteration 18000/20000    loss: 0.06729096174240112    Time: 0.062 seconds/iteration
+2021-12-07 07:09:06,725 Epoch 0/2      Iteration 18000/20000    loss: 0.06673294305801392    Time: 0.08 seconds/iteration
+2021-12-07 07:10:55,242 Epoch 0/2      Iteration 15000/20000    loss: 0.06678980588912964    Time: 0.103 seconds/iteration
+2021-12-07 07:11:45,557 Epoch 0/2      Iteration 19000/20000    loss: 0.06728672981262207    Time: 0.084 seconds/iteration
+2021-12-07 07:17:07,228 Epoch 0/2      Iteration 19000/20000    loss: 0.0667022243142128    Time: 0.101 seconds/iteration
+2021-12-07 07:19:05,619 Epoch 0/2      Iteration 16000/20000    loss: 0.06676023453474045    Time: 0.128 seconds/iteration
+2021-12-07 07:19:29,224 Save the model after epoch 0
+2021-12-07 07:19:29,256 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.3394392960585654        time: 0:34:26.252706
+============================================================================================================================
+
+2021-12-07 07:19:30,026 Epoch 1/2      Iteration 0/20000    loss: 0.06726051867008209    Time: 0.766 seconds/iteration
+2021-12-07 07:25:13,473 Save the model after epoch 0
+2021-12-07 07:25:13,499 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.06697195669040083        time: 0:40:10.591064
+============================================================================================================================
+
+2021-12-07 07:25:14,137 Epoch 1/2      Iteration 0/20000    loss: 0.06667303293943405    Time: 0.636 seconds/iteration
+2021-12-07 07:27:09,332 Epoch 0/2      Iteration 17000/20000    loss: 0.06672979891300201    Time: 0.149 seconds/iteration
+2021-12-07 07:27:35,556 Epoch 1/2      Iteration 1000/20000    loss: 0.06725721806287766    Time: 0.486 seconds/iteration
+2021-12-07 07:33:09,102 Epoch 1/2      Iteration 1000/20000    loss: 0.06664294004440308    Time: 0.475 seconds/iteration
+2021-12-07 07:35:26,402 Epoch 0/2      Iteration 18000/20000    loss: 0.0666990876197815    Time: 0.168 seconds/iteration
+2021-12-07 07:36:36,723 Epoch 1/2      Iteration 2000/20000    loss: 0.124408058822155    Time: 0.513 seconds/iteration
+2021-12-07 07:43:17,591 Epoch 1/2      Iteration 2000/20000    loss: 0.06661199778318405    Time: 0.542 seconds/iteration
+2021-12-07 07:44:59,387 Epoch 0/2      Iteration 19000/20000    loss: 0.06666972488164902    Time: 0.189 seconds/iteration
+2021-12-07 07:45:48,847 Epoch 1/2      Iteration 3000/20000    loss: 0.06721597909927368    Time: 0.526 seconds/iteration
+2021-12-07 07:52:32,230 Epoch 1/2      Iteration 3000/20000    loss: 0.06658288836479187    Time: 0.546 seconds/iteration
+2021-12-07 07:53:25,162 Save the model after epoch 0
+2021-12-07 07:53:25,184 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.06693883018903435        time: 1:08:22.171982
+============================================================================================================================
+
+2021-12-07 07:53:25,753 Epoch 1/2      Iteration 0/20000    loss: 0.0666402280330658    Time: 0.567 seconds/iteration
+2021-12-07 07:55:12,142 Epoch 1/2      Iteration 4000/20000    loss: 0.25919756293296814    Time: 0.536 seconds/iteration
+2021-12-07 08:00:52,931 Epoch 1/2      Iteration 4000/20000    loss: 0.06655237823724747    Time: 0.535 seconds/iteration
+2021-12-07 08:01:51,056 Epoch 1/2      Iteration 1000/20000    loss: 0.06660941988229752    Time: 0.505 seconds/iteration
+2021-12-07 08:03:26,095 Epoch 1/2      Iteration 5000/20000    loss: 0.13852335512638092    Time: 0.527 seconds/iteration
+2021-12-07 08:09:49,152 Epoch 1/2      Iteration 2000/20000    loss: 0.06657986342906952    Time: 0.492 seconds/iteration
+2021-12-07 08:10:31,131 Epoch 1/2      Iteration 5000/20000    loss: 0.06652174890041351    Time: 0.543 seconds/iteration
+2021-12-07 08:12:56,309 Epoch 1/2      Iteration 6000/20000    loss: 0.15937381982803345    Time: 0.534 seconds/iteration
+2021-12-07 08:18:06,994 Epoch 1/2      Iteration 3000/20000    loss: 0.06654956936836243    Time: 0.494 seconds/iteration
+2021-12-07 08:18:44,673 Epoch 1/2      Iteration 6000/20000    loss: 0.0664927214384079    Time: 0.535 seconds/iteration
+2021-12-07 08:21:00,750 Epoch 1/2      Iteration 7000/20000    loss: 0.06715643405914307    Time: 0.527 seconds/iteration
+2021-12-07 08:26:19,208 Epoch 1/2      Iteration 4000/20000    loss: 0.06651975214481354    Time: 0.493 seconds/iteration
+2021-12-07 08:26:31,492 Epoch 1/2      Iteration 7000/20000    loss: 0.06646288186311722    Time: 0.525 seconds/iteration
+2021-12-07 08:28:41,951 Epoch 1/2      Iteration 8000/20000    loss: 0.06714032590389252    Time: 0.519 seconds/iteration
+2021-12-07 08:34:14,986 Epoch 1/2      Iteration 5000/20000    loss: 0.06649008393287659    Time: 0.49 seconds/iteration
+2021-12-07 08:34:20,278 Epoch 1/2      Iteration 8000/20000    loss: 0.06643324345350266    Time: 0.518 seconds/iteration
+2021-12-07 08:36:03,281 Epoch 1/2      Iteration 9000/20000    loss: 0.06712565571069717    Time: 0.51 seconds/iteration
+2021-12-07 08:41:59,812 Epoch 1/2      Iteration 9000/20000    loss: 0.06640324741601944    Time: 0.512 seconds/iteration
+2021-12-07 08:42:35,978 Epoch 1/2      Iteration 6000/20000    loss: 0.0664590373635292    Time: 0.492 seconds/iteration
+2021-12-07 08:43:37,412 Epoch 1/2      Iteration 10000/20000    loss: 0.06710267066955566    Time: 0.505 seconds/iteration
+2021-12-07 08:49:31,486 Epoch 1/2      Iteration 10000/20000    loss: 0.0663740336894989    Time: 0.506 seconds/iteration
+2021-12-07 08:50:44,883 Epoch 1/2      Iteration 7000/20000    loss: 0.0664294958114624    Time: 0.491 seconds/iteration
+2021-12-07 08:51:09,803 Epoch 1/2      Iteration 11000/20000    loss: 0.06709050387144089    Time: 0.5 seconds/iteration
+2021-12-07 08:57:11,596 Epoch 1/2      Iteration 11000/20000    loss: 0.06634307652711868    Time: 0.502 seconds/iteration
+2021-12-07 08:58:56,591 Epoch 1/2      Iteration 12000/20000    loss: 0.06706985086202621    Time: 0.497 seconds/iteration
+2021-12-07 08:58:59,608 Epoch 1/2      Iteration 8000/20000    loss: 0.06640083342790604    Time: 0.492 seconds/iteration
+2021-12-07 09:05:00,945 Epoch 1/2      Iteration 12000/20000    loss: 0.06631375849246979    Time: 0.499 seconds/iteration
+2021-12-07 09:06:24,309 Epoch 1/2      Iteration 13000/20000    loss: 0.06705725938081741    Time: 0.493 seconds/iteration
+2021-12-07 09:07:04,887 Epoch 1/2      Iteration 9000/20000    loss: 0.0663701519370079    Time: 0.491 seconds/iteration
+2021-12-07 09:12:59,155 Epoch 1/2      Iteration 13000/20000    loss: 0.06628456711769104    Time: 0.497 seconds/iteration
+2021-12-07 09:14:16,890 Epoch 1/2      Iteration 14000/20000    loss: 0.06703522801399231    Time: 0.492 seconds/iteration
+2021-12-07 09:15:30,822 Epoch 1/2      Iteration 10000/20000    loss: 0.06634081900119781    Time: 0.493 seconds/iteration
+2021-12-07 09:20:04,479 Epoch 1/2      Iteration 14000/20000    loss: 0.06625290215015411    Time: 0.492 seconds/iteration
+2021-12-07 09:20:16,277 Epoch 1/2      Iteration 15000/20000    loss: 0.06701476871967316    Time: 0.483 seconds/iteration
+2021-12-07 09:20:35,532 Epoch 1/2      Iteration 11000/20000    loss: 0.06631141155958176    Time: 0.475 seconds/iteration
+2021-12-07 09:20:57,252 Epoch 1/2      Iteration 15000/20000    loss: 0.0662231594324112    Time: 0.463 seconds/iteration
+2021-12-07 09:21:01,507 Epoch 1/2      Iteration 16000/20000    loss: 0.0669972375035286    Time: 0.456 seconds/iteration
+2021-12-07 09:21:39,727 Epoch 1/2      Iteration 12000/20000    loss: 0.06627963483333588    Time: 0.441 seconds/iteration
+2021-12-07 09:21:45,566 Epoch 1/2      Iteration 16000/20000    loss: 0.06619182974100113    Time: 0.437 seconds/iteration
+2021-12-07 09:21:46,056 Epoch 1/2      Iteration 17000/20000    loss: 0.0669761374592781    Time: 0.432 seconds/iteration
+2021-12-07 09:22:25,826 Epoch 1/2      Iteration 18000/20000    loss: 0.06696358323097229    Time: 0.41 seconds/iteration
+2021-12-07 09:22:29,758 Epoch 1/2      Iteration 17000/20000    loss: 0.0661640390753746    Time: 0.414 seconds/iteration
+2021-12-07 09:22:39,583 Epoch 1/2      Iteration 13000/20000    loss: 0.06624994426965714    Time: 0.412 seconds/iteration
+2021-12-07 09:23:08,012 Epoch 1/2      Iteration 19000/20000    loss: 0.06694424897432327    Time: 0.39 seconds/iteration
+2021-12-07 09:23:12,537 Epoch 1/2      Iteration 18000/20000    loss: 0.06613381206989288    Time: 0.393 seconds/iteration
+2021-12-07 09:23:41,059 Epoch 1/2      Iteration 14000/20000    loss: 0.0662204921245575    Time: 0.387 seconds/iteration
+2021-12-07 09:23:49,370 Save the model after epoch 1
+2021-12-07 09:23:49,405 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.08715963145159185        time: 2:04:20.145350
+============================================================================================================================
+
+2021-12-07 09:23:52,947 Epoch 1/2      Iteration 19000/20000    loss: 0.06610387563705444    Time: 0.375 seconds/iteration
+2021-12-07 09:24:11,839 Epoch 1/2      Iteration 15000/20000    loss: 0.06619012355804443    Time: 0.363 seconds/iteration
+2021-12-07 09:24:18,893 Save the model after epoch 1
+2021-12-07 09:24:18,917 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.06637334694601596        time: 1:59:05.416258
+============================================================================================================================
+
+2021-12-07 09:24:38,716 Epoch 1/2      Iteration 16000/20000    loss: 0.06616051495075226    Time: 0.342 seconds/iteration
+2021-12-07 09:25:05,168 Epoch 1/2      Iteration 17000/20000    loss: 0.06613045930862427    Time: 0.324 seconds/iteration
+2021-12-07 09:25:32,017 Epoch 1/2      Iteration 18000/20000    loss: 0.06610056757926941    Time: 0.307 seconds/iteration
+2021-12-07 09:25:57,923 Epoch 1/2      Iteration 19000/20000    loss: 0.06607109308242798    Time: 0.292 seconds/iteration
+2021-12-07 09:26:23,849 Save the model after epoch 1
+2021-12-07 09:26:23,878 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.06634030924662948        time: 1:32:58.692575
+============================================================================================================================
+
+2021-12-07 09:26:30,893 Training for 2 epochs
+2021-12-07 09:26:30,893 Training for 2 epochs
+2021-12-07 09:26:31,006 Training for 2 epochs
+2021-12-07 09:26:34,242 Epoch 0/2      Iteration 0/20000    loss: 0.06724338233470917    Time: 3.349 seconds/iteration
+2021-12-07 09:26:34,343 Epoch 0/2      Iteration 0/20000    loss: 1.7510143518447876    Time: 3.45 seconds/iteration
+2021-12-07 09:26:34,476 Epoch 0/2      Iteration 0/20000    loss: 0.06724517047405243    Time: 3.469 seconds/iteration
+2021-12-07 09:28:35,772 Epoch 0/2      Iteration 1000/20000    loss: 0.06721587479114532    Time: 0.125 seconds/iteration
+2021-12-07 09:28:38,790 Epoch 0/2      Iteration 1000/20000    loss: 0.0672127828001976    Time: 0.128 seconds/iteration
+2021-12-07 09:28:39,736 Epoch 0/2      Iteration 1000/20000    loss: 1.6078743934631348    Time: 0.129 seconds/iteration
+2021-12-07 09:29:21,299 Epoch 0/2      Iteration 2000/20000    loss: 0.067181795835495    Time: 0.085 seconds/iteration
+2021-12-07 09:29:23,452 Epoch 0/2      Iteration 2000/20000    loss: 1.28148353099823    Time: 0.086 seconds/iteration
+2021-12-07 09:29:26,038 Epoch 0/2      Iteration 2000/20000    loss: 0.06718485057353973    Time: 0.087 seconds/iteration
+2021-12-07 09:30:06,685 Epoch 0/2      Iteration 3000/20000    loss: 0.0671524628996849    Time: 0.072 seconds/iteration
+2021-12-07 09:30:11,294 Epoch 0/2      Iteration 3000/20000    loss: 0.518310546875    Time: 0.073 seconds/iteration
+2021-12-07 09:30:22,544 Epoch 0/2      Iteration 3000/20000    loss: 0.06715604662895203    Time: 0.077 seconds/iteration
+2021-12-07 09:30:55,681 Epoch 0/2      Iteration 4000/20000    loss: 0.06712174415588379    Time: 0.066 seconds/iteration
+2021-12-07 09:31:05,013 Epoch 0/2      Iteration 4000/20000    loss: 0.7580417990684509    Time: 0.069 seconds/iteration
+2021-12-07 09:31:20,842 Epoch 0/2      Iteration 4000/20000    loss: 0.06712767481803894    Time: 0.072 seconds/iteration
+2021-12-07 09:31:45,484 Epoch 0/2      Iteration 5000/20000    loss: 0.06709201633930206    Time: 0.063 seconds/iteration
+2021-12-07 09:31:57,098 Epoch 0/2      Iteration 5000/20000    loss: 0.26805439591407776    Time: 0.065 seconds/iteration
+2021-12-07 09:32:19,646 Epoch 0/2      Iteration 5000/20000    loss: 0.06709606945514679    Time: 0.07 seconds/iteration
+2021-12-07 09:32:33,779 Epoch 0/2      Iteration 6000/20000    loss: 0.06706234812736511    Time: 0.06 seconds/iteration
+2021-12-07 09:32:44,238 Epoch 0/2      Iteration 6000/20000    loss: 0.06716405600309372    Time: 0.062 seconds/iteration
+2021-12-07 09:33:19,278 Epoch 0/2      Iteration 7000/20000    loss: 0.06703268736600876    Time: 0.058 seconds/iteration
+2021-12-07 09:33:21,009 Epoch 0/2      Iteration 6000/20000    loss: 0.06706644594669342    Time: 0.068 seconds/iteration
+2021-12-07 09:33:31,566 Epoch 0/2      Iteration 7000/20000    loss: 0.06715091317892075    Time: 0.06 seconds/iteration
+2021-12-07 09:34:07,893 Epoch 0/2      Iteration 8000/20000    loss: 0.06700341403484344    Time: 0.057 seconds/iteration
+2021-12-07 09:34:23,704 Epoch 0/2      Iteration 8000/20000    loss: 0.23621170222759247    Time: 0.059 seconds/iteration
+2021-12-07 09:34:28,945 Epoch 0/2      Iteration 7000/20000    loss: 0.06703639775514603    Time: 0.068 seconds/iteration
+2021-12-07 09:34:59,089 Epoch 0/2      Iteration 9000/20000    loss: 0.066973015666008    Time: 0.056 seconds/iteration
+2021-12-07 09:35:13,170 Epoch 0/2      Iteration 9000/20000    loss: 0.06712989509105682    Time: 0.058 seconds/iteration
+2021-12-07 09:35:57,266 Epoch 0/2      Iteration 8000/20000    loss: 0.06700628250837326    Time: 0.071 seconds/iteration
+2021-12-07 09:36:11,882 Epoch 0/2      Iteration 10000/20000    loss: 0.06694382429122925    Time: 0.058 seconds/iteration
+2021-12-07 09:36:46,335 Epoch 0/2      Iteration 10000/20000    loss: 0.06712300330400467    Time: 0.062 seconds/iteration
+2021-12-07 09:37:30,499 Epoch 0/2      Iteration 11000/20000    loss: 0.06691253185272217    Time: 0.06 seconds/iteration
+2021-12-07 09:37:52,144 Epoch 0/2      Iteration 9000/20000    loss: 0.06697535514831543    Time: 0.076 seconds/iteration
+2021-12-07 09:38:06,237 Epoch 0/2      Iteration 11000/20000    loss: 0.0671125128865242    Time: 0.063 seconds/iteration
+2021-12-07 09:38:46,585 Epoch 0/2      Iteration 12000/20000    loss: 0.06688333302736282    Time: 0.061 seconds/iteration
+2021-12-07 09:39:20,020 Epoch 0/2      Iteration 12000/20000    loss: 0.06710413843393326    Time: 0.064 seconds/iteration
+2021-12-07 09:39:33,888 Epoch 0/2      Iteration 10000/20000    loss: 0.06694644689559937    Time: 0.078 seconds/iteration
+2021-12-07 09:40:20,045 Epoch 0/2      Iteration 13000/20000    loss: 0.0668514296412468    Time: 0.064 seconds/iteration
+2021-12-07 09:40:58,022 Epoch 0/2      Iteration 13000/20000    loss: 0.06709886342287064    Time: 0.067 seconds/iteration
+2021-12-07 09:41:31,549 Epoch 0/2      Iteration 11000/20000    loss: 0.06691578030586243    Time: 0.082 seconds/iteration
+2021-12-07 09:41:31,870 Epoch 0/2      Iteration 14000/20000    loss: 0.06682287156581879    Time: 0.064 seconds/iteration
+2021-12-07 09:41:49,130 Epoch 0/2      Iteration 14000/20000    loss: 0.06707550585269928    Time: 0.066 seconds/iteration
+2021-12-07 09:42:38,036 Epoch 0/2      Iteration 15000/20000    loss: 0.06679289042949677    Time: 0.064 seconds/iteration
+2021-12-07 09:43:02,021 Epoch 0/2      Iteration 15000/20000    loss: 0.0670546218752861    Time: 0.066 seconds/iteration
+2021-12-07 09:43:03,666 Epoch 0/2      Iteration 12000/20000    loss: 0.06688622385263443    Time: 0.083 seconds/iteration
+2021-12-07 09:43:34,517 Epoch 0/2      Iteration 16000/20000    loss: 0.0667625218629837    Time: 0.064 seconds/iteration
+2021-12-07 09:43:50,429 Epoch 0/2      Iteration 16000/20000    loss: 0.06704869121313095    Time: 0.065 seconds/iteration
+2021-12-07 09:44:15,207 Epoch 0/2      Iteration 13000/20000    loss: 0.06685609370470047    Time: 0.082 seconds/iteration
+2021-12-07 09:44:43,021 Epoch 0/2      Iteration 17000/20000    loss: 0.06673167645931244    Time: 0.064 seconds/iteration
+2021-12-07 09:45:02,697 Epoch 0/2      Iteration 17000/20000    loss: 0.06703206896781921    Time: 0.065 seconds/iteration
+2021-12-07 09:45:34,517 Epoch 0/2      Iteration 18000/20000    loss: 0.06670442968606949    Time: 0.064 seconds/iteration
+2021-12-07 09:45:44,997 Epoch 0/2      Iteration 14000/20000    loss: 0.06682726740837097    Time: 0.082 seconds/iteration
+2021-12-07 09:45:52,928 Epoch 0/2      Iteration 18000/20000    loss: 0.06701983511447906    Time: 0.065 seconds/iteration
+2021-12-07 09:46:22,945 Epoch 0/2      Iteration 19000/20000    loss: 0.06667287647724152    Time: 0.063 seconds/iteration
+2021-12-07 09:46:41,051 Epoch 0/2      Iteration 19000/20000    loss: 0.06700186431407928    Time: 0.064 seconds/iteration
+2021-12-07 09:46:54,549 Epoch 0/2      Iteration 15000/20000    loss: 0.06679850816726685    Time: 0.082 seconds/iteration
+2021-12-07 09:47:11,589 Save the model after epoch 0
+2021-12-07 09:47:11,614 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.06694289880432189        time: 0:20:40.720379
+============================================================================================================================
+
+2021-12-07 09:47:11,641 Epoch 1/2      Iteration 0/20000    loss: 0.066644087433815    Time: 0.026 seconds/iteration
+2021-12-07 09:47:29,048 Save the model after epoch 0
+2021-12-07 09:47:29,079 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.35667830280177293        time: 0:20:58.185091
+============================================================================================================================
+
+2021-12-07 09:47:29,112 Epoch 1/2      Iteration 0/20000    loss: 0.06699377298355103    Time: 0.032 seconds/iteration
+2021-12-07 09:47:59,334 Epoch 1/2      Iteration 1000/20000    loss: 0.0666143149137497    Time: 0.048 seconds/iteration
+2021-12-07 09:48:00,707 Epoch 0/2      Iteration 16000/20000    loss: 0.066765695810318    Time: 0.081 seconds/iteration
+2021-12-07 09:48:17,501 Epoch 1/2      Iteration 1000/20000    loss: 0.06698013097047806    Time: 0.048 seconds/iteration
+2021-12-07 09:48:46,679 Epoch 1/2      Iteration 2000/20000    loss: 0.06658381223678589    Time: 0.048 seconds/iteration
+2021-12-07 09:49:04,582 Epoch 1/2      Iteration 2000/20000    loss: 0.11086893826723099    Time: 0.048 seconds/iteration
+2021-12-07 09:49:08,796 Epoch 0/2      Iteration 17000/20000    loss: 0.06673744320869446    Time: 0.08 seconds/iteration
+2021-12-07 09:49:33,606 Epoch 1/2      Iteration 3000/20000    loss: 0.06655390560626984    Time: 0.047 seconds/iteration
+2021-12-07 09:49:46,557 Epoch 1/2      Iteration 3000/20000    loss: 0.06693918257951736    Time: 0.046 seconds/iteration
+2021-12-07 09:50:16,455 Epoch 0/2      Iteration 18000/20000    loss: 0.06670717149972916    Time: 0.079 seconds/iteration
+2021-12-07 09:50:23,981 Epoch 1/2      Iteration 4000/20000    loss: 0.06652428954839706    Time: 0.048 seconds/iteration
+2021-12-07 09:50:46,006 Epoch 1/2      Iteration 4000/20000    loss: 0.06692466884851456    Time: 0.049 seconds/iteration
+2021-12-07 09:51:32,761 Epoch 1/2      Iteration 5000/20000    loss: 0.06649303436279297    Time: 0.052 seconds/iteration
+2021-12-07 09:51:44,733 Epoch 1/2      Iteration 5000/20000    loss: 0.06690548360347748    Time: 0.051 seconds/iteration
+2021-12-07 09:51:46,692 Epoch 0/2      Iteration 19000/20000    loss: 0.06667717546224594    Time: 0.08 seconds/iteration
+2021-12-07 09:52:13,180 Epoch 1/2      Iteration 6000/20000    loss: 0.06646362692117691    Time: 0.05 seconds/iteration
+2021-12-07 09:52:24,262 Epoch 1/2      Iteration 6000/20000    loss: 0.22921763360500336    Time: 0.049 seconds/iteration
+2021-12-07 09:52:45,851 Save the model after epoch 0
+2021-12-07 09:52:45,873 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.06694645716920496        time: 0:26:14.866170
+============================================================================================================================
+
+2021-12-07 09:52:46,043 Epoch 1/2      Iteration 0/20000    loss: 0.06664716452360153    Time: 0.168 seconds/iteration
+2021-12-07 09:53:10,631 Epoch 1/2      Iteration 7000/20000    loss: 0.06643429398536682    Time: 0.051 seconds/iteration
+2021-12-07 09:53:24,704 Epoch 1/2      Iteration 7000/20000    loss: 0.0668744444847107    Time: 0.051 seconds/iteration
+2021-12-07 09:53:57,431 Epoch 1/2      Iteration 8000/20000    loss: 0.06640344858169556    Time: 0.051 seconds/iteration
+2021-12-07 09:54:04,411 Epoch 1/2      Iteration 1000/20000    loss: 0.06661690026521683    Time: 0.078 seconds/iteration
+2021-12-07 09:54:05,949 Epoch 1/2      Iteration 8000/20000    loss: 0.06686492264270782    Time: 0.05 seconds/iteration
+2021-12-07 09:54:39,496 Epoch 1/2      Iteration 9000/20000    loss: 0.06637534499168396    Time: 0.05 seconds/iteration
+2021-12-07 09:54:50,530 Epoch 1/2      Iteration 9000/20000    loss: 0.06683571636676788    Time: 0.049 seconds/iteration
+2021-12-07 09:55:03,417 Epoch 1/2      Iteration 2000/20000    loss: 0.06658667325973511    Time: 0.069 seconds/iteration
+2021-12-07 09:55:24,041 Epoch 1/2      Iteration 10000/20000    loss: 0.06634464114904404    Time: 0.049 seconds/iteration
+2021-12-07 09:55:36,188 Epoch 1/2      Iteration 10000/20000    loss: 0.06682337820529938    Time: 0.049 seconds/iteration
+2021-12-07 09:56:11,973 Epoch 1/2      Iteration 3000/20000    loss: 0.06655677407979965    Time: 0.069 seconds/iteration
+2021-12-07 09:56:13,569 Epoch 1/2      Iteration 11000/20000    loss: 0.06631511449813843    Time: 0.049 seconds/iteration
+2021-12-07 09:56:25,709 Epoch 1/2      Iteration 11000/20000    loss: 0.06679563969373703    Time: 0.049 seconds/iteration
+2021-12-07 09:57:02,154 Epoch 1/2      Iteration 12000/20000    loss: 0.06628439575433731    Time: 0.049 seconds/iteration
+2021-12-07 09:57:19,115 Epoch 1/2      Iteration 12000/20000    loss: 0.06678622961044312    Time: 0.049 seconds/iteration
+2021-12-07 09:57:21,863 Epoch 1/2      Iteration 4000/20000    loss: 0.06652805209159851    Time: 0.069 seconds/iteration
+2021-12-07 09:57:50,406 Epoch 1/2      Iteration 13000/20000    loss: 0.06625419110059738    Time: 0.049 seconds/iteration
+2021-12-07 09:58:01,544 Epoch 1/2      Iteration 13000/20000    loss: 0.06676196306943893    Time: 0.049 seconds/iteration
+2021-12-07 09:58:15,724 Epoch 1/2      Iteration 5000/20000    loss: 0.06649784743785858    Time: 0.066 seconds/iteration
+2021-12-07 09:58:34,447 Epoch 1/2      Iteration 14000/20000    loss: 0.06622444093227386    Time: 0.049 seconds/iteration
+2021-12-07 09:58:46,981 Epoch 1/2      Iteration 14000/20000    loss: 0.06675191968679428    Time: 0.048 seconds/iteration
+2021-12-07 09:59:15,617 Epoch 1/2      Iteration 6000/20000    loss: 0.06646796315908432    Time: 0.065 seconds/iteration
+2021-12-07 09:59:18,892 Epoch 1/2      Iteration 15000/20000    loss: 0.06619329750537872    Time: 0.048 seconds/iteration
+2021-12-07 09:59:32,277 Epoch 1/2      Iteration 15000/20000    loss: 0.06672786176204681    Time: 0.048 seconds/iteration
+2021-12-07 10:00:06,183 Epoch 1/2      Iteration 16000/20000    loss: 0.06616472452878952    Time: 0.048 seconds/iteration
+2021-12-07 10:00:16,462 Epoch 1/2      Iteration 16000/20000    loss: 0.06670697778463364    Time: 0.048 seconds/iteration
+2021-12-07 10:00:19,584 Epoch 1/2      Iteration 7000/20000    loss: 0.06643744558095932    Time: 0.065 seconds/iteration
+2021-12-07 10:00:49,892 Epoch 1/2      Iteration 17000/20000    loss: 0.06613562256097794    Time: 0.048 seconds/iteration
+2021-12-07 10:00:58,841 Epoch 1/2      Iteration 17000/20000    loss: 0.06669185310602188    Time: 0.048 seconds/iteration
+2021-12-07 10:01:23,096 Epoch 1/2      Iteration 8000/20000    loss: 0.06640873849391937    Time: 0.065 seconds/iteration
+2021-12-07 10:01:34,839 Epoch 1/2      Iteration 18000/20000    loss: 0.06610435247421265    Time: 0.048 seconds/iteration
+2021-12-07 10:01:45,092 Epoch 1/2      Iteration 18000/20000    loss: 0.06667143106460571    Time: 0.048 seconds/iteration
+2021-12-07 10:02:20,306 Epoch 1/2      Iteration 19000/20000    loss: 0.06607505679130554    Time: 0.048 seconds/iteration
+2021-12-07 10:02:24,087 Epoch 1/2      Iteration 9000/20000    loss: 0.06637778878211975    Time: 0.064 seconds/iteration
+2021-12-07 10:02:30,254 Epoch 1/2      Iteration 19000/20000    loss: 0.06665626168251038    Time: 0.047 seconds/iteration
+2021-12-07 10:02:59,850 Save the model after epoch 1
+2021-12-07 10:02:59,879 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.06634424985907972        time: 0:15:48.263433
+============================================================================================================================
+
+2021-12-07 10:03:06,258 Save the model after epoch 1
+2021-12-07 10:03:06,286 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.0863171773314476        time: 0:15:37.205686
+============================================================================================================================
+
+2021-12-07 10:03:08,445 Epoch 1/2      Iteration 10000/20000    loss: 0.0663483738899231    Time: 0.062 seconds/iteration
+2021-12-07 10:03:35,873 Epoch 1/2      Iteration 11000/20000    loss: 0.06631746143102646    Time: 0.059 seconds/iteration
+2021-12-07 10:04:04,586 Epoch 1/2      Iteration 12000/20000    loss: 0.06628867983818054    Time: 0.057 seconds/iteration
+2021-12-07 10:04:32,749 Epoch 1/2      Iteration 13000/20000    loss: 0.06625863164663315    Time: 0.054 seconds/iteration
+2021-12-07 10:04:59,313 Epoch 1/2      Iteration 14000/20000    loss: 0.06622801721096039    Time: 0.052 seconds/iteration
+2021-12-07 10:05:25,366 Epoch 1/2      Iteration 15000/20000    loss: 0.06619825214147568    Time: 0.051 seconds/iteration
+2021-12-07 10:05:51,732 Epoch 1/2      Iteration 16000/20000    loss: 0.06616867333650589    Time: 0.049 seconds/iteration
+2021-12-07 10:06:18,469 Epoch 1/2      Iteration 17000/20000    loss: 0.06613850593566895    Time: 0.048 seconds/iteration
+2021-12-07 10:06:47,465 Epoch 1/2      Iteration 18000/20000    loss: 0.06610744446516037    Time: 0.047 seconds/iteration
+2021-12-07 10:07:14,155 Epoch 1/2      Iteration 19000/20000    loss: 0.06607779115438461    Time: 0.046 seconds/iteration
+2021-12-07 10:07:40,852 Save the model after epoch 1
+2021-12-07 10:07:40,876 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.06634794155880809        time: 0:14:55.002042
+============================================================================================================================
+
+2021-12-07 10:07:48,201 Training for 2 epochs
+2021-12-07 10:07:48,257 Training for 2 epochs
+2021-12-07 10:07:48,382 Training for 2 epochs
+2021-12-07 10:07:52,021 Epoch 0/2      Iteration 0/20000    loss: 1.7413040399551392    Time: 3.819 seconds/iteration
+2021-12-07 10:07:52,118 Epoch 0/2      Iteration 0/20000    loss: 0.06725606322288513    Time: 3.861 seconds/iteration
+2021-12-07 10:07:52,288 Epoch 0/2      Iteration 0/20000    loss: 0.0672803595662117    Time: 3.905 seconds/iteration
+2021-12-07 10:13:21,538 Epoch 0/2      Iteration 1000/20000    loss: 1.6671802997589111    Time: 0.333 seconds/iteration
+2021-12-07 10:13:27,609 Epoch 0/2      Iteration 1000/20000    loss: 0.06722792983055115    Time: 0.339 seconds/iteration
+2021-12-07 10:14:41,994 Epoch 0/2      Iteration 1000/20000    loss: 0.06725054979324341    Time: 0.413 seconds/iteration
+2021-12-07 10:17:40,220 Epoch 0/2      Iteration 2000/20000    loss: 0.0671968162059784    Time: 0.296 seconds/iteration
+2021-12-07 10:17:41,968 Epoch 0/2      Iteration 2000/20000    loss: 0.8694736361503601    Time: 0.297 seconds/iteration
+2021-12-07 10:19:27,277 Epoch 0/2      Iteration 2000/20000    loss: 0.06721872091293335    Time: 0.349 seconds/iteration
+2021-12-07 10:21:26,695 Epoch 0/2      Iteration 3000/20000    loss: 0.0671677216887474    Time: 0.273 seconds/iteration
+2021-12-07 10:21:38,609 Epoch 0/2      Iteration 3000/20000    loss: 0.2927192747592926    Time: 0.277 seconds/iteration
+2021-12-07 10:23:50,211 Epoch 0/2      Iteration 3000/20000    loss: 0.06718958169221878    Time: 0.321 seconds/iteration
+2021-12-07 10:24:00,880 Epoch 0/2      Iteration 4000/20000    loss: 0.06713641434907913    Time: 0.243 seconds/iteration
+2021-12-07 10:24:04,821 Epoch 0/2      Iteration 4000/20000    loss: 0.10543061047792435    Time: 0.244 seconds/iteration
+2021-12-07 10:26:19,380 Epoch 0/2      Iteration 5000/20000    loss: 0.06710648536682129    Time: 0.222 seconds/iteration
+2021-12-07 10:26:24,451 Epoch 0/2      Iteration 5000/20000    loss: 0.23657377064228058    Time: 0.223 seconds/iteration
+2021-12-07 10:26:46,167 Epoch 0/2      Iteration 4000/20000    loss: 0.06715962290763855    Time: 0.284 seconds/iteration
+2021-12-07 10:27:26,721 Epoch 0/2      Iteration 6000/20000    loss: 0.06707704067230225    Time: 0.196 seconds/iteration
+2021-12-07 10:27:29,194 Epoch 0/2      Iteration 6000/20000    loss: 0.23171210289001465    Time: 0.197 seconds/iteration
+2021-12-07 10:28:48,725 Epoch 0/2      Iteration 5000/20000    loss: 0.06713032722473145    Time: 0.252 seconds/iteration
+2021-12-07 10:28:54,382 Epoch 0/2      Iteration 7000/20000    loss: 0.1855614185333252    Time: 0.181 seconds/iteration
+2021-12-07 10:28:54,396 Epoch 0/2      Iteration 7000/20000    loss: 0.06704723089933395    Time: 0.181 seconds/iteration
+2021-12-07 10:30:43,724 Epoch 0/2      Iteration 8000/20000    loss: 0.06701749563217163    Time: 0.172 seconds/iteration
+2021-12-07 10:30:45,287 Epoch 0/2      Iteration 8000/20000    loss: 0.17585578560829163    Time: 0.172 seconds/iteration
+2021-12-07 10:30:58,541 Epoch 0/2      Iteration 6000/20000    loss: 0.06709937751293182    Time: 0.232 seconds/iteration
+2021-12-07 10:31:45,230 Epoch 0/2      Iteration 9000/20000    loss: 0.06698784232139587    Time: 0.16 seconds/iteration
+2021-12-07 10:31:50,111 Epoch 0/2      Iteration 9000/20000    loss: 0.2725174129009247    Time: 0.16 seconds/iteration
+2021-12-07 10:32:26,541 Epoch 0/2      Iteration 7000/20000    loss: 0.06707010418176651    Time: 0.211 seconds/iteration
+2021-12-07 10:32:31,209 Epoch 0/2      Iteration 10000/20000    loss: 0.06695728003978729    Time: 0.148 seconds/iteration
+2021-12-07 10:32:39,228 Epoch 0/2      Iteration 10000/20000    loss: 0.14935563504695892    Time: 0.149 seconds/iteration
+2021-12-07 10:33:13,441 Epoch 0/2      Iteration 11000/20000    loss: 0.06692853569984436    Time: 0.139 seconds/iteration
+2021-12-07 10:33:26,760 Epoch 0/2      Iteration 11000/20000    loss: 0.09191054105758667    Time: 0.14 seconds/iteration
+2021-12-07 10:33:31,012 Epoch 0/2      Iteration 8000/20000    loss: 0.06703967601060867    Time: 0.193 seconds/iteration
+2021-12-07 10:33:55,066 Epoch 0/2      Iteration 12000/20000    loss: 0.06689735502004623    Time: 0.131 seconds/iteration
+2021-12-07 10:34:13,130 Epoch 0/2      Iteration 12000/20000    loss: 0.10256968438625336    Time: 0.132 seconds/iteration
+2021-12-07 10:34:30,872 Epoch 0/2      Iteration 9000/20000    loss: 0.06700976192951202    Time: 0.178 seconds/iteration
+2021-12-07 10:34:37,806 Epoch 0/2      Iteration 13000/20000    loss: 0.06686792522668839    Time: 0.124 seconds/iteration
+2021-12-07 10:34:59,307 Epoch 0/2      Iteration 13000/20000    loss: 0.11491858959197998    Time: 0.125 seconds/iteration
+2021-12-07 10:35:21,825 Epoch 0/2      Iteration 14000/20000    loss: 0.0668371245265007    Time: 0.118 seconds/iteration
+2021-12-07 10:35:32,755 Epoch 0/2      Iteration 10000/20000    loss: 0.06698060035705566    Time: 0.166 seconds/iteration
+2021-12-07 10:35:45,745 Epoch 0/2      Iteration 14000/20000    loss: 0.09326118975877762    Time: 0.12 seconds/iteration
+2021-12-07 10:36:05,058 Epoch 0/2      Iteration 15000/20000    loss: 0.06680798530578613    Time: 0.113 seconds/iteration
+2021-12-07 10:36:29,936 Epoch 0/2      Iteration 15000/20000    loss: 0.13835150003433228    Time: 0.115 seconds/iteration
+2021-12-07 10:36:36,096 Epoch 0/2      Iteration 11000/20000    loss: 0.06695051491260529    Time: 0.157 seconds/iteration
+2021-12-07 10:36:46,161 Epoch 0/2      Iteration 16000/20000    loss: 0.06677842140197754    Time: 0.109 seconds/iteration
+2021-12-07 10:37:15,916 Epoch 0/2      Iteration 16000/20000    loss: 0.25505176186561584    Time: 0.11 seconds/iteration
+2021-12-07 10:37:29,360 Epoch 0/2      Iteration 17000/20000    loss: 0.06674744933843613    Time: 0.105 seconds/iteration
+2021-12-07 10:37:36,620 Epoch 0/2      Iteration 12000/20000    loss: 0.06692084670066833    Time: 0.149 seconds/iteration
+2021-12-07 10:38:00,576 Epoch 0/2      Iteration 17000/20000    loss: 0.15459081530570984    Time: 0.107 seconds/iteration
+2021-12-07 10:38:10,820 Epoch 0/2      Iteration 18000/20000    loss: 0.06671886891126633    Time: 0.101 seconds/iteration
+2021-12-07 10:39:01,202 Epoch 0/2      Iteration 13000/20000    loss: 0.06689028441905975    Time: 0.144 seconds/iteration
+2021-12-07 10:39:08,514 Epoch 0/2      Iteration 18000/20000    loss: 0.08478269726037979    Time: 0.104 seconds/iteration
+2021-12-07 10:39:28,924 Epoch 0/2      Iteration 19000/20000    loss: 0.06668759882450104    Time: 0.1 seconds/iteration
+2021-12-07 10:41:28,630 Epoch 0/2      Iteration 19000/20000    loss: 0.16028808057308197    Time: 0.106 seconds/iteration
+2021-12-07 10:43:11,593 Save the model after epoch 0
+2021-12-07 10:43:11,620 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.06695740929581225        time: 0:35:23.362819
+============================================================================================================================
+
+2021-12-07 10:43:11,652 Epoch 1/2      Iteration 0/20000    loss: 0.06665816903114319    Time: 0.03 seconds/iteration
+2021-12-07 10:43:45,974 Epoch 0/2      Iteration 14000/20000    loss: 0.06686029583215714    Time: 0.154 seconds/iteration
+2021-12-07 10:50:09,869 Save the model after epoch 0
+2021-12-07 10:50:09,896 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.3089241947699338        time: 0:42:21.694857
+============================================================================================================================
+
+2021-12-07 10:50:10,769 Epoch 1/2      Iteration 0/20000    loss: 0.06687245517969131    Time: 0.871 seconds/iteration
+2021-12-07 10:52:50,308 Epoch 1/2      Iteration 1000/20000    loss: 0.06662701815366745    Time: 0.578 seconds/iteration
+2021-12-07 10:53:12,471 Epoch 0/2      Iteration 15000/20000    loss: 0.06683076918125153    Time: 0.182 seconds/iteration
+2021-12-07 10:58:22,479 Epoch 1/2      Iteration 1000/20000    loss: 0.06683820486068726    Time: 0.492 seconds/iteration
+2021-12-07 10:58:41,097 Epoch 1/2      Iteration 2000/20000    loss: 0.06659816205501556    Time: 0.465 seconds/iteration
+2021-12-07 10:59:31,278 Epoch 0/2      Iteration 16000/20000    loss: 0.06680182367563248    Time: 0.194 seconds/iteration
+2021-12-07 10:59:44,321 Epoch 1/2      Iteration 2000/20000    loss: 0.146348237991333    Time: 0.287 seconds/iteration
+2021-12-07 10:59:57,125 Epoch 1/2      Iteration 3000/20000    loss: 0.06656834483146667    Time: 0.335 seconds/iteration
+2021-12-07 11:00:33,892 Epoch 0/2      Iteration 17000/20000    loss: 0.06677047163248062    Time: 0.186 seconds/iteration
+2021-12-07 11:01:03,185 Epoch 1/2      Iteration 3000/20000    loss: 0.11723515391349792    Time: 0.218 seconds/iteration
+2021-12-07 11:02:33,778 Epoch 0/2      Iteration 18000/20000    loss: 0.06674114614725113    Time: 0.183 seconds/iteration
+2021-12-07 11:02:47,322 Epoch 1/2      Iteration 4000/20000    loss: 0.06653840094804764    Time: 0.294 seconds/iteration
+2021-12-07 11:03:42,497 Epoch 1/2      Iteration 4000/20000    loss: 0.09107431769371033    Time: 0.203 seconds/iteration
+2021-12-07 11:10:10,151 Epoch 1/2      Iteration 5000/20000    loss: 0.06650872528553009    Time: 0.324 seconds/iteration
+2021-12-07 11:10:11,568 Epoch 0/2      Iteration 19000/20000    loss: 0.06671077013015747    Time: 0.197 seconds/iteration
+2021-12-07 11:11:57,061 Epoch 1/2      Iteration 5000/20000    loss: 0.06671662628650665    Time: 0.261 seconds/iteration
+2021-12-07 11:17:44,350 Save the model after epoch 0
+2021-12-07 11:17:44,381 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.06698046177513897        time: 1:09:55.997864
+============================================================================================================================
+
+2021-12-07 11:17:45,180 Epoch 1/2      Iteration 0/20000    loss: 0.06668119877576828    Time: 0.798 seconds/iteration
+2021-12-07 11:17:59,161 Epoch 1/2      Iteration 6000/20000    loss: 0.06647809594869614    Time: 0.348 seconds/iteration
+2021-12-07 11:19:24,241 Epoch 1/2      Iteration 6000/20000    loss: 0.06669028848409653    Time: 0.292 seconds/iteration
+2021-12-07 11:25:27,014 Epoch 1/2      Iteration 7000/20000    loss: 0.06644883751869202    Time: 0.362 seconds/iteration
+2021-12-07 11:26:28,212 Epoch 1/2      Iteration 1000/20000    loss: 0.06665045768022537    Time: 0.523 seconds/iteration
+2021-12-07 11:29:15,793 Epoch 1/2      Iteration 7000/20000    loss: 0.08939823508262634    Time: 0.335 seconds/iteration
+2021-12-07 11:32:55,440 Epoch 1/2      Iteration 8000/20000    loss: 0.06641912460327148    Time: 0.373 seconds/iteration
+2021-12-07 11:38:15,186 Epoch 1/2      Iteration 2000/20000    loss: 0.06662170588970184    Time: 0.615 seconds/iteration
+2021-12-07 11:40:28,954 Epoch 1/2      Iteration 9000/20000    loss: 0.06638826429843903    Time: 0.382 seconds/iteration
+2021-12-07 11:40:56,446 Epoch 1/2      Iteration 8000/20000    loss: 0.19345171749591827    Time: 0.381 seconds/iteration
+2021-12-07 11:48:13,386 Epoch 1/2      Iteration 10000/20000    loss: 0.06635967642068863    Time: 0.39 seconds/iteration
+2021-12-07 11:49:57,134 Epoch 1/2      Iteration 3000/20000    loss: 0.06659136712551117    Time: 0.644 seconds/iteration
+2021-12-07 11:53:02,028 Epoch 1/2      Iteration 9000/20000    loss: 0.14083139598369598    Time: 0.419 seconds/iteration
+2021-12-07 11:53:56,714 Epoch 1/2      Iteration 11000/20000    loss: 0.06632871925830841    Time: 0.386 seconds/iteration
+2021-12-07 11:54:05,374 Epoch 1/2      Iteration 4000/20000    loss: 0.06656140834093094    Time: 0.545 seconds/iteration
+2021-12-07 11:54:24,140 Epoch 1/2      Iteration 10000/20000    loss: 0.06656874716281891    Time: 0.385 seconds/iteration
+2021-12-07 11:55:27,725 Epoch 1/2      Iteration 5000/20000    loss: 0.06653203070163727    Time: 0.453 seconds/iteration
+2021-12-07 11:55:46,568 Epoch 1/2      Iteration 11000/20000    loss: 0.13897739350795746    Time: 0.358 seconds/iteration
+2021-12-07 11:56:15,423 Epoch 1/2      Iteration 12000/20000    loss: 0.06629813462495804    Time: 0.365 seconds/iteration
+2021-12-07 11:57:30,774 Epoch 1/2      Iteration 6000/20000    loss: 0.06650178134441376    Time: 0.398 seconds/iteration
+2021-12-07 11:58:26,396 Epoch 1/2      Iteration 12000/20000    loss: 0.0665159597992897    Time: 0.341 seconds/iteration
+2021-12-07 12:00:34,246 Epoch 1/2      Iteration 7000/20000    loss: 0.06647225469350815    Time: 0.367 seconds/iteration
+2021-12-07 12:00:55,319 Epoch 1/2      Iteration 13000/20000    loss: 0.06626956164836884    Time: 0.359 seconds/iteration
+2021-12-07 12:01:20,813 Epoch 1/2      Iteration 13000/20000    loss: 0.10003334283828735    Time: 0.329 seconds/iteration
+2021-12-07 12:02:45,418 Epoch 1/2      Iteration 8000/20000    loss: 0.06644152104854584    Time: 0.338 seconds/iteration
+2021-12-07 12:04:44,369 Epoch 1/2      Iteration 14000/20000    loss: 0.06644415855407715    Time: 0.32 seconds/iteration
+2021-12-07 12:04:47,211 Epoch 1/2      Iteration 14000/20000    loss: 0.06623904407024384    Time: 0.35 seconds/iteration
+2021-12-07 12:11:58,395 Epoch 1/2      Iteration 15000/20000    loss: 0.06620936840772629    Time: 0.355 seconds/iteration
+2021-12-07 12:12:24,603 Epoch 1/2      Iteration 9000/20000    loss: 0.06641275435686111    Time: 0.364 seconds/iteration
+2021-12-07 12:16:43,420 Epoch 1/2      Iteration 15000/20000    loss: 0.07311107218265533    Time: 0.346 seconds/iteration
+2021-12-07 12:17:24,883 Epoch 1/2      Iteration 16000/20000    loss: 0.06617920100688934    Time: 0.353 seconds/iteration
+2021-12-07 12:17:36,258 Epoch 1/2      Iteration 10000/20000    loss: 0.06638126075267792    Time: 0.359 seconds/iteration
+2021-12-07 12:17:53,926 Epoch 1/2      Iteration 16000/20000    loss: 0.1490085870027542    Time: 0.329 seconds/iteration
+2021-12-07 12:18:25,468 Epoch 1/2      Iteration 11000/20000    loss: 0.06635291874408722    Time: 0.331 seconds/iteration
+2021-12-07 12:18:38,388 Epoch 1/2      Iteration 17000/20000    loss: 0.06614950299263    Time: 0.337 seconds/iteration
+2021-12-07 12:19:05,146 Epoch 1/2      Iteration 17000/20000    loss: 0.21386222541332245    Time: 0.314 seconds/iteration
+2021-12-07 12:19:35,466 Epoch 1/2      Iteration 12000/20000    loss: 0.06632255017757416    Time: 0.309 seconds/iteration
+2021-12-07 12:19:53,934 Epoch 1/2      Iteration 18000/20000    loss: 0.2931404113769531    Time: 0.299 seconds/iteration
+2021-12-07 12:20:02,468 Epoch 1/2      Iteration 18000/20000    loss: 0.06611918658018112    Time: 0.323 seconds/iteration
+2021-12-07 12:20:27,577 Epoch 1/2      Iteration 13000/20000    loss: 0.06629295647144318    Time: 0.289 seconds/iteration
+2021-12-07 12:20:43,236 Epoch 1/2      Iteration 19000/20000    loss: 0.18899613618850708    Time: 0.286 seconds/iteration
+2021-12-07 12:21:10,394 Epoch 1/2      Iteration 19000/20000    loss: 0.06609027832746506    Time: 0.309 seconds/iteration
+2021-12-07 12:21:18,985 Epoch 1/2      Iteration 14000/20000    loss: 0.06626193970441818    Time: 0.272 seconds/iteration
+2021-12-07 12:21:31,994 Save the model after epoch 1
+2021-12-07 12:21:32,019 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.12341217415370047        time: 1:31:22.120780
+============================================================================================================================
+
+2021-12-07 12:21:50,896 Save the model after epoch 1
+2021-12-07 12:21:50,923 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.06635892077535391        time: 1:38:39.301421
+============================================================================================================================
+
+2021-12-07 12:21:51,952 Epoch 1/2      Iteration 15000/20000    loss: 0.06623239815235138    Time: 0.256 seconds/iteration
+2021-12-07 12:22:16,486 Epoch 1/2      Iteration 16000/20000    loss: 0.06620168685913086    Time: 0.242 seconds/iteration
+2021-12-07 12:22:41,009 Epoch 1/2      Iteration 17000/20000    loss: 0.06617236137390137    Time: 0.229 seconds/iteration
+2021-12-07 12:23:05,501 Epoch 1/2      Iteration 18000/20000    loss: 0.06614193320274353    Time: 0.218 seconds/iteration
+2021-12-07 12:23:29,624 Epoch 1/2      Iteration 19000/20000    loss: 0.06611223518848419    Time: 0.208 seconds/iteration
+2021-12-07 12:23:54,961 Save the model after epoch 1
+2021-12-07 12:23:54,988 
+============================================================================================================================
+Epoch 1/2     Train loss: 0.06638184021301567        time: 1:06:10.605504
+============================================================================================================================
+
+2021-12-07 12:24:01,867 Training for 2 epochs
+2021-12-07 12:24:02,037 Training for 2 epochs
+2021-12-07 12:24:02,083 Training for 2 epochs
+2021-12-07 12:24:05,495 Epoch 0/2      Iteration 0/20000    loss: 0.06722093373537064    Time: 3.627 seconds/iteration
+2021-12-07 12:24:05,534 Epoch 0/2      Iteration 0/20000    loss: 0.06730064004659653    Time: 3.497 seconds/iteration
+2021-12-07 12:24:05,611 Epoch 0/2      Iteration 0/20000    loss: 1.8571528196334839    Time: 3.528 seconds/iteration
+2021-12-07 12:25:38,283 Epoch 0/2      Iteration 100/20000    loss: 0.06721813231706619    Time: 0.955 seconds/iteration
+2021-12-07 12:25:38,543 Epoch 0/2      Iteration 100/20000    loss: 0.06729818135499954    Time: 0.956 seconds/iteration
+2021-12-07 12:25:38,875 Epoch 0/2      Iteration 100/20000    loss: 1.8247671127319336    Time: 0.958 seconds/iteration
+2021-12-07 12:25:54,633 Epoch 0/2      Iteration 200/20000    loss: 0.06729460507631302    Time: 0.56 seconds/iteration
+2021-12-07 12:25:58,154 Epoch 0/2      Iteration 200/20000    loss: 1.798316240310669    Time: 0.577 seconds/iteration
+2021-12-07 12:25:59,329 Epoch 0/2      Iteration 200/20000    loss: 0.06721567362546921    Time: 0.584 seconds/iteration
+2021-12-07 12:26:19,367 Epoch 0/2      Iteration 300/20000    loss: 0.0672917440533638    Time: 0.456 seconds/iteration
+2021-12-07 12:26:21,860 Epoch 0/2      Iteration 300/20000    loss: 1.7667510509490967    Time: 0.464 seconds/iteration
+2021-12-07 12:26:28,645 Epoch 0/2      Iteration 300/20000    loss: 0.06721127033233643    Time: 0.488 seconds/iteration
+2021-12-07 12:26:46,442 Epoch 0/2      Iteration 400/20000    loss: 0.06728953868150711    Time: 0.41 seconds/iteration
+2021-12-07 12:26:49,616 Epoch 0/2      Iteration 400/20000    loss: 1.770631194114685    Time: 0.418 seconds/iteration
+2021-12-07 12:27:02,898 Epoch 0/2      Iteration 400/20000    loss: 0.06720917671918869    Time: 0.451 seconds/iteration
+2021-12-07 12:27:15,876 Epoch 0/2      Iteration 500/20000    loss: 0.06728626787662506    Time: 0.387 seconds/iteration
+2021-12-07 12:27:18,874 Epoch 0/2      Iteration 500/20000    loss: 1.74615478515625    Time: 0.393 seconds/iteration
+2021-12-07 12:27:29,182 Epoch 0/2      Iteration 500/20000    loss: 0.0672062560915947    Time: 0.414 seconds/iteration
+2021-12-07 12:27:43,693 Epoch 0/2      Iteration 600/20000    loss: 0.06728263199329376    Time: 0.369 seconds/iteration
+2021-12-07 12:27:46,308 Epoch 0/2      Iteration 600/20000    loss: 1.7233766317367554    Time: 0.373 seconds/iteration
+2021-12-07 12:27:57,056 Epoch 0/2      Iteration 600/20000    loss: 0.06720355898141861    Time: 0.391 seconds/iteration
+2021-12-07 12:28:07,653 Epoch 0/2      Iteration 700/20000    loss: 0.06728101521730423    Time: 0.35 seconds/iteration
+2021-12-07 12:28:12,419 Epoch 0/2      Iteration 700/20000    loss: 1.7533364295959473    Time: 0.357 seconds/iteration
+2021-12-07 12:28:20,853 Epoch 0/2      Iteration 700/20000    loss: 0.06719955801963806    Time: 0.369 seconds/iteration
+2021-12-07 12:28:33,523 Epoch 0/2      Iteration 800/20000    loss: 0.06727777421474457    Time: 0.339 seconds/iteration
+2021-12-07 12:28:36,343 Epoch 0/2      Iteration 800/20000    loss: 1.7238224744796753    Time: 0.342 seconds/iteration
+2021-12-07 12:28:45,514 Epoch 0/2      Iteration 800/20000    loss: 0.06719677895307541    Time: 0.354 seconds/iteration
+2021-12-07 12:29:02,769 Epoch 0/2      Iteration 900/20000    loss: 0.06727558374404907    Time: 0.334 seconds/iteration
+2021-12-07 12:29:05,044 Epoch 0/2      Iteration 900/20000    loss: 1.747466802597046    Time: 0.336 seconds/iteration
+2021-12-07 12:29:12,763 Epoch 0/2      Iteration 900/20000    loss: 0.06719447672367096    Time: 0.345 seconds/iteration
+2021-12-07 12:29:33,175 Epoch 0/2      Iteration 1000/20000    loss: 0.06727179139852524    Time: 0.331 seconds/iteration
+2021-12-07 12:29:40,804 Epoch 0/2      Iteration 1000/20000    loss: 1.634892463684082    Time: 0.338 seconds/iteration
+2021-12-07 12:29:43,321 Epoch 0/2      Iteration 1000/20000    loss: 0.06719128042459488    Time: 0.341 seconds/iteration
+2021-12-07 12:30:03,475 Epoch 0/2      Iteration 1100/20000    loss: 0.0672699436545372    Time: 0.328 seconds/iteration
+2021-12-07 12:30:07,519 Epoch 0/2      Iteration 1100/20000    loss: 1.6559298038482666    Time: 0.332 seconds/iteration
+2021-12-07 12:30:11,125 Epoch 0/2      Iteration 1100/20000    loss: 0.06718820333480835    Time: 0.335 seconds/iteration
+2021-12-07 12:30:35,562 Epoch 0/2      Iteration 1200/20000    loss: 0.06726790219545364    Time: 0.328 seconds/iteration
+2021-12-07 12:30:37,408 Epoch 0/2      Iteration 1200/20000    loss: 0.06718572974205017    Time: 0.329 seconds/iteration
+2021-12-07 12:30:37,491 Epoch 0/2      Iteration 1200/20000    loss: 1.6500540971755981    Time: 0.329 seconds/iteration
+2021-12-07 12:31:03,966 Epoch 0/2      Iteration 1300/20000    loss: 1.7287876605987549    Time: 0.324 seconds/iteration
+2021-12-07 12:31:04,128 Epoch 0/2      Iteration 1300/20000    loss: 0.06726496666669846    Time: 0.324 seconds/iteration
+2021-12-07 12:31:05,833 Epoch 0/2      Iteration 1300/20000    loss: 0.06718353927135468    Time: 0.326 seconds/iteration
+2021-12-07 12:31:30,882 Epoch 0/2      Iteration 1400/20000    loss: 0.06726178526878357    Time: 0.32 seconds/iteration
+2021-12-07 12:31:31,289 Epoch 0/2      Iteration 1400/20000    loss: 1.5099375247955322    Time: 0.321 seconds/iteration
+2021-12-07 12:31:33,646 Epoch 0/2      Iteration 1400/20000    loss: 0.06717899441719055    Time: 0.322 seconds/iteration
+2021-12-07 12:31:53,896 Epoch 0/2      Iteration 1500/20000    loss: 0.06725971400737762    Time: 0.314 seconds/iteration
+2021-12-07 12:31:57,604 Epoch 0/2      Iteration 1500/20000    loss: 0.06717582046985626    Time: 0.317 seconds/iteration
+2021-12-07 12:32:00,642 Epoch 0/2      Iteration 1500/20000    loss: 1.4647778272628784    Time: 0.319 seconds/iteration
+2021-12-07 12:32:27,653 Epoch 0/2      Iteration 1600/20000    loss: 0.06717367470264435    Time: 0.316 seconds/iteration
+2021-12-07 12:32:29,168 Epoch 0/2      Iteration 1600/20000    loss: 0.067254438996315    Time: 0.317 seconds/iteration
+2021-12-07 12:32:35,385 Epoch 0/2      Iteration 1600/20000    loss: 1.4689176082611084    Time: 0.321 seconds/iteration
+2021-12-07 12:32:54,702 Epoch 0/2      Iteration 1700/20000    loss: 0.06717032194137573    Time: 0.313 seconds/iteration
+2021-12-07 12:32:57,591 Epoch 0/2      Iteration 1700/20000    loss: 0.06725312769412994    Time: 0.315 seconds/iteration
+2021-12-07 12:33:07,523 Epoch 0/2      Iteration 1700/20000    loss: 1.5754817724227905    Time: 0.321 seconds/iteration
+2021-12-07 12:33:22,941 Epoch 0/2      Iteration 1800/20000    loss: 0.06716790050268173    Time: 0.312 seconds/iteration
+2021-12-07 12:33:28,498 Epoch 0/2      Iteration 1800/20000    loss: 0.06725096702575684    Time: 0.315 seconds/iteration
+2021-12-07 12:33:38,952 Epoch 0/2      Iteration 1800/20000    loss: 1.4206514358520508    Time: 0.32 seconds/iteration
+2021-12-07 12:33:51,125 Epoch 0/2      Iteration 1900/20000    loss: 0.06716436892747879    Time: 0.31 seconds/iteration
+2021-12-07 12:33:55,202 Epoch 0/2      Iteration 1900/20000    loss: 0.0672486424446106    Time: 0.312 seconds/iteration
+2021-12-07 12:34:08,172 Epoch 0/2      Iteration 1900/20000    loss: 1.3804532289505005    Time: 0.319 seconds/iteration
+2021-12-07 12:34:17,523 Epoch 0/2      Iteration 2000/20000    loss: 0.0671616643667221    Time: 0.308 seconds/iteration
+2021-12-07 12:34:22,494 Epoch 0/2      Iteration 2000/20000    loss: 0.0672437846660614    Time: 0.31 seconds/iteration
+2021-12-07 12:34:37,961 Epoch 0/2      Iteration 2000/20000    loss: 1.3927857875823975    Time: 0.318 seconds/iteration
+2021-12-07 12:34:48,558 Epoch 0/2      Iteration 2100/20000    loss: 0.06715856492519379    Time: 0.308 seconds/iteration
+2021-12-07 12:34:53,031 Epoch 0/2      Iteration 2100/20000    loss: 0.06724195182323456    Time: 0.31 seconds/iteration
+2021-12-07 12:35:06,198 Epoch 0/2      Iteration 2100/20000    loss: 1.4126884937286377    Time: 0.316 seconds/iteration
+2021-12-07 12:35:16,781 Epoch 0/2      Iteration 2200/20000    loss: 0.06715622544288635    Time: 0.307 seconds/iteration
+2021-12-07 12:35:23,051 Epoch 0/2      Iteration 2200/20000    loss: 0.06723936647176743    Time: 0.309 seconds/iteration
+2021-12-07 12:35:35,134 Epoch 0/2      Iteration 2200/20000    loss: 1.273680329322815    Time: 0.315 seconds/iteration
+2021-12-07 12:35:44,586 Epoch 0/2      Iteration 2300/20000    loss: 0.06715124100446701    Time: 0.305 seconds/iteration
+2021-12-07 12:35:50,646 Epoch 0/2      Iteration 2300/20000    loss: 0.06723574548959732    Time: 0.308 seconds/iteration
+2021-12-07 12:36:06,312 Epoch 0/2      Iteration 2300/20000    loss: 0.9759380221366882    Time: 0.315 seconds/iteration
+2021-12-07 12:36:10,692 Epoch 0/2      Iteration 2400/20000    loss: 0.06715013831853867    Time: 0.304 seconds/iteration
+2021-12-07 12:36:21,560 Epoch 0/2      Iteration 2400/20000    loss: 0.06723234057426453    Time: 0.308 seconds/iteration
+2021-12-07 12:36:41,201 Epoch 0/2      Iteration 2400/20000    loss: 1.1521728038787842    Time: 0.316 seconds/iteration
+2021-12-07 12:36:43,510 Epoch 0/2      Iteration 2500/20000    loss: 0.0671471580862999    Time: 0.305 seconds/iteration
+2021-12-07 12:36:55,865 Epoch 0/2      Iteration 2500/20000    loss: 0.06723050773143768    Time: 0.309 seconds/iteration
+2021-12-07 12:37:14,614 Epoch 0/2      Iteration 2500/20000    loss: 1.1895980834960938    Time: 0.317 seconds/iteration
+2021-12-07 12:37:14,924 Epoch 0/2      Iteration 2600/20000    loss: 0.06714195758104324    Time: 0.305 seconds/iteration
+2021-12-07 12:37:23,746 Epoch 0/2      Iteration 2600/20000    loss: 0.06722772121429443    Time: 0.308 seconds/iteration
+2021-12-07 12:37:42,881 Epoch 0/2      Iteration 2700/20000    loss: 0.06714025139808655    Time: 0.304 seconds/iteration
+2021-12-07 12:37:44,898 Epoch 0/2      Iteration 2600/20000    loss: 1.1148831844329834    Time: 0.316 seconds/iteration
+2021-12-07 12:37:56,021 Epoch 0/2      Iteration 2700/20000    loss: 0.06722451001405716    Time: 0.309 seconds/iteration
+2021-12-07 12:38:10,837 Epoch 0/2      Iteration 2800/20000    loss: 0.0671372339129448    Time: 0.303 seconds/iteration
+2021-12-07 12:38:13,759 Epoch 0/2      Iteration 2700/20000    loss: 1.2854313850402832    Time: 0.315 seconds/iteration
+2021-12-07 12:38:23,081 Epoch 0/2      Iteration 2800/20000    loss: 0.06722200661897659    Time: 0.307 seconds/iteration
+2021-12-07 12:38:40,135 Epoch 0/2      Iteration 2900/20000    loss: 0.06713452935218811    Time: 0.303 seconds/iteration
+2021-12-07 12:38:45,557 Epoch 0/2      Iteration 2800/20000    loss: 0.6304572820663452    Time: 0.315 seconds/iteration
+2021-12-07 12:38:48,675 Epoch 0/2      Iteration 2900/20000    loss: 0.06721827387809753    Time: 0.306 seconds/iteration
+2021-12-07 12:39:10,087 Epoch 0/2      Iteration 3000/20000    loss: 0.06713083386421204    Time: 0.303 seconds/iteration
+2021-12-07 12:39:13,880 Epoch 0/2      Iteration 3000/20000    loss: 0.06721685826778412    Time: 0.304 seconds/iteration
+2021-12-07 12:39:13,896 Epoch 0/2      Iteration 2900/20000    loss: 0.7428008913993835    Time: 0.314 seconds/iteration
+2021-12-07 12:39:39,878 Epoch 0/2      Iteration 3100/20000    loss: 0.06712806224822998    Time: 0.302 seconds/iteration
+2021-12-07 12:39:42,623 Epoch 0/2      Iteration 3000/20000    loss: 0.9419276714324951    Time: 0.313 seconds/iteration
+2021-12-07 12:39:44,109 Epoch 0/2      Iteration 3100/20000    loss: 0.06721308827400208    Time: 0.304 seconds/iteration
+2021-12-07 12:40:08,612 Epoch 0/2      Iteration 3200/20000    loss: 0.06712554395198822    Time: 0.302 seconds/iteration
+2021-12-07 12:40:10,836 Epoch 0/2      Iteration 3100/20000    loss: 0.7185180187225342    Time: 0.312 seconds/iteration
+2021-12-07 12:40:11,983 Epoch 0/2      Iteration 3200/20000    loss: 0.06721195578575134    Time: 0.303 seconds/iteration
+2021-12-07 12:40:37,837 Epoch 0/2      Iteration 3300/20000    loss: 0.06712164729833603    Time: 0.302 seconds/iteration
+2021-12-07 12:40:44,372 Epoch 0/2      Iteration 3200/20000    loss: 0.8024297952651978    Time: 0.313 seconds/iteration
+2021-12-07 12:40:44,878 Epoch 0/2      Iteration 3300/20000    loss: 0.0672081857919693    Time: 0.304 seconds/iteration
+2021-12-07 12:41:06,264 Epoch 0/2      Iteration 3400/20000    loss: 0.06712022423744202    Time: 0.301 seconds/iteration
+2021-12-07 12:41:16,798 Epoch 0/2      Iteration 3300/20000    loss: 0.9200286865234375    Time: 0.313 seconds/iteration
+2021-12-07 12:41:16,813 Epoch 0/2      Iteration 3400/20000    loss: 0.06720712035894394    Time: 0.304 seconds/iteration
+2021-12-07 12:41:31,771 Epoch 0/2      Iteration 3500/20000    loss: 0.067115418612957    Time: 0.3 seconds/iteration
+2021-12-07 12:41:46,042 Epoch 0/2      Iteration 3400/20000    loss: 0.7676756381988525    Time: 0.313 seconds/iteration
+2021-12-07 12:41:47,682 Epoch 0/2      Iteration 3500/20000    loss: 0.06720374524593353    Time: 0.304 seconds/iteration
+2021-12-07 12:41:59,059 Epoch 0/2      Iteration 3600/20000    loss: 0.06711344420909882    Time: 0.299 seconds/iteration
+2021-12-07 12:42:15,499 Epoch 0/2      Iteration 3600/20000    loss: 0.0671992301940918    Time: 0.304 seconds/iteration
+2021-12-07 12:42:15,646 Epoch 0/2      Iteration 3500/20000    loss: 0.932365894317627    Time: 0.312 seconds/iteration
+2021-12-07 12:42:30,221 Epoch 0/2      Iteration 3700/20000    loss: 0.06710945814847946    Time: 0.299 seconds/iteration
+2021-12-07 12:42:44,276 Epoch 0/2      Iteration 3700/20000    loss: 0.06719715893268585    Time: 0.303 seconds/iteration
+2021-12-07 12:42:46,618 Epoch 0/2      Iteration 3600/20000    loss: 1.0549309253692627    Time: 0.312 seconds/iteration
+2021-12-07 12:42:55,439 Epoch 0/2      Iteration 3800/20000    loss: 0.067108154296875    Time: 0.298 seconds/iteration
+2021-12-07 12:43:13,254 Epoch 0/2      Iteration 3700/20000    loss: 0.7103831171989441    Time: 0.311 seconds/iteration
+2021-12-07 12:43:15,766 Epoch 0/2      Iteration 3800/20000    loss: 0.06719476729631424    Time: 0.304 seconds/iteration
+2021-12-07 12:43:25,646 Epoch 0/2      Iteration 3900/20000    loss: 0.06710436940193176    Time: 0.298 seconds/iteration
+2021-12-07 12:43:40,315 Epoch 0/2      Iteration 3900/20000    loss: 0.06719228625297546    Time: 0.302 seconds/iteration
+2021-12-07 12:43:42,417 Epoch 0/2      Iteration 3800/20000    loss: 0.5416849851608276    Time: 0.311 seconds/iteration
+2021-12-07 12:43:54,733 Epoch 0/2      Iteration 4000/20000    loss: 0.0671018585562706    Time: 0.298 seconds/iteration
+2021-12-07 12:44:08,921 Epoch 0/2      Iteration 4000/20000    loss: 0.06718848645687103    Time: 0.302 seconds/iteration
+2021-12-07 12:44:11,159 Epoch 0/2      Iteration 3900/20000    loss: 0.6035889387130737    Time: 0.31 seconds/iteration
+2021-12-07 12:44:23,856 Epoch 0/2      Iteration 4100/20000    loss: 0.06709837913513184    Time: 0.298 seconds/iteration
+2021-12-07 12:44:45,652 Epoch 0/2      Iteration 4100/20000    loss: 0.06718569993972778    Time: 0.303 seconds/iteration
+2021-12-07 12:44:47,134 Epoch 0/2      Iteration 4000/20000    loss: 0.9719087481498718    Time: 0.311 seconds/iteration
+2021-12-07 12:45:01,784 Epoch 0/2      Iteration 4200/20000    loss: 0.06709441542625427    Time: 0.3 seconds/iteration
+2021-12-07 12:45:22,383 Epoch 0/2      Iteration 4100/20000    loss: 0.34795308113098145    Time: 0.312 seconds/iteration
+2021-12-07 12:45:25,396 Epoch 0/2      Iteration 4200/20000    loss: 0.06718291342258453    Time: 0.305 seconds/iteration
+2021-12-07 12:45:32,131 Epoch 0/2      Iteration 4300/20000    loss: 0.06709244847297668    Time: 0.3 seconds/iteration
+2021-12-07 12:45:50,482 Epoch 0/2      Iteration 4200/20000    loss: 0.4243602454662323    Time: 0.311 seconds/iteration
+2021-12-07 12:45:56,221 Epoch 0/2      Iteration 4300/20000    loss: 0.06718002259731293    Time: 0.306 seconds/iteration
+2021-12-07 12:46:02,536 Epoch 0/2      Iteration 4400/20000    loss: 0.06708967685699463    Time: 0.3 seconds/iteration
+2021-12-07 12:46:17,167 Epoch 0/2      Iteration 4300/20000    loss: 0.5365542769432068    Time: 0.31 seconds/iteration
+2021-12-07 12:46:24,502 Epoch 0/2      Iteration 4400/20000    loss: 0.06717782467603683    Time: 0.305 seconds/iteration
+2021-12-07 12:46:29,951 Epoch 0/2      Iteration 4500/20000    loss: 0.06708722561597824    Time: 0.3 seconds/iteration
+2021-12-07 12:46:49,860 Epoch 0/2      Iteration 4400/20000    loss: 0.3420141935348511    Time: 0.311 seconds/iteration
+2021-12-07 12:46:57,518 Epoch 0/2      Iteration 4500/20000    loss: 0.06717357039451599    Time: 0.306 seconds/iteration
+2021-12-07 12:47:01,036 Epoch 0/2      Iteration 4600/20000    loss: 0.06708411127328873    Time: 0.3 seconds/iteration
+2021-12-07 12:47:18,694 Epoch 0/2      Iteration 4500/20000    loss: 0.3933829963207245    Time: 0.31 seconds/iteration
+2021-12-07 12:47:30,599 Epoch 0/2      Iteration 4700/20000    loss: 0.06707978248596191    Time: 0.3 seconds/iteration
+2021-12-07 12:47:31,782 Epoch 0/2      Iteration 4600/20000    loss: 0.06717102229595184    Time: 0.306 seconds/iteration
+2021-12-07 12:47:50,812 Epoch 0/2      Iteration 4600/20000    loss: 0.06728751212358475    Time: 0.311 seconds/iteration
+2021-12-07 12:48:01,577 Epoch 0/2      Iteration 4800/20000    loss: 0.06707757711410522    Time: 0.3 seconds/iteration
+2021-12-07 12:48:04,127 Epoch 0/2      Iteration 4700/20000    loss: 0.06716864556074142    Time: 0.307 seconds/iteration
+2021-12-07 12:48:20,241 Epoch 0/2      Iteration 4700/20000    loss: 0.3997431993484497    Time: 0.31 seconds/iteration
+2021-12-07 12:48:31,920 Epoch 0/2      Iteration 4900/20000    loss: 0.06707543134689331    Time: 0.3 seconds/iteration
+2021-12-07 12:48:32,185 Epoch 0/2      Iteration 4800/20000    loss: 0.067165307700634    Time: 0.306 seconds/iteration
+2021-12-07 12:48:49,316 Epoch 0/2      Iteration 4800/20000    loss: 0.3980022668838501    Time: 0.31 seconds/iteration
+2021-12-07 12:49:04,033 Epoch 0/2      Iteration 4900/20000    loss: 0.06716269254684448    Time: 0.306 seconds/iteration
+2021-12-07 12:49:05,960 Epoch 0/2      Iteration 5000/20000    loss: 0.06707247346639633    Time: 0.301 seconds/iteration
+2021-12-07 12:49:19,529 Epoch 0/2      Iteration 4900/20000    loss: 0.5124754905700684    Time: 0.31 seconds/iteration
+2021-12-07 12:49:30,899 Epoch 0/2      Iteration 5000/20000    loss: 0.06716044992208481    Time: 0.306 seconds/iteration
+2021-12-07 12:49:34,530 Epoch 0/2      Iteration 5100/20000    loss: 0.06706845760345459    Time: 0.3 seconds/iteration
+2021-12-07 12:49:49,416 Epoch 0/2      Iteration 5000/20000    loss: 0.23015913367271423    Time: 0.309 seconds/iteration
+2021-12-07 12:49:57,672 Epoch 0/2      Iteration 5100/20000    loss: 0.0671578124165535    Time: 0.305 seconds/iteration
+2021-12-07 12:49:58,849 Epoch 0/2      Iteration 5200/20000    loss: 0.06706444919109344    Time: 0.299 seconds/iteration
+2021-12-07 12:50:20,218 Epoch 0/2      Iteration 5100/20000    loss: 0.2936505079269409    Time: 0.309 seconds/iteration
+2021-12-07 12:50:26,521 Epoch 0/2      Iteration 5200/20000    loss: 0.06715525686740875    Time: 0.305 seconds/iteration
+2021-12-07 12:50:27,700 Epoch 0/2      Iteration 5300/20000    loss: 0.06706327199935913    Time: 0.299 seconds/iteration
+2021-12-07 12:50:50,797 Epoch 0/2      Iteration 5300/20000    loss: 0.06715166568756104    Time: 0.303 seconds/iteration
+2021-12-07 12:50:50,871 Epoch 0/2      Iteration 5200/20000    loss: 0.23365096747875214    Time: 0.309 seconds/iteration
+2021-12-07 12:50:58,588 Epoch 0/2      Iteration 5400/20000    loss: 0.06705988943576813    Time: 0.299 seconds/iteration
+2021-12-07 12:51:20,426 Epoch 0/2      Iteration 5400/20000    loss: 0.06714899837970734    Time: 0.303 seconds/iteration
+2021-12-07 12:51:21,031 Epoch 0/2      Iteration 5300/20000    loss: 0.3598119020462036    Time: 0.309 seconds/iteration
+2021-12-07 12:51:30,904 Epoch 0/2      Iteration 5500/20000    loss: 0.06705664843320847    Time: 0.3 seconds/iteration
+2021-12-07 12:51:50,545 Epoch 0/2      Iteration 5500/20000    loss: 0.06714611500501633    Time: 0.303 seconds/iteration
+2021-12-07 12:51:55,265 Epoch 0/2      Iteration 5400/20000    loss: 0.4139047861099243    Time: 0.31 seconds/iteration
+2021-12-07 12:52:01,287 Epoch 0/2      Iteration 5600/20000    loss: 0.06705448776483536    Time: 0.3 seconds/iteration
+2021-12-07 12:52:19,176 Epoch 0/2      Iteration 5600/20000    loss: 0.06714300811290741    Time: 0.303 seconds/iteration
+2021-12-07 12:52:23,328 Epoch 0/2      Iteration 5500/20000    loss: 0.06730061024427414    Time: 0.309 seconds/iteration
+2021-12-07 12:52:33,945 Epoch 0/2      Iteration 5700/20000    loss: 0.0670517161488533    Time: 0.3 seconds/iteration
+2021-12-07 12:52:49,250 Epoch 0/2      Iteration 5700/20000    loss: 0.06714004278182983    Time: 0.303 seconds/iteration
+2021-12-07 12:52:50,180 Epoch 0/2      Iteration 5600/20000    loss: 0.2998671233654022    Time: 0.309 seconds/iteration
+2021-12-07 12:53:05,002 Epoch 0/2      Iteration 5800/20000    loss: 0.06704730540513992    Time: 0.3 seconds/iteration
+2021-12-07 12:53:21,196 Epoch 0/2      Iteration 5700/20000    loss: 0.2045445591211319    Time: 0.309 seconds/iteration
+2021-12-07 12:53:21,505 Epoch 0/2      Iteration 5800/20000    loss: 0.06713822484016418    Time: 0.303 seconds/iteration
+2021-12-07 12:53:33,554 Epoch 0/2      Iteration 5900/20000    loss: 0.06704442203044891    Time: 0.3 seconds/iteration
+2021-12-07 12:53:51,036 Epoch 0/2      Iteration 5900/20000    loss: 0.06713463366031647    Time: 0.303 seconds/iteration
+2021-12-07 12:53:52,916 Epoch 0/2      Iteration 5800/20000    loss: 0.06728719174861908    Time: 0.309 seconds/iteration
+2021-12-07 12:54:04,881 Epoch 0/2      Iteration 6000/20000    loss: 0.06704242527484894    Time: 0.3 seconds/iteration
+2021-12-07 12:54:19,370 Epoch 0/2      Iteration 6000/20000    loss: 0.06713179498910904    Time: 0.303 seconds/iteration
+2021-12-07 12:54:20,487 Epoch 0/2      Iteration 5900/20000    loss: 0.45729538798332214    Time: 0.308 seconds/iteration
+2021-12-07 12:54:31,089 Epoch 0/2      Iteration 6100/20000    loss: 0.06703806668519974    Time: 0.3 seconds/iteration
+2021-12-07 12:54:48,675 Epoch 0/2      Iteration 6100/20000    loss: 0.06712915003299713    Time: 0.303 seconds/iteration
+2021-12-07 12:54:50,471 Epoch 0/2      Iteration 6000/20000    loss: 0.06729229539632797    Time: 0.308 seconds/iteration
+2021-12-07 12:55:00,136 Epoch 0/2      Iteration 6200/20000    loss: 0.06703551113605499    Time: 0.3 seconds/iteration
+2021-12-07 12:55:14,192 Epoch 0/2      Iteration 6200/20000    loss: 0.06712614744901657    Time: 0.302 seconds/iteration
+2021-12-07 12:55:16,683 Epoch 0/2      Iteration 6100/20000    loss: 0.4492168426513672    Time: 0.307 seconds/iteration
+2021-12-07 12:55:27,809 Epoch 0/2      Iteration 6300/20000    loss: 0.06703273952007294    Time: 0.299 seconds/iteration
+2021-12-07 12:55:42,413 Epoch 0/2      Iteration 6300/20000    loss: 0.06712286174297333    Time: 0.302 seconds/iteration
+2021-12-07 12:55:47,663 Epoch 0/2      Iteration 6200/20000    loss: 0.07612134516239166    Time: 0.307 seconds/iteration
+2021-12-07 12:55:57,463 Epoch 0/2      Iteration 6400/20000    loss: 0.06702838093042374    Time: 0.299 seconds/iteration
+2021-12-07 12:56:13,544 Epoch 0/2      Iteration 6400/20000    loss: 0.06712064146995544    Time: 0.302 seconds/iteration
+2021-12-07 12:56:18,143 Epoch 0/2      Iteration 6300/20000    loss: 0.06728692352771759    Time: 0.307 seconds/iteration
+2021-12-07 12:56:24,389 Epoch 0/2      Iteration 6500/20000    loss: 0.06702660769224167    Time: 0.299 seconds/iteration
+2021-12-07 12:56:43,446 Epoch 0/2      Iteration 6500/20000    loss: 0.06711895763874054    Time: 0.302 seconds/iteration
+2021-12-07 12:56:47,889 Epoch 0/2      Iteration 6400/20000    loss: 0.06727945059537888    Time: 0.307 seconds/iteration
+2021-12-07 12:56:53,914 Epoch 0/2      Iteration 6600/20000    loss: 0.06702287495136261    Time: 0.299 seconds/iteration
+2021-12-07 12:57:16,100 Epoch 0/2      Iteration 6600/20000    loss: 0.06711678951978683    Time: 0.302 seconds/iteration
+2021-12-07 12:57:17,944 Epoch 0/2      Iteration 6500/20000    loss: 0.07222124934196472    Time: 0.307 seconds/iteration
+2021-12-07 12:57:24,763 Epoch 0/2      Iteration 6700/20000    loss: 0.06702065467834473    Time: 0.299 seconds/iteration
+2021-12-07 12:57:45,623 Epoch 0/2      Iteration 6700/20000    loss: 0.067113496363163    Time: 0.302 seconds/iteration
+2021-12-07 12:57:48,561 Epoch 0/2      Iteration 6600/20000    loss: 0.26450115442276    Time: 0.307 seconds/iteration
+2021-12-07 12:57:56,341 Epoch 0/2      Iteration 6800/20000    loss: 0.06701786816120148    Time: 0.299 seconds/iteration
+2021-12-07 12:58:11,716 Epoch 0/2      Iteration 6800/20000    loss: 0.06710976362228394    Time: 0.301 seconds/iteration
+2021-12-07 12:58:13,826 Epoch 0/2      Iteration 6700/20000    loss: 0.06727861613035202    Time: 0.306 seconds/iteration
+2021-12-07 12:58:24,134 Epoch 0/2      Iteration 6900/20000    loss: 0.0670136958360672    Time: 0.299 seconds/iteration
+2021-12-07 12:58:39,036 Epoch 0/2      Iteration 6900/20000    loss: 0.06710739433765411    Time: 0.301 seconds/iteration
+2021-12-07 12:58:42,131 Epoch 0/2      Iteration 6800/20000    loss: 0.08754116296768188    Time: 0.306 seconds/iteration
+2021-12-07 12:58:52,372 Epoch 0/2      Iteration 7000/20000    loss: 0.0670117437839508    Time: 0.299 seconds/iteration
+2021-12-07 12:59:11,012 Epoch 0/2      Iteration 7000/20000    loss: 0.0671045333147049    Time: 0.301 seconds/iteration
+2021-12-07 12:59:11,790 Epoch 0/2      Iteration 6900/20000    loss: 0.5882749557495117    Time: 0.306 seconds/iteration
+2021-12-07 12:59:18,048 Epoch 0/2      Iteration 7100/20000    loss: 0.06700857728719711    Time: 0.298 seconds/iteration
+2021-12-07 12:59:40,907 Epoch 0/2      Iteration 7100/20000    loss: 0.06710228323936462    Time: 0.301 seconds/iteration
+2021-12-07 12:59:44,626 Epoch 0/2      Iteration 7000/20000    loss: 0.6847878098487854    Time: 0.306 seconds/iteration
+2021-12-07 12:59:49,058 Epoch 0/2      Iteration 7200/20000    loss: 0.06700587272644043    Time: 0.298 seconds/iteration
+2021-12-07 13:00:12,965 Epoch 0/2      Iteration 7200/20000    loss: 0.06709987670183182    Time: 0.301 seconds/iteration
+2021-12-07 13:00:14,186 Epoch 0/2      Iteration 7100/20000    loss: 0.06727586686611176    Time: 0.306 seconds/iteration
+2021-12-07 13:00:20,247 Epoch 0/2      Iteration 7300/20000    loss: 0.06700261682271957    Time: 0.298 seconds/iteration
+2021-12-07 13:00:42,712 Epoch 0/2      Iteration 7200/20000    loss: 0.06728633493185043    Time: 0.306 seconds/iteration
+2021-12-07 13:00:43,240 Epoch 0/2      Iteration 7300/20000    loss: 0.06709664314985275    Time: 0.301 seconds/iteration
+2021-12-07 13:00:46,237 Epoch 0/2      Iteration 7400/20000    loss: 0.0669998973608017    Time: 0.298 seconds/iteration
+2021-12-07 13:01:16,773 Epoch 0/2      Iteration 7400/20000    loss: 0.06709448993206024    Time: 0.302 seconds/iteration
+2021-12-07 13:01:18,814 Epoch 0/2      Iteration 7300/20000    loss: 0.22152473032474518    Time: 0.306 seconds/iteration
+2021-12-07 13:01:24,235 Epoch 0/2      Iteration 7500/20000    loss: 0.06699693948030472    Time: 0.299 seconds/iteration
+2021-12-07 13:01:45,999 Epoch 0/2      Iteration 7400/20000    loss: 0.5365273356437683    Time: 0.306 seconds/iteration
+2021-12-07 13:01:47,308 Epoch 0/2      Iteration 7500/20000    loss: 0.06709248572587967    Time: 0.302 seconds/iteration
+2021-12-07 13:01:53,533 Epoch 0/2      Iteration 7600/20000    loss: 0.06699325144290924    Time: 0.299 seconds/iteration
+2021-12-07 13:02:15,874 Epoch 0/2      Iteration 7500/20000    loss: 0.06727337837219238    Time: 0.306 seconds/iteration
+2021-12-07 13:02:17,598 Epoch 0/2      Iteration 7600/20000    loss: 0.06708833575248718    Time: 0.302 seconds/iteration
+2021-12-07 13:02:22,276 Epoch 0/2      Iteration 7700/20000    loss: 0.06699102371931076    Time: 0.299 seconds/iteration
+2021-12-07 13:02:41,223 Epoch 0/2      Iteration 7600/20000    loss: 0.24824492633342743    Time: 0.305 seconds/iteration
+2021-12-07 13:02:44,209 Epoch 0/2      Iteration 7700/20000    loss: 0.06708551198244095    Time: 0.302 seconds/iteration
+2021-12-07 13:02:50,413 Epoch 0/2      Iteration 7800/20000    loss: 0.0669875219464302    Time: 0.298 seconds/iteration
+2021-12-07 13:03:09,847 Epoch 0/2      Iteration 7700/20000    loss: 0.06727102398872375    Time: 0.305 seconds/iteration
+2021-12-07 13:03:10,970 Epoch 0/2      Iteration 7800/20000    loss: 0.06708168983459473    Time: 0.301 seconds/iteration
+2021-12-07 13:03:18,494 Epoch 0/2      Iteration 7900/20000    loss: 0.06698504835367203    Time: 0.298 seconds/iteration
+2021-12-07 13:03:40,398 Epoch 0/2      Iteration 7800/20000    loss: 0.0672706663608551    Time: 0.305 seconds/iteration
+2021-12-07 13:03:44,156 Epoch 0/2      Iteration 7900/20000    loss: 0.06707945466041565    Time: 0.301 seconds/iteration
+2021-12-07 13:03:49,491 Epoch 0/2      Iteration 8000/20000    loss: 0.06698230654001236    Time: 0.298 seconds/iteration
+2021-12-07 13:04:06,537 Epoch 0/2      Iteration 7900/20000    loss: 0.06726586073637009    Time: 0.304 seconds/iteration
+2021-12-07 13:04:17,656 Epoch 0/2      Iteration 8100/20000    loss: 0.06697911024093628    Time: 0.298 seconds/iteration
+2021-12-07 13:04:17,685 Epoch 0/2      Iteration 8000/20000    loss: 0.06707625091075897    Time: 0.302 seconds/iteration
+2021-12-07 13:04:37,393 Epoch 0/2      Iteration 8000/20000    loss: 0.1845659762620926    Time: 0.304 seconds/iteration
+2021-12-07 13:04:49,113 Epoch 0/2      Iteration 8100/20000    loss: 0.06707348674535751    Time: 0.302 seconds/iteration
+2021-12-07 13:04:51,431 Epoch 0/2      Iteration 8200/20000    loss: 0.06697546690702438    Time: 0.299 seconds/iteration
+2021-12-07 13:05:06,410 Epoch 0/2      Iteration 8100/20000    loss: 0.06726689636707306    Time: 0.304 seconds/iteration
+2021-12-07 13:05:19,513 Epoch 0/2      Iteration 8300/20000    loss: 0.06697365641593933    Time: 0.298 seconds/iteration
+2021-12-07 13:05:21,617 Epoch 0/2      Iteration 8200/20000    loss: 0.06706996262073517    Time: 0.302 seconds/iteration
+2021-12-07 13:05:35,757 Epoch 0/2      Iteration 8200/20000    loss: 0.06726495176553726    Time: 0.304 seconds/iteration
+2021-12-07 13:05:48,648 Epoch 0/2      Iteration 8400/20000    loss: 0.06697000563144684    Time: 0.298 seconds/iteration
+2021-12-07 13:05:50,866 Epoch 0/2      Iteration 8300/20000    loss: 0.06706807017326355    Time: 0.302 seconds/iteration
+2021-12-07 13:06:00,149 Epoch 0/2      Iteration 8300/20000    loss: 0.06726966798305511    Time: 0.303 seconds/iteration
+2021-12-07 13:06:17,300 Epoch 0/2      Iteration 8500/20000    loss: 0.06696628034114838    Time: 0.298 seconds/iteration
+2021-12-07 13:06:22,011 Epoch 0/2      Iteration 8400/20000    loss: 0.06706522405147552    Time: 0.302 seconds/iteration
+2021-12-07 13:06:30,275 Epoch 0/2      Iteration 8400/20000    loss: 0.0871996209025383    Time: 0.303 seconds/iteration
+2021-12-07 13:06:48,732 Epoch 0/2      Iteration 8600/20000    loss: 0.06696362793445587    Time: 0.298 seconds/iteration
+2021-12-07 13:06:54,319 Epoch 0/2      Iteration 8500/20000    loss: 0.06706257909536362    Time: 0.303 seconds/iteration
+2021-12-07 13:06:57,845 Epoch 0/2      Iteration 8500/20000    loss: 0.06726107746362686    Time: 0.303 seconds/iteration
+2021-12-07 13:07:18,727 Epoch 0/2      Iteration 8700/20000    loss: 0.06696044653654099    Time: 0.298 seconds/iteration
+2021-12-07 13:07:25,444 Epoch 0/2      Iteration 8600/20000    loss: 0.06706072390079498    Time: 0.303 seconds/iteration
+2021-12-07 13:07:28,616 Epoch 0/2      Iteration 8600/20000    loss: 0.2808819115161896    Time: 0.303 seconds/iteration
+2021-12-07 13:07:52,318 Epoch 0/2      Iteration 8800/20000    loss: 0.06695806235074997    Time: 0.299 seconds/iteration
+2021-12-07 13:07:58,740 Epoch 0/2      Iteration 8700/20000    loss: 0.06705661118030548    Time: 0.303 seconds/iteration
+2021-12-07 13:08:01,687 Epoch 0/2      Iteration 8700/20000    loss: 0.06726359575986862    Time: 0.303 seconds/iteration
+2021-12-07 13:08:23,590 Epoch 0/2      Iteration 8900/20000    loss: 0.06695394963026047    Time: 0.299 seconds/iteration
+2021-12-07 13:08:26,430 Epoch 0/2      Iteration 8800/20000    loss: 0.06705410778522491    Time: 0.303 seconds/iteration
+2021-12-07 13:08:36,821 Epoch 0/2      Iteration 8800/20000    loss: 0.06726551055908203    Time: 0.304 seconds/iteration
+2021-12-07 13:08:53,256 Epoch 0/2      Iteration 9000/20000    loss: 0.06695210933685303    Time: 0.299 seconds/iteration
+2021-12-07 13:08:54,798 Epoch 0/2      Iteration 8900/20000    loss: 0.06705310195684433    Time: 0.303 seconds/iteration
+2021-12-07 13:09:06,237 Epoch 0/2      Iteration 8900/20000    loss: 0.29596036672592163    Time: 0.304 seconds/iteration
+2021-12-07 13:09:22,594 Epoch 0/2      Iteration 9100/20000    loss: 0.06694953143596649    Time: 0.299 seconds/iteration
+2021-12-07 13:09:22,849 Epoch 0/2      Iteration 9000/20000    loss: 0.06705029308795929    Time: 0.302 seconds/iteration
+2021-12-07 13:09:40,840 Epoch 0/2      Iteration 9000/20000    loss: 0.40635940432548523    Time: 0.304 seconds/iteration
+2021-12-07 13:09:54,235 Epoch 0/2      Iteration 9100/20000    loss: 0.06704608350992203    Time: 0.302 seconds/iteration
+2021-12-07 13:09:55,703 Epoch 0/2      Iteration 9200/20000    loss: 0.06694582104682922    Time: 0.299 seconds/iteration
+2021-12-07 13:10:09,485 Epoch 0/2      Iteration 9100/20000    loss: 0.06725624203681946    Time: 0.304 seconds/iteration
+2021-12-07 13:10:25,153 Epoch 0/2      Iteration 9300/20000    loss: 0.06694269925355911    Time: 0.299 seconds/iteration
+2021-12-07 13:10:25,939 Epoch 0/2      Iteration 9200/20000    loss: 0.06704264134168625    Time: 0.303 seconds/iteration
+2021-12-07 13:10:38,588 Epoch 0/2      Iteration 9200/20000    loss: 0.21742494404315948    Time: 0.304 seconds/iteration
+2021-12-07 13:10:54,058 Epoch 0/2      Iteration 9300/20000    loss: 0.06704005599021912    Time: 0.302 seconds/iteration
+2021-12-07 13:10:55,697 Epoch 0/2      Iteration 9400/20000    loss: 0.06694021821022034    Time: 0.299 seconds/iteration
+2021-12-07 13:11:06,967 Epoch 0/2      Iteration 9300/20000    loss: 0.0672546848654747    Time: 0.304 seconds/iteration
+2021-12-07 13:11:25,167 Epoch 0/2      Iteration 9400/20000    loss: 0.06703784316778183    Time: 0.302 seconds/iteration
+2021-12-07 13:11:28,067 Epoch 0/2      Iteration 9500/20000    loss: 0.06693755090236664    Time: 0.3 seconds/iteration
+2021-12-07 13:11:32,978 Epoch 0/2      Iteration 9400/20000    loss: 0.16117516160011292    Time: 0.303 seconds/iteration
+2021-12-07 13:11:54,614 Epoch 0/2      Iteration 9500/20000    loss: 0.06703489273786545    Time: 0.302 seconds/iteration
+2021-12-07 13:12:00,492 Epoch 0/2      Iteration 9600/20000    loss: 0.06693447381258011    Time: 0.3 seconds/iteration
+2021-12-07 13:12:05,418 Epoch 0/2      Iteration 9500/20000    loss: 0.08689054846763611    Time: 0.303 seconds/iteration
+2021-12-07 13:12:26,554 Epoch 0/2      Iteration 9600/20000    loss: 0.06703127175569534    Time: 0.303 seconds/iteration
+2021-12-07 13:12:31,724 Epoch 0/2      Iteration 9700/20000    loss: 0.06693099439144135    Time: 0.3 seconds/iteration
+2021-12-07 13:12:35,347 Epoch 0/2      Iteration 9600/20000    loss: 0.20621682703495026    Time: 0.303 seconds/iteration
+2021-12-07 13:12:54,202 Epoch 0/2      Iteration 9700/20000    loss: 0.06702887266874313    Time: 0.302 seconds/iteration
+2021-12-07 13:12:56,980 Epoch 0/2      Iteration 9800/20000    loss: 0.06692750006914139    Time: 0.299 seconds/iteration
+2021-12-07 13:13:03,207 Epoch 0/2      Iteration 9700/20000    loss: 0.0672488585114479    Time: 0.303 seconds/iteration
+2021-12-07 13:13:23,148 Epoch 0/2      Iteration 9800/20000    loss: 0.06702657043933868    Time: 0.302 seconds/iteration
+2021-12-07 13:13:26,650 Epoch 0/2      Iteration 9900/20000    loss: 0.06692469120025635    Time: 0.299 seconds/iteration
+2021-12-07 13:13:30,281 Epoch 0/2      Iteration 9800/20000    loss: 0.0672551617026329    Time: 0.303 seconds/iteration
+2021-12-07 13:13:50,544 Epoch 0/2      Iteration 9900/20000    loss: 0.06702443212270737    Time: 0.302 seconds/iteration
+2021-12-07 13:13:52,870 Epoch 0/2      Iteration 10000/20000    loss: 0.06692156195640564    Time: 0.299 seconds/iteration
+2021-12-07 13:13:56,782 Epoch 0/2      Iteration 9900/20000    loss: 0.06726013869047165    Time: 0.302 seconds/iteration
+2021-12-07 13:14:16,966 Epoch 0/2      Iteration 10000/20000    loss: 0.06702162325382233    Time: 0.301 seconds/iteration
+2021-12-07 13:14:19,011 Epoch 0/2      Iteration 10100/20000    loss: 0.06691853702068329    Time: 0.299 seconds/iteration
+2021-12-07 13:14:27,667 Epoch 0/2      Iteration 10000/20000    loss: 0.9398523569107056    Time: 0.303 seconds/iteration
+2021-12-07 13:14:45,497 Epoch 0/2      Iteration 10100/20000    loss: 0.06701847165822983    Time: 0.301 seconds/iteration
+2021-12-07 13:14:47,336 Epoch 0/2      Iteration 10200/20000    loss: 0.06691684573888779    Time: 0.299 seconds/iteration
+2021-12-07 13:14:56,305 Epoch 0/2      Iteration 10100/20000    loss: 0.23603036999702454    Time: 0.302 seconds/iteration
+2021-12-07 13:15:12,551 Epoch 0/2      Iteration 10200/20000    loss: 0.06701584905385971    Time: 0.301 seconds/iteration
+2021-12-07 13:15:18,673 Epoch 0/2      Iteration 10300/20000    loss: 0.06691327691078186    Time: 0.299 seconds/iteration
+2021-12-07 13:15:29,026 Epoch 0/2      Iteration 10200/20000    loss: 0.06725495308637619    Time: 0.303 seconds/iteration
+2021-12-07 13:15:44,379 Epoch 0/2      Iteration 10300/20000    loss: 0.06701238453388214    Time: 0.301 seconds/iteration
+2021-12-07 13:15:48,068 Epoch 0/2      Iteration 10400/20000    loss: 0.06690976768732071    Time: 0.299 seconds/iteration
+2021-12-07 13:16:01,233 Epoch 0/2      Iteration 10300/20000    loss: 0.3380289077758789    Time: 0.303 seconds/iteration
+2021-12-07 13:16:13,120 Epoch 0/2      Iteration 10400/20000    loss: 0.06700959801673889    Time: 0.301 seconds/iteration
+2021-12-07 13:16:19,003 Epoch 0/2      Iteration 10500/20000    loss: 0.06690648198127747    Time: 0.299 seconds/iteration
+2021-12-07 13:16:32,225 Epoch 0/2      Iteration 10400/20000    loss: 0.06724093854427338    Time: 0.303 seconds/iteration
+2021-12-07 13:16:45,291 Epoch 0/2      Iteration 10500/20000    loss: 0.06700682640075684    Time: 0.301 seconds/iteration
+2021-12-07 13:16:46,619 Epoch 0/2      Iteration 10600/20000    loss: 0.06690320372581482    Time: 0.299 seconds/iteration
+2021-12-07 13:16:59,767 Epoch 0/2      Iteration 10500/20000    loss: 0.06724166125059128    Time: 0.303 seconds/iteration
+2021-12-07 13:17:13,952 Epoch 0/2      Iteration 10700/20000    loss: 0.06689952313899994    Time: 0.298 seconds/iteration
+2021-12-07 13:17:17,164 Epoch 0/2      Iteration 10600/20000    loss: 0.06700404733419418    Time: 0.301 seconds/iteration
+2021-12-07 13:17:31,612 Epoch 0/2      Iteration 10600/20000    loss: 0.0672452300786972    Time: 0.303 seconds/iteration
+2021-12-07 13:17:45,742 Epoch 0/2      Iteration 10800/20000    loss: 0.06689843535423279    Time: 0.298 seconds/iteration
+2021-12-07 13:17:47,530 Epoch 0/2      Iteration 10700/20000    loss: 0.0670008584856987    Time: 0.301 seconds/iteration
+2021-12-07 13:18:02,377 Epoch 0/2      Iteration 10700/20000    loss: 0.19180430471897125    Time: 0.303 seconds/iteration
+2021-12-07 13:18:13,746 Epoch 0/2      Iteration 10800/20000    loss: 0.06699889898300171    Time: 0.301 seconds/iteration
+2021-12-07 13:18:14,585 Epoch 0/2      Iteration 10900/20000    loss: 0.0668945461511612    Time: 0.298 seconds/iteration
+2021-12-07 13:18:27,711 Epoch 0/2      Iteration 10800/20000    loss: 0.06724036484956741    Time: 0.302 seconds/iteration
+2021-12-07 13:18:43,300 Epoch 0/2      Iteration 10900/20000    loss: 0.0669955313205719    Time: 0.301 seconds/iteration
+2021-12-07 13:18:43,466 Epoch 0/2      Iteration 11000/20000    loss: 0.06689296662807465    Time: 0.298 seconds/iteration
+2021-12-07 13:18:54,904 Epoch 0/2      Iteration 10900/20000    loss: 0.06724625080823898    Time: 0.302 seconds/iteration
+2021-12-07 13:19:11,614 Epoch 0/2      Iteration 11100/20000    loss: 0.06688840687274933    Time: 0.298 seconds/iteration
+2021-12-07 13:19:12,965 Epoch 0/2      Iteration 11000/20000    loss: 0.06699135899543762    Time: 0.301 seconds/iteration
+2021-12-07 13:19:23,661 Epoch 0/2      Iteration 11000/20000    loss: 0.11816049367189407    Time: 0.302 seconds/iteration
+2021-12-07 13:19:41,166 Epoch 0/2      Iteration 11200/20000    loss: 0.06688695400953293    Time: 0.298 seconds/iteration
+2021-12-07 13:19:43,547 Epoch 0/2      Iteration 11100/20000    loss: 0.06699047982692719    Time: 0.301 seconds/iteration
+2021-12-07 13:19:53,158 Epoch 0/2      Iteration 11100/20000    loss: 0.06723569333553314    Time: 0.302 seconds/iteration
+2021-12-07 13:20:12,498 Epoch 0/2      Iteration 11300/20000    loss: 0.06688195466995239    Time: 0.298 seconds/iteration
+2021-12-07 13:20:15,439 Epoch 0/2      Iteration 11200/20000    loss: 0.06698628515005112    Time: 0.301 seconds/iteration
+2021-12-07 13:20:23,150 Epoch 0/2      Iteration 11200/20000    loss: 0.0672382041811943    Time: 0.302 seconds/iteration
+2021-12-07 13:20:40,968 Epoch 0/2      Iteration 11400/20000    loss: 0.0668799951672554    Time: 0.298 seconds/iteration
+2021-12-07 13:20:44,126 Epoch 0/2      Iteration 11300/20000    loss: 0.06698336452245712    Time: 0.301 seconds/iteration
+2021-12-07 13:20:51,582 Epoch 0/2      Iteration 11300/20000    loss: 0.22631245851516724    Time: 0.302 seconds/iteration
+2021-12-07 13:21:09,587 Epoch 0/2      Iteration 11500/20000    loss: 0.06687640398740768    Time: 0.298 seconds/iteration
+2021-12-07 13:21:15,705 Epoch 0/2      Iteration 11400/20000    loss: 0.06698111444711685    Time: 0.301 seconds/iteration
+2021-12-07 13:21:19,062 Epoch 0/2      Iteration 11400/20000    loss: 0.35874781012535095    Time: 0.301 seconds/iteration
+2021-12-07 13:21:38,220 Epoch 0/2      Iteration 11600/20000    loss: 0.06687402725219727    Time: 0.298 seconds/iteration
+2021-12-07 13:21:48,114 Epoch 0/2      Iteration 11500/20000    loss: 0.06697800010442734    Time: 0.301 seconds/iteration
+2021-12-07 13:21:50,948 Epoch 0/2      Iteration 11500/20000    loss: 0.06723228096961975    Time: 0.302 seconds/iteration
+2021-12-07 13:22:11,484 Epoch 0/2      Iteration 11700/20000    loss: 0.06687034666538239    Time: 0.298 seconds/iteration
+2021-12-07 13:22:19,592 Epoch 0/2      Iteration 11600/20000    loss: 0.06697641313076019    Time: 0.301 seconds/iteration
+2021-12-07 13:22:24,027 Epoch 0/2      Iteration 11600/20000    loss: 0.06723101437091827    Time: 0.302 seconds/iteration
+2021-12-07 13:22:41,130 Epoch 0/2      Iteration 11800/20000    loss: 0.06686823070049286    Time: 0.298 seconds/iteration
+2021-12-07 13:22:50,968 Epoch 0/2      Iteration 11700/20000    loss: 0.06697189062833786    Time: 0.302 seconds/iteration
+2021-12-07 13:22:55,333 Epoch 0/2      Iteration 11700/20000    loss: 0.06723597645759583    Time: 0.302 seconds/iteration
+2021-12-07 13:23:16,407 Epoch 0/2      Iteration 11900/20000    loss: 0.06686506420373917    Time: 0.299 seconds/iteration
+2021-12-07 13:23:30,313 Epoch 0/2      Iteration 11800/20000    loss: 0.06697003543376923    Time: 0.302 seconds/iteration
+2021-12-07 13:23:32,218 Epoch 0/2      Iteration 11800/20000    loss: 0.2002696841955185    Time: 0.303 seconds/iteration
+2021-12-07 13:23:50,656 Epoch 0/2      Iteration 12000/20000    loss: 0.06686219573020935    Time: 0.299 seconds/iteration
+2021-12-07 13:24:02,293 Epoch 0/2      Iteration 11900/20000    loss: 0.06696800887584686    Time: 0.303 seconds/iteration
+2021-12-07 13:24:03,834 Epoch 0/2      Iteration 11900/20000    loss: 0.06722056120634079    Time: 0.303 seconds/iteration
+2021-12-07 13:24:20,606 Epoch 0/2      Iteration 12100/20000    loss: 0.0668589174747467    Time: 0.299 seconds/iteration
+2021-12-07 13:24:30,797 Epoch 0/2      Iteration 12000/20000    loss: 0.06696471571922302    Time: 0.302 seconds/iteration
+2021-12-07 13:24:33,566 Epoch 0/2      Iteration 12000/20000    loss: 0.06722725182771683    Time: 0.303 seconds/iteration
+2021-12-07 13:24:49,766 Epoch 0/2      Iteration 12200/20000    loss: 0.06685636192560196    Time: 0.299 seconds/iteration
+2021-12-07 13:25:02,060 Epoch 0/2      Iteration 12100/20000    loss: 0.06696248054504395    Time: 0.302 seconds/iteration
+2021-12-07 13:25:07,339 Epoch 0/2      Iteration 12100/20000    loss: 0.06722681224346161    Time: 0.303 seconds/iteration
+2021-12-07 13:25:21,477 Epoch 0/2      Iteration 12300/20000    loss: 0.06685316562652588    Time: 0.299 seconds/iteration
+2021-12-07 13:25:33,504 Epoch 0/2      Iteration 12200/20000    loss: 0.07377306371927261    Time: 0.303 seconds/iteration
+2021-12-07 13:25:40,778 Epoch 0/2      Iteration 12200/20000    loss: 0.06722813844680786    Time: 0.303 seconds/iteration
+2021-12-07 13:25:50,822 Epoch 0/2      Iteration 12400/20000    loss: 0.06684906780719757    Time: 0.299 seconds/iteration
+2021-12-07 13:26:03,838 Epoch 0/2      Iteration 12300/20000    loss: 0.06695656478404999    Time: 0.303 seconds/iteration
+2021-12-07 13:26:09,998 Epoch 0/2      Iteration 12300/20000    loss: 0.06722560524940491    Time: 0.303 seconds/iteration
+2021-12-07 13:26:19,058 Epoch 0/2      Iteration 12500/20000    loss: 0.06684655696153641    Time: 0.299 seconds/iteration
+2021-12-07 13:26:34,483 Epoch 0/2      Iteration 12400/20000    loss: 0.06695407629013062    Time: 0.303 seconds/iteration
+2021-12-07 13:26:40,501 Epoch 0/2      Iteration 12400/20000    loss: 0.06721731275320053    Time: 0.303 seconds/iteration
+2021-12-07 13:26:46,121 Epoch 0/2      Iteration 12600/20000    loss: 0.0668434202671051    Time: 0.299 seconds/iteration
+2021-12-07 13:27:07,841 Epoch 0/2      Iteration 12500/20000    loss: 0.06695064902305603    Time: 0.303 seconds/iteration
+2021-12-07 13:27:14,549 Epoch 0/2      Iteration 12500/20000    loss: 0.0672219842672348    Time: 0.303 seconds/iteration
+2021-12-07 13:27:18,825 Epoch 0/2      Iteration 12700/20000    loss: 0.06684249639511108    Time: 0.299 seconds/iteration
+2021-12-07 13:27:39,946 Epoch 0/2      Iteration 12600/20000    loss: 0.0669490247964859    Time: 0.303 seconds/iteration
+2021-12-07 13:27:44,082 Epoch 0/2      Iteration 12600/20000    loss: 0.06721999496221542    Time: 0.303 seconds/iteration
+2021-12-07 13:27:48,383 Epoch 0/2      Iteration 12800/20000    loss: 0.06683605164289474    Time: 0.299 seconds/iteration
+2021-12-07 13:28:06,608 Epoch 0/2      Iteration 12700/20000    loss: 0.06694548577070236    Time: 0.303 seconds/iteration
+2021-12-07 13:28:10,965 Epoch 0/2      Iteration 12700/20000    loss: 0.06722121685743332    Time: 0.303 seconds/iteration
+2021-12-07 13:28:15,476 Epoch 0/2      Iteration 12900/20000    loss: 0.06683541089296341    Time: 0.299 seconds/iteration
+2021-12-07 13:28:35,906 Epoch 0/2      Iteration 12800/20000    loss: 0.06694328784942627    Time: 0.303 seconds/iteration
+2021-12-07 13:28:41,065 Epoch 0/2      Iteration 12800/20000    loss: 0.06721445918083191    Time: 0.303 seconds/iteration
+2021-12-07 13:28:47,344 Epoch 0/2      Iteration 13000/20000    loss: 0.06683162599802017    Time: 0.299 seconds/iteration
+2021-12-07 13:29:06,720 Epoch 0/2      Iteration 12900/20000    loss: 0.06694003194570541    Time: 0.303 seconds/iteration
+2021-12-07 13:29:10,116 Epoch 0/2      Iteration 12900/20000    loss: 0.06721501052379608    Time: 0.303 seconds/iteration
+2021-12-07 13:29:16,842 Epoch 0/2      Iteration 13100/20000    loss: 0.0668296068906784    Time: 0.299 seconds/iteration
+2021-12-07 13:29:39,609 Epoch 0/2      Iteration 13000/20000    loss: 0.06693754345178604    Time: 0.303 seconds/iteration
+2021-12-07 13:29:41,017 Epoch 0/2      Iteration 13000/20000    loss: 0.06721114367246628    Time: 0.303 seconds/iteration
+2021-12-07 13:29:45,631 Epoch 0/2      Iteration 13200/20000    loss: 0.06682611256837845    Time: 0.299 seconds/iteration
+2021-12-07 13:30:08,985 Epoch 0/2      Iteration 13100/20000    loss: 0.06693379580974579    Time: 0.303 seconds/iteration
+2021-12-07 13:30:10,183 Epoch 0/2      Iteration 13300/20000    loss: 0.06682252883911133    Time: 0.298 seconds/iteration
+2021-12-07 13:30:10,299 Epoch 0/2      Iteration 13100/20000    loss: 0.11648786067962646    Time: 0.303 seconds/iteration
+2021-12-07 13:30:34,949 Epoch 0/2      Iteration 13400/20000    loss: 0.06682092696428299    Time: 0.298 seconds/iteration
+2021-12-07 13:30:37,920 Epoch 0/2      Iteration 13200/20000    loss: 0.06693089008331299    Time: 0.303 seconds/iteration
+2021-12-07 13:30:41,149 Epoch 0/2      Iteration 13200/20000    loss: 0.06721331924200058    Time: 0.303 seconds/iteration
+2021-12-07 13:31:06,779 Epoch 0/2      Iteration 13500/20000    loss: 0.06681770831346512    Time: 0.298 seconds/iteration
+2021-12-07 13:31:09,789 Epoch 0/2      Iteration 13300/20000    loss: 0.06692841649055481    Time: 0.303 seconds/iteration
+2021-12-07 13:31:12,684 Epoch 0/2      Iteration 13300/20000    loss: 0.1969163417816162    Time: 0.303 seconds/iteration
+2021-12-07 13:31:37,025 Epoch 0/2      Iteration 13400/20000    loss: 0.06692589819431305    Time: 0.303 seconds/iteration
+2021-12-07 13:31:37,547 Epoch 0/2      Iteration 13600/20000    loss: 0.0668138638138771    Time: 0.298 seconds/iteration
+2021-12-07 13:31:42,541 Epoch 0/2      Iteration 13400/20000    loss: 0.06721082329750061    Time: 0.303 seconds/iteration
+2021-12-07 13:32:09,036 Epoch 0/2      Iteration 13500/20000    loss: 0.06692256778478622    Time: 0.303 seconds/iteration
+2021-12-07 13:32:12,354 Epoch 0/2      Iteration 13700/20000    loss: 0.06681077182292938    Time: 0.299 seconds/iteration
+2021-12-07 13:32:16,208 Epoch 0/2      Iteration 13500/20000    loss: 0.06720489263534546    Time: 0.303 seconds/iteration
+2021-12-07 13:32:39,326 Epoch 0/2      Iteration 13600/20000    loss: 0.0669201985001564    Time: 0.303 seconds/iteration
+2021-12-07 13:32:43,057 Epoch 0/2      Iteration 13800/20000    loss: 0.06680763512849808    Time: 0.299 seconds/iteration
+2021-12-07 13:32:46,856 Epoch 0/2      Iteration 13600/20000    loss: 0.06720515340566635    Time: 0.303 seconds/iteration
+2021-12-07 13:33:09,962 Epoch 0/2      Iteration 13700/20000    loss: 0.06691841781139374    Time: 0.303 seconds/iteration
+2021-12-07 13:33:12,847 Epoch 0/2      Iteration 13900/20000    loss: 0.06680570542812347    Time: 0.299 seconds/iteration
+2021-12-07 13:33:14,009 Epoch 0/2      Iteration 13700/20000    loss: 0.06721214950084686    Time: 0.303 seconds/iteration
+2021-12-07 13:33:38,589 Epoch 0/2      Iteration 13800/20000    loss: 0.06691513955593109    Time: 0.303 seconds/iteration
+2021-12-07 13:33:42,993 Epoch 0/2      Iteration 14000/20000    loss: 0.06680183112621307    Time: 0.299 seconds/iteration
+2021-12-07 13:33:47,111 Epoch 0/2      Iteration 13800/20000    loss: 0.06720080226659775    Time: 0.303 seconds/iteration
+2021-12-07 13:34:09,406 Epoch 0/2      Iteration 13900/20000    loss: 0.06691198796033859    Time: 0.303 seconds/iteration
+2021-12-07 13:34:13,708 Epoch 0/2      Iteration 14100/20000    loss: 0.06679875403642654    Time: 0.299 seconds/iteration
+2021-12-07 13:34:15,480 Epoch 0/2      Iteration 13900/20000    loss: 0.16475379467010498    Time: 0.303 seconds/iteration
+2021-12-07 13:34:38,506 Epoch 0/2      Iteration 14000/20000    loss: 0.0669102892279625    Time: 0.303 seconds/iteration
+2021-12-07 13:34:41,199 Epoch 0/2      Iteration 14200/20000    loss: 0.06679580360651016    Time: 0.299 seconds/iteration
+2021-12-07 13:34:45,191 Epoch 0/2      Iteration 14000/20000    loss: 0.3756347894668579    Time: 0.303 seconds/iteration
+2021-12-07 13:35:10,573 Epoch 0/2      Iteration 14300/20000    loss: 0.06679370254278183    Time: 0.298 seconds/iteration
+2021-12-07 13:35:14,393 Epoch 0/2      Iteration 14100/20000    loss: 0.06690776348114014    Time: 0.303 seconds/iteration
+2021-12-07 13:35:17,750 Epoch 0/2      Iteration 14100/20000    loss: 0.32991087436676025    Time: 0.303 seconds/iteration
+2021-12-07 13:35:38,123 Epoch 0/2      Iteration 14400/20000    loss: 0.06678970158100128    Time: 0.298 seconds/iteration
+2021-12-07 13:35:41,587 Epoch 0/2      Iteration 14200/20000    loss: 0.06690404564142227    Time: 0.303 seconds/iteration
+2021-12-07 13:35:46,774 Epoch 0/2      Iteration 14200/20000    loss: 0.25627589225769043    Time: 0.303 seconds/iteration
+2021-12-07 13:36:06,754 Epoch 0/2      Iteration 14500/20000    loss: 0.06678719073534012    Time: 0.298 seconds/iteration
+2021-12-07 13:36:15,915 Epoch 0/2      Iteration 14300/20000    loss: 0.06690070033073425    Time: 0.303 seconds/iteration
+2021-12-07 13:36:20,890 Epoch 0/2      Iteration 14300/20000    loss: 0.06719652563333511    Time: 0.303 seconds/iteration
+2021-12-07 13:36:37,191 Epoch 0/2      Iteration 14600/20000    loss: 0.06678459048271179    Time: 0.298 seconds/iteration
+2021-12-07 13:36:47,952 Epoch 0/2      Iteration 14400/20000    loss: 0.06689818203449249    Time: 0.303 seconds/iteration
+2021-12-07 13:36:50,228 Epoch 0/2      Iteration 14400/20000    loss: 0.5765007734298706    Time: 0.303 seconds/iteration
+2021-12-07 13:37:04,575 Epoch 0/2      Iteration 14700/20000    loss: 0.06678132712841034    Time: 0.298 seconds/iteration
+2021-12-07 13:37:19,206 Epoch 0/2      Iteration 14500/20000    loss: 0.06689430773258209    Time: 0.303 seconds/iteration
+2021-12-07 13:37:20,544 Epoch 0/2      Iteration 14500/20000    loss: 0.06720016896724701    Time: 0.303 seconds/iteration
+2021-12-07 13:37:31,242 Epoch 0/2      Iteration 14800/20000    loss: 0.0667780414223671    Time: 0.298 seconds/iteration
+2021-12-07 13:37:51,224 Epoch 0/2      Iteration 14600/20000    loss: 0.0668930783867836    Time: 0.303 seconds/iteration
+2021-12-07 13:37:54,097 Epoch 0/2      Iteration 14600/20000    loss: 0.06719470769166946    Time: 0.304 seconds/iteration
+2021-12-07 13:37:59,001 Epoch 0/2      Iteration 14900/20000    loss: 0.06677509099245071    Time: 0.298 seconds/iteration
+2021-12-07 13:38:24,772 Epoch 0/2      Iteration 14700/20000    loss: 0.06688939779996872    Time: 0.304 seconds/iteration
+2021-12-07 13:38:25,835 Epoch 0/2      Iteration 14700/20000    loss: 0.06719417870044708    Time: 0.304 seconds/iteration
+2021-12-07 13:38:27,438 Epoch 0/2      Iteration 15000/20000    loss: 0.06677316129207611    Time: 0.298 seconds/iteration
+2021-12-07 13:38:57,495 Epoch 0/2      Iteration 14800/20000    loss: 0.06688681244850159    Time: 0.304 seconds/iteration
+2021-12-07 13:39:04,149 Epoch 0/2      Iteration 15100/20000    loss: 0.06676992028951645    Time: 0.298 seconds/iteration
+2021-12-07 13:39:18,828 Epoch 0/2      Iteration 14800/20000    loss: 0.06718913465738297    Time: 0.305 seconds/iteration
+2021-12-07 13:39:36,748 Epoch 0/2      Iteration 14900/20000    loss: 0.06688325852155685    Time: 0.304 seconds/iteration
+2021-12-07 13:39:43,459 Epoch 0/2      Iteration 15200/20000    loss: 0.06676551699638367    Time: 0.299 seconds/iteration
+2021-12-07 13:40:07,292 Epoch 0/2      Iteration 14900/20000    loss: 0.06718692928552628    Time: 0.306 seconds/iteration
+2021-12-07 13:40:17,937 Epoch 0/2      Iteration 15000/20000    loss: 0.06688061356544495    Time: 0.305 seconds/iteration
+2021-12-07 13:40:27,336 Epoch 0/2      Iteration 15300/20000    loss: 0.06676355749368668    Time: 0.3 seconds/iteration
+2021-12-07 13:40:43,536 Epoch 0/2      Iteration 15000/20000    loss: 0.06719396263360977    Time: 0.307 seconds/iteration
+2021-12-07 13:40:58,173 Epoch 0/2      Iteration 15100/20000    loss: 0.06687813997268677    Time: 0.306 seconds/iteration
+2021-12-07 13:41:03,981 Epoch 0/2      Iteration 15400/20000    loss: 0.06675923615694046    Time: 0.3 seconds/iteration
+2021-12-07 13:41:25,312 Epoch 0/2      Iteration 15100/20000    loss: 0.0671936646103859    Time: 0.307 seconds/iteration
+2021-12-07 13:41:36,088 Epoch 0/2      Iteration 15200/20000    loss: 0.06687543541193008    Time: 0.306 seconds/iteration
+2021-12-07 13:41:41,898 Epoch 0/2      Iteration 15500/20000    loss: 0.06675680726766586    Time: 0.301 seconds/iteration
+2021-12-07 13:42:05,400 Epoch 0/2      Iteration 15200/20000    loss: 0.06718696653842926    Time: 0.308 seconds/iteration
+2021-12-07 13:42:13,205 Epoch 0/2      Iteration 15300/20000    loss: 0.06687182188034058    Time: 0.307 seconds/iteration
+2021-12-07 13:42:20,312 Epoch 0/2      Iteration 15600/20000    loss: 0.06675446778535843    Time: 0.301 seconds/iteration
+2021-12-07 13:42:43,503 Epoch 0/2      Iteration 15300/20000    loss: 0.0671880841255188    Time: 0.309 seconds/iteration
+2021-12-07 13:42:53,045 Epoch 0/2      Iteration 15400/20000    loss: 0.0668693333864212    Time: 0.307 seconds/iteration
+2021-12-07 13:43:00,478 Epoch 0/2      Iteration 15700/20000    loss: 0.06675062328577042    Time: 0.302 seconds/iteration
+2021-12-07 13:43:19,207 Epoch 0/2      Iteration 15400/20000    loss: 0.2842056453227997    Time: 0.309 seconds/iteration
+2021-12-07 13:43:34,775 Epoch 0/2      Iteration 15500/20000    loss: 0.06686554104089737    Time: 0.308 seconds/iteration
+2021-12-07 13:43:39,678 Epoch 0/2      Iteration 15800/20000    loss: 0.06674867123365402    Time: 0.302 seconds/iteration
+2021-12-07 13:43:59,540 Epoch 0/2      Iteration 15500/20000    loss: 0.35929957032203674    Time: 0.309 seconds/iteration
+2021-12-07 13:44:14,985 Epoch 0/2      Iteration 15900/20000    loss: 0.06674466282129288    Time: 0.303 seconds/iteration
+2021-12-07 13:44:16,206 Epoch 0/2      Iteration 15600/20000    loss: 0.06686319410800934    Time: 0.309 seconds/iteration
+2021-12-07 13:44:39,144 Epoch 0/2      Iteration 15600/20000    loss: 0.06717666983604431    Time: 0.31 seconds/iteration
+2021-12-07 13:44:55,722 Epoch 0/2      Iteration 16000/20000    loss: 0.06674256175756454    Time: 0.303 seconds/iteration
+2021-12-07 13:44:59,923 Epoch 0/2      Iteration 15700/20000    loss: 0.06686066836118698    Time: 0.309 seconds/iteration
+2021-12-07 13:45:20,049 Epoch 0/2      Iteration 15700/20000    loss: 0.06718150526285172    Time: 0.311 seconds/iteration
+2021-12-07 13:45:41,087 Epoch 0/2      Iteration 16100/20000    loss: 0.06673982739448547    Time: 0.304 seconds/iteration
+2021-12-07 13:45:42,526 Epoch 0/2      Iteration 15800/20000    loss: 0.06685779243707657    Time: 0.31 seconds/iteration
+2021-12-07 13:46:00,866 Epoch 0/2      Iteration 15800/20000    loss: 0.06718043982982635    Time: 0.311 seconds/iteration
+2021-12-07 13:46:23,080 Epoch 0/2      Iteration 16200/20000    loss: 0.06673600524663925    Time: 0.305 seconds/iteration
+2021-12-07 13:46:32,345 Epoch 0/2      Iteration 15900/20000    loss: 0.06685569882392883    Time: 0.311 seconds/iteration
+2021-12-07 13:48:06,038 Epoch 0/2      Iteration 15900/20000    loss: 0.30403828620910645    Time: 0.317 seconds/iteration
+2021-12-07 13:48:49,536 Epoch 0/2      Iteration 16300/20000    loss: 0.06673330068588257    Time: 0.312 seconds/iteration
+2021-12-07 13:49:00,027 Epoch 0/2      Iteration 16000/20000    loss: 0.06685149669647217    Time: 0.319 seconds/iteration
+2021-12-07 13:50:53,665 Epoch 0/2      Iteration 16000/20000    loss: 0.06717507541179657    Time: 0.326 seconds/iteration
+2021-12-07 13:51:24,350 Epoch 0/2      Iteration 16400/20000    loss: 0.06673043966293335    Time: 0.32 seconds/iteration
+2021-12-07 13:51:29,683 Epoch 0/2      Iteration 16100/20000    loss: 0.06684917211532593    Time: 0.326 seconds/iteration
+2021-12-07 13:53:38,683 Epoch 0/2      Iteration 16100/20000    loss: 0.06717537343502045    Time: 0.334 seconds/iteration
+2021-12-07 13:53:50,019 Epoch 0/2      Iteration 16500/20000    loss: 0.06672707200050354    Time: 0.327 seconds/iteration
+2021-12-07 13:53:57,759 Epoch 0/2      Iteration 16200/20000    loss: 0.06684638559818268    Time: 0.333 seconds/iteration
+2021-12-07 13:56:16,631 Epoch 0/2      Iteration 16600/20000    loss: 0.06672463566064835    Time: 0.333 seconds/iteration
+2021-12-07 13:56:24,282 Epoch 0/2      Iteration 16200/20000    loss: 0.06717623025178909    Time: 0.342 seconds/iteration
+2021-12-07 13:56:26,871 Epoch 0/2      Iteration 16300/20000    loss: 0.06684377789497375    Time: 0.34 seconds/iteration
+2021-12-07 13:57:36,544 Epoch 0/2      Iteration 16700/20000    loss: 0.06672115623950958    Time: 0.336 seconds/iteration
+2021-12-07 13:57:42,173 Epoch 0/2      Iteration 16400/20000    loss: 0.06684164702892303    Time: 0.343 seconds/iteration
+2021-12-07 13:57:43,745 Epoch 0/2      Iteration 16300/20000    loss: 0.27205944061279297    Time: 0.345 seconds/iteration
+2021-12-07 13:58:16,246 Epoch 0/2      Iteration 16800/20000    loss: 0.06671787053346634    Time: 0.337 seconds/iteration
+2021-12-07 13:58:19,311 Epoch 0/2      Iteration 16400/20000    loss: 0.06717661768198013    Time: 0.345 seconds/iteration
+2021-12-07 13:58:23,264 Epoch 0/2      Iteration 16500/20000    loss: 0.06683740019798279    Time: 0.343 seconds/iteration
+2021-12-07 13:58:55,891 Epoch 0/2      Iteration 16900/20000    loss: 0.06671586632728577    Time: 0.337 seconds/iteration
+2021-12-07 13:58:55,897 Epoch 0/2      Iteration 16500/20000    loss: 0.06717032194137573    Time: 0.345 seconds/iteration
+2021-12-07 13:59:02,555 Epoch 0/2      Iteration 16600/20000    loss: 0.06683497130870819    Time: 0.343 seconds/iteration
+2021-12-07 13:59:30,855 Epoch 0/2      Iteration 17000/20000    loss: 0.06671247631311417    Time: 0.337 seconds/iteration
+2021-12-07 13:59:39,209 Epoch 0/2      Iteration 16600/20000    loss: 0.06716667860746384    Time: 0.346 seconds/iteration
+2021-12-07 13:59:40,478 Epoch 0/2      Iteration 16700/20000    loss: 0.06683140993118286    Time: 0.344 seconds/iteration
+2021-12-07 14:00:12,636 Epoch 0/2      Iteration 17100/20000    loss: 0.06670832633972168    Time: 0.337 seconds/iteration
+2021-12-07 14:00:19,160 Epoch 0/2      Iteration 16700/20000    loss: 0.06716269999742508    Time: 0.346 seconds/iteration
+2021-12-07 14:00:21,789 Epoch 0/2      Iteration 16800/20000    loss: 0.0668288916349411    Time: 0.344 seconds/iteration
+2021-12-07 14:00:47,527 Epoch 0/2      Iteration 17200/20000    loss: 0.06670614331960678    Time: 0.338 seconds/iteration
+2021-12-07 14:00:57,317 Epoch 0/2      Iteration 16800/20000    loss: 0.0671638622879982    Time: 0.346 seconds/iteration
+2021-12-07 14:00:58,292 Epoch 0/2      Iteration 16900/20000    loss: 0.06682762503623962    Time: 0.344 seconds/iteration
+2021-12-07 14:01:29,872 Epoch 0/2      Iteration 16900/20000    loss: 0.06734760850667953    Time: 0.346 seconds/iteration
+2021-12-07 14:01:35,201 Epoch 0/2      Iteration 17300/20000    loss: 0.06670356541872025    Time: 0.338 seconds/iteration
+2021-12-07 14:01:49,570 Epoch 0/2      Iteration 17000/20000    loss: 0.06682413071393967    Time: 0.345 seconds/iteration
+2021-12-07 14:02:14,727 Epoch 0/2      Iteration 17000/20000    loss: 0.06716702878475189    Time: 0.347 seconds/iteration
+2021-12-07 14:02:15,599 Epoch 0/2      Iteration 17400/20000    loss: 0.06670071929693222    Time: 0.339 seconds/iteration
+2021-12-07 14:02:32,739 Epoch 0/2      Iteration 17100/20000    loss: 0.06682240962982178    Time: 0.346 seconds/iteration
+2021-12-07 14:02:53,450 Epoch 0/2      Iteration 17100/20000    loss: 0.0671607106924057    Time: 0.347 seconds/iteration
+2021-12-07 14:02:58,062 Epoch 0/2      Iteration 17500/20000    loss: 0.06669718772172928    Time: 0.339 seconds/iteration
+2021-12-07 14:03:13,711 Epoch 0/2      Iteration 17200/20000    loss: 0.06681904941797256    Time: 0.346 seconds/iteration
+2021-12-07 14:03:30,746 Epoch 0/2      Iteration 17200/20000    loss: 0.067153200507164    Time: 0.347 seconds/iteration
+2021-12-07 14:03:39,649 Epoch 0/2      Iteration 17600/20000    loss: 0.0666947066783905    Time: 0.34 seconds/iteration
+2021-12-07 14:03:52,465 Epoch 0/2      Iteration 17300/20000    loss: 0.06681548058986664    Time: 0.346 seconds/iteration
+2021-12-07 14:04:13,026 Epoch 0/2      Iteration 17300/20000    loss: 0.06715811789035797    Time: 0.347 seconds/iteration
+2021-12-07 14:04:19,365 Epoch 0/2      Iteration 17700/20000    loss: 0.06669019162654877    Time: 0.34 seconds/iteration
+2021-12-07 14:04:30,197 Epoch 0/2      Iteration 17400/20000    loss: 0.0668143555521965    Time: 0.346 seconds/iteration
+2021-12-07 14:04:50,306 Epoch 0/2      Iteration 17400/20000    loss: 0.0671514943242073    Time: 0.348 seconds/iteration
+2021-12-07 14:04:59,006 Epoch 0/2      Iteration 17800/20000    loss: 0.06668848544359207    Time: 0.34 seconds/iteration
+2021-12-07 14:05:13,153 Epoch 0/2      Iteration 17500/20000    loss: 0.06681174784898758    Time: 0.347 seconds/iteration
+2021-12-07 14:05:30,643 Epoch 0/2      Iteration 17500/20000    loss: 0.06715717911720276    Time: 0.348 seconds/iteration
+2021-12-07 14:05:40,074 Epoch 0/2      Iteration 17900/20000    loss: 0.06668565422296524    Time: 0.341 seconds/iteration
+2021-12-07 14:05:56,936 Epoch 0/2      Iteration 17600/20000    loss: 0.06680839508771896    Time: 0.347 seconds/iteration
+2021-12-07 14:06:08,786 Epoch 0/2      Iteration 17600/20000    loss: 0.2788012623786926    Time: 0.348 seconds/iteration
+2021-12-07 14:06:18,868 Epoch 0/2      Iteration 18000/20000    loss: 0.0666823536157608    Time: 0.341 seconds/iteration
+2021-12-07 14:06:39,289 Epoch 0/2      Iteration 17700/20000    loss: 0.06680403649806976    Time: 0.348 seconds/iteration
+2021-12-07 14:06:50,640 Epoch 0/2      Iteration 17700/20000    loss: 0.1936269849538803    Time: 0.348 seconds/iteration
+2021-12-07 14:06:56,539 Epoch 0/2      Iteration 18100/20000    loss: 0.06667886674404144    Time: 0.341 seconds/iteration
+2021-12-07 14:07:17,887 Epoch 0/2      Iteration 17800/20000    loss: 0.06680190563201904    Time: 0.348 seconds/iteration
+2021-12-07 14:07:28,446 Epoch 0/2      Iteration 17800/20000    loss: 0.06715576350688934    Time: 0.349 seconds/iteration
+2021-12-07 14:07:36,580 Epoch 0/2      Iteration 18200/20000    loss: 0.06667698174715042    Time: 0.341 seconds/iteration
+2021-12-07 14:07:59,146 Epoch 0/2      Iteration 17900/20000    loss: 0.06679835170507431    Time: 0.348 seconds/iteration
+2021-12-07 14:08:10,465 Epoch 0/2      Iteration 17900/20000    loss: 0.06715094298124313    Time: 0.349 seconds/iteration
+2021-12-07 14:08:15,490 Epoch 0/2      Iteration 18300/20000    loss: 0.06667400896549225    Time: 0.342 seconds/iteration
+2021-12-07 14:08:46,498 Epoch 0/2      Iteration 18000/20000    loss: 0.06679604202508926    Time: 0.349 seconds/iteration
+2021-12-07 14:08:56,893 Epoch 0/2      Iteration 18400/20000    loss: 0.06667006015777588    Time: 0.342 seconds/iteration
+2021-12-07 14:08:57,468 Epoch 0/2      Iteration 18000/20000    loss: 0.06714953482151031    Time: 0.35 seconds/iteration
+2021-12-07 14:09:27,183 Epoch 0/2      Iteration 18100/20000    loss: 0.06679348647594452    Time: 0.349 seconds/iteration
+2021-12-07 14:09:29,874 Epoch 0/2      Iteration 18500/20000    loss: 0.06666873395442963    Time: 0.342 seconds/iteration
+2021-12-07 14:09:35,299 Epoch 0/2      Iteration 18100/20000    loss: 0.06714635342359543    Time: 0.35 seconds/iteration
+2021-12-07 14:10:07,509 Epoch 0/2      Iteration 18200/20000    loss: 0.06679104268550873    Time: 0.35 seconds/iteration
+2021-12-07 14:10:13,188 Epoch 0/2      Iteration 18600/20000    loss: 0.06666265428066254    Time: 0.343 seconds/iteration
+2021-12-07 14:10:13,511 Epoch 0/2      Iteration 18200/20000    loss: 0.06715117394924164    Time: 0.35 seconds/iteration
+2021-12-07 14:10:45,940 Epoch 0/2      Iteration 18300/20000    loss: 0.06678743660449982    Time: 0.35 seconds/iteration
+2021-12-07 14:10:49,818 Epoch 0/2      Iteration 18700/20000    loss: 0.06666216999292374    Time: 0.343 seconds/iteration
+2021-12-07 14:10:51,187 Epoch 0/2      Iteration 18300/20000    loss: 0.06713906675577164    Time: 0.35 seconds/iteration
+2021-12-07 14:11:28,399 Epoch 0/2      Iteration 18400/20000    loss: 0.06678412109613419    Time: 0.35 seconds/iteration
+2021-12-07 14:11:30,926 Epoch 0/2      Iteration 18800/20000    loss: 0.06665921956300735    Time: 0.343 seconds/iteration
+2021-12-07 14:11:31,844 Epoch 0/2      Iteration 18400/20000    loss: 0.06713473051786423    Time: 0.351 seconds/iteration
+2021-12-07 14:12:10,253 Epoch 0/2      Iteration 18500/20000    loss: 0.06678184121847153    Time: 0.351 seconds/iteration
+2021-12-07 14:12:12,389 Epoch 0/2      Iteration 18900/20000    loss: 0.06665650010108948    Time: 0.343 seconds/iteration
+2021-12-07 14:12:14,503 Epoch 0/2      Iteration 18500/20000    loss: 0.06714373826980591    Time: 0.351 seconds/iteration
+2021-12-07 14:12:48,980 Epoch 0/2      Iteration 18600/20000    loss: 0.07112926989793777    Time: 0.351 seconds/iteration
+2021-12-07 14:12:49,796 Epoch 0/2      Iteration 19000/20000    loss: 0.06665302813053131    Time: 0.344 seconds/iteration
+2021-12-07 14:12:53,152 Epoch 0/2      Iteration 18600/20000    loss: 0.06677882373332977    Time: 0.351 seconds/iteration
+2021-12-07 14:13:24,131 Epoch 0/2      Iteration 19100/20000    loss: 0.06665033847093582    Time: 0.344 seconds/iteration
+2021-12-07 14:13:27,215 Epoch 0/2      Iteration 18700/20000    loss: 0.09845347702503204    Time: 0.351 seconds/iteration
+2021-12-07 14:13:30,978 Epoch 0/2      Iteration 18700/20000    loss: 0.06677616387605667    Time: 0.351 seconds/iteration
+2021-12-07 14:14:00,197 Epoch 0/2      Iteration 19200/20000    loss: 0.06664638966321945    Time: 0.344 seconds/iteration
+2021-12-07 14:14:08,772 Epoch 0/2      Iteration 18800/20000    loss: 0.06712484359741211    Time: 0.351 seconds/iteration
+2021-12-07 14:14:09,232 Epoch 0/2      Iteration 18800/20000    loss: 0.06677332520484924    Time: 0.351 seconds/iteration
+2021-12-07 14:14:36,928 Epoch 0/2      Iteration 19300/20000    loss: 0.06664370745420456    Time: 0.344 seconds/iteration
+2021-12-07 14:14:48,799 Epoch 0/2      Iteration 18900/20000    loss: 0.06677205860614777    Time: 0.352 seconds/iteration
+2021-12-07 14:14:57,197 Epoch 0/2      Iteration 18900/20000    loss: 0.06712913513183594    Time: 0.352 seconds/iteration
+2021-12-07 14:15:28,864 Epoch 0/2      Iteration 19400/20000    loss: 0.0666407123208046    Time: 0.345 seconds/iteration
+2021-12-07 14:15:43,713 Epoch 0/2      Iteration 19000/20000    loss: 0.06676709651947021    Time: 0.353 seconds/iteration
+2021-12-07 14:15:44,258 Epoch 0/2      Iteration 19000/20000    loss: 0.06713301688432693    Time: 0.353 seconds/iteration
+2021-12-07 14:16:09,906 Epoch 0/2      Iteration 19500/20000    loss: 0.06663783639669418    Time: 0.345 seconds/iteration
+2021-12-07 14:16:30,115 Epoch 0/2      Iteration 19100/20000    loss: 0.06676555424928665    Time: 0.353 seconds/iteration
+2021-12-07 14:16:42,752 Epoch 0/2      Iteration 19100/20000    loss: 0.0671284943819046    Time: 0.354 seconds/iteration
+2021-12-07 14:17:05,624 Epoch 0/2      Iteration 19600/20000    loss: 0.06663476675748825    Time: 0.346 seconds/iteration
+2021-12-07 14:17:33,779 Epoch 0/2      Iteration 19200/20000    loss: 0.06676214933395386    Time: 0.355 seconds/iteration
+2021-12-07 14:17:52,312 Epoch 0/2      Iteration 19200/20000    loss: 0.06712464243173599    Time: 0.356 seconds/iteration
+2021-12-07 14:18:08,346 Epoch 0/2      Iteration 19700/20000    loss: 0.06663227826356888    Time: 0.348 seconds/iteration
+2021-12-07 14:18:40,010 Epoch 0/2      Iteration 19300/20000    loss: 0.06676023453474045    Time: 0.356 seconds/iteration
+2021-12-07 14:19:03,390 Epoch 0/2      Iteration 19300/20000    loss: 0.1735963523387909    Time: 0.358 seconds/iteration
+2021-12-07 14:19:14,937 Epoch 0/2      Iteration 19800/20000    loss: 0.06662879139184952    Time: 0.349 seconds/iteration
+2021-12-07 14:19:54,472 Epoch 0/2      Iteration 19400/20000    loss: 0.06675665080547333    Time: 0.358 seconds/iteration
+2021-12-07 14:20:24,816 Epoch 0/2      Iteration 19400/20000    loss: 0.11782322824001312    Time: 0.36 seconds/iteration
+2021-12-07 14:20:40,717 Epoch 0/2      Iteration 19900/20000    loss: 0.06662444025278091    Time: 0.352 seconds/iteration
+2021-12-07 14:21:31,576 Epoch 0/2      Iteration 19500/20000    loss: 0.06675343960523605    Time: 0.361 seconds/iteration
+2021-12-07 14:21:52,022 Epoch 0/2      Iteration 19500/20000    loss: 0.06712360680103302    Time: 0.363 seconds/iteration
+2021-12-07 14:22:18,108 Save the model after epoch 0
+2021-12-07 14:22:18,126 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.0669218805141747        time: 1:58:16.258409
+============================================================================================================================
+
+2021-12-07 14:22:19,139 Epoch 1/2      Iteration 0/20000    loss: 0.06662264466285706    Time: 0.989 seconds/iteration
+2021-12-07 14:23:03,039 Epoch 0/2      Iteration 19600/20000    loss: 0.06674912571907043    Time: 0.364 seconds/iteration
+2021-12-07 14:23:30,090 Epoch 0/2      Iteration 19600/20000    loss: 0.0671321451663971    Time: 0.366 seconds/iteration
+2021-12-07 14:23:53,239 Epoch 1/2      Iteration 100/20000    loss: 0.0666193962097168    Time: 0.941 seconds/iteration
+2021-12-07 14:24:38,212 Epoch 0/2      Iteration 19700/20000    loss: 0.06674741208553314    Time: 0.367 seconds/iteration
+2021-12-07 14:25:11,624 Epoch 0/2      Iteration 19700/20000    loss: 0.06712373346090317    Time: 0.369 seconds/iteration
+2021-12-07 14:25:29,984 Epoch 1/2      Iteration 200/20000    loss: 0.06661662459373474    Time: 0.954 seconds/iteration
+2021-12-07 14:26:19,475 Epoch 0/2      Iteration 19800/20000    loss: 0.06674495339393616    Time: 0.371 seconds/iteration
+2021-12-07 14:26:55,911 Epoch 0/2      Iteration 19800/20000    loss: 0.08039870113134384    Time: 0.372 seconds/iteration
+2021-12-07 14:27:08,634 Epoch 1/2      Iteration 300/20000    loss: 0.06661360710859299    Time: 0.965 seconds/iteration
+2021-12-07 14:28:14,133 Epoch 0/2      Iteration 19900/20000    loss: 0.06674143671989441    Time: 0.374 seconds/iteration
+2021-12-07 14:29:45,331 Epoch 1/2      Iteration 400/20000    loss: 0.06661108881235123    Time: 1.115 seconds/iteration
+2021-12-07 14:30:02,821 Epoch 0/2      Iteration 19900/20000    loss: 0.06711927056312561    Time: 0.38 seconds/iteration
+2021-12-07 14:31:09,490 Save the model after epoch 0
+2021-12-07 14:31:09,529 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.06708438600227237        time: 2:07:07.492059
+============================================================================================================================
+
+2021-12-07 14:31:11,426 Epoch 1/2      Iteration 0/20000    loss: 0.06673750281333923    Time: 1.89 seconds/iteration
+2021-12-07 14:33:01,408 Epoch 1/2      Iteration 500/20000    loss: 0.06660691648721695    Time: 1.284 seconds/iteration
+2021-12-07 14:33:19,346 Save the model after epoch 0
+2021-12-07 14:33:19,385 
+============================================================================================================================
+Epoch 0/2     Train loss: 0.39132720987088976        time: 2:09:17.301485
+============================================================================================================================
+
+2021-12-07 14:33:21,526 Epoch 1/2      Iteration 0/20000    loss: 0.0671173632144928    Time: 2.128 seconds/iteration
+2021-12-07 14:34:02,934 Epoch 1/2      Iteration 100/20000    loss: 0.06673585623502731    Time: 1.717 seconds/iteration
+2021-12-07 14:35:30,182 Epoch 1/2      Iteration 600/20000    loss: 0.06660463660955429    Time: 1.318 seconds/iteration
+2021-12-07 14:35:43,422 Epoch 1/2      Iteration 100/20000    loss: 0.06712318956851959    Time: 1.426 seconds/iteration
+2021-12-07 14:37:02,562 Epoch 1/2      Iteration 200/20000    loss: 0.06673283129930496    Time: 1.756 seconds/iteration
+2021-12-07 14:38:40,728 Epoch 1/2      Iteration 200/20000    loss: 0.24147720634937286    Time: 1.599 seconds/iteration
+2021-12-07 14:39:04,330 Epoch 1/2      Iteration 700/20000    loss: 0.06660138070583344    Time: 1.435 seconds/iteration
+2021-12-07 14:40:40,398 Epoch 1/2      Iteration 300/20000    loss: 0.06672916561365128    Time: 1.897 seconds/iteration
+2021-12-07 14:41:49,407 Epoch 1/2      Iteration 300/20000    loss: 0.0671166405081749    Time: 1.694 seconds/iteration
+2021-12-07 14:42:36,215 Epoch 1/2      Iteration 800/20000    loss: 0.06659815460443497    Time: 1.521 seconds/iteration
+2021-12-07 14:44:08,431 Epoch 1/2      Iteration 400/20000    loss: 0.06672683358192444    Time: 1.942 seconds/iteration
+2021-12-07 14:44:47,888 Epoch 1/2      Iteration 400/20000    loss: 0.06711956113576889    Time: 1.717 seconds/iteration
+2021-12-07 14:46:08,649 Epoch 1/2      Iteration 900/20000    loss: 0.06659558415412903    Time: 1.588 seconds/iteration
+2021-12-07 14:47:34,931 Epoch 1/2      Iteration 500/20000    loss: 0.06672409176826477    Time: 1.967 seconds/iteration
+2021-12-07 14:47:52,070 Epoch 1/2      Iteration 500/20000    loss: 0.0671076774597168    Time: 1.742 seconds/iteration
+2021-12-07 14:49:24,196 Epoch 1/2      Iteration 1000/20000    loss: 0.06659307330846786    Time: 1.624 seconds/iteration
+2021-12-07 14:50:42,241 Epoch 1/2      Iteration 600/20000    loss: 0.06711096316576004    Time: 1.735 seconds/iteration
+2021-12-07 14:50:53,513 Epoch 1/2      Iteration 600/20000    loss: 0.06672104448080063    Time: 1.97 seconds/iteration
+2021-12-07 14:52:56,257 Epoch 1/2      Iteration 1100/20000    loss: 0.06658919900655746    Time: 1.669 seconds/iteration
+2021-12-07 14:53:46,899 Epoch 1/2      Iteration 700/20000    loss: 0.06710001826286316    Time: 1.751 seconds/iteration
+2021-12-07 14:54:26,126 Epoch 1/2      Iteration 700/20000    loss: 0.06671765446662903    Time: 1.992 seconds/iteration
+2021-12-07 14:56:32,293 Epoch 1/2      Iteration 1200/20000    loss: 0.06658603250980377    Time: 1.71 seconds/iteration
+2021-12-07 14:56:48,506 Epoch 1/2      Iteration 800/20000    loss: 0.11073776334524155    Time: 1.759 seconds/iteration
+2021-12-07 14:57:56,745 Epoch 1/2      Iteration 800/20000    loss: 0.06671459972858429    Time: 2.007 seconds/iteration
+2021-12-07 14:59:53,940 Epoch 1/2      Iteration 900/20000    loss: 0.06710271537303925    Time: 1.77 seconds/iteration
+2021-12-07 15:00:04,905 Epoch 1/2      Iteration 1300/20000    loss: 0.06658387184143066    Time: 1.742 seconds/iteration
+2021-12-07 15:01:29,242 Epoch 1/2      Iteration 900/20000    loss: 0.06671123951673508    Time: 2.02 seconds/iteration
+2021-12-07 15:02:57,436 Epoch 1/2      Iteration 1000/20000    loss: 0.06709598004817963    Time: 1.776 seconds/iteration
+2021-12-07 15:03:37,454 Epoch 1/2      Iteration 1400/20000    loss: 0.06657981872558594    Time: 1.77 seconds/iteration
+2021-12-07 15:04:57,568 Epoch 1/2      Iteration 1000/20000    loss: 0.0667094737291336    Time: 2.026 seconds/iteration
+2021-12-07 15:06:02,550 Epoch 1/2      Iteration 1100/20000    loss: 0.06709839403629303    Time: 1.783 seconds/iteration
+2021-12-07 15:07:14,620 Epoch 1/2      Iteration 1500/20000    loss: 0.06657768785953522    Time: 1.796 seconds/iteration
+2021-12-07 15:08:34,565 Epoch 1/2      Iteration 1100/20000    loss: 0.06670601665973663    Time: 2.039 seconds/iteration
+2021-12-07 15:09:01,126 Epoch 1/2      Iteration 1200/20000    loss: 0.06710002571344376    Time: 1.783 seconds/iteration
+2021-12-07 15:10:47,687 Epoch 1/2      Iteration 1600/20000    loss: 0.06657510250806808    Time: 1.817 seconds/iteration
+2021-12-07 15:12:02,170 Epoch 1/2      Iteration 1300/20000    loss: 0.06709622591733932    Time: 1.785 seconds/iteration
+2021-12-07 15:12:09,246 Epoch 1/2      Iteration 1200/20000    loss: 0.06670268625020981    Time: 2.048 seconds/iteration
+2021-12-07 15:14:16,500 Epoch 1/2      Iteration 1700/20000    loss: 0.06657183915376663    Time: 1.833 seconds/iteration
+grid_search.sh: line 100:  3213 Killed                  CUDA_VISIBLE_DEVICES=3 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 3 --margin 0.2 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_3_0.2'
+grid_search.sh: line 100:  3214 Killed                  CUDA_VISIBLE_DEVICES=7 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 3 --margin 2 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_3_2'
+grid_search.sh: line 101:  3212 Killed                  CUDA_VISIBLE_DEVICES=1 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 3 --margin 0.02 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_3_0.02'
+2021-12-07 15:15:05,858 Training for 2 epochs
+2021-12-07 15:15:05,877 Training for 2 epochs
+2021-12-07 15:15:06,072 Training for 2 epochs
+2021-12-07 15:15:12,332 Epoch 0/2      Iteration 0/20000    loss: 0.06725343316793442    Time: 6.259 seconds/iteration
+2021-12-07 15:15:12,450 Epoch 0/2      Iteration 0/20000    loss: 0.06721051782369614    Time: 6.573 seconds/iteration
+2021-12-07 15:15:12,638 Epoch 0/2      Iteration 0/20000    loss: 1.8047561645507812    Time: 6.779 seconds/iteration
+grid_search.sh: line 104:  3844 Killed                  CUDA_VISIBLE_DEVICES=3 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 5 --margin 0.2 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_5_0.2'
+grid_search.sh: line 104:  3845 Killed                  CUDA_VISIBLE_DEVICES=7 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 5 --margin 2 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_5_2'
+grid_search.sh: line 105:  3843 Killed                  CUDA_VISIBLE_DEVICES=1 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 5 --margin 0.02 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_5_0.02'
+2021-12-07 15:17:09,901 Training for 2 epochs
+2021-12-07 15:17:10,125 Training for 2 epochs
+2021-12-07 15:17:10,321 Training for 2 epochs
+grid_search.sh: line 108:  4329 Killed                  CUDA_VISIBLE_DEVICES=1 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 10 --margin 0.02 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_10_0.02'
+grid_search.sh: line 108:  4330 Killed                  CUDA_VISIBLE_DEVICES=3 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 10 --margin 0.2 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_10_0.2'
+grid_search.sh: line 108:  4331 Killed                  CUDA_VISIBLE_DEVICES=7 python TrainingAnomalyDetector_public.py --features_path 'data/anomaly_features' --annotation_path 'Train_Annotation.txt' --network_name 'TripletAnomalyDetector' --objective_name 'triplet_objective_sampling' --lr_base 0.01 --epochs 2 --output_dim 128 --dropout_rate 0.5 --lambdas 8e-05 --top_anomaly_frames 10 --top_normal_frames 10 --margin 2 --exps_dir 'exps/grid_search/triplet_0.01_2_128_0.5_8e-05_10_10_2'
+2021-12-07 15:17:22,470 Training for 2 epochs
+2021-12-07 15:17:22,606 Training for 2 epochs
+2021-12-07 15:17:22,788 Training for 2 epochs

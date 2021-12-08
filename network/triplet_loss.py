@@ -1,6 +1,7 @@
 import torch
 from torch.nn import functional as F
-
+from pytorch_metric_learning.miners import MultiSimilarityMiner, TripletMarginMiner
+from pytorch_metric_learning.losses import TripletMarginLoss
 
 def triplet_objective(normalized_embeddings, y_true):
     # normalized_embeddings (batch_size, 32, embed_dim)

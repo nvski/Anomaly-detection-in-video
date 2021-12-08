@@ -19,7 +19,7 @@ custom_namespace = {
     'AnomalyDetector': AnomalyDetector,
     'custom_objective': custom_objective,
     'triplet_objective': triplet_objective,
-    'triplet_objective_sampling': triplet_objective_sampling,
+    'triplet_objective_sampling': triplet_objective_sampling
 }
 
 def get_args():

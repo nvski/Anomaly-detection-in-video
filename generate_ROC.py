@@ -31,7 +31,7 @@ def get_args():
                         help="filename for ROC-AUC image")
     return parser.parse_args()
 
-
+    
 def get_centroids(model, data_iter):
     
     device = torch.device("cuda" if torch.cuda.is_available()
@@ -159,4 +159,4 @@ if __name__ == "__main__":
     os.makedirs('graphs', exist_ok=True)
     plt.savefig(path.join('graphs', args.filename))
     plt.close()
-    print('ROC curve (area = %0.2f)' % roc_auc)
+    print('ROC curve (area = %0.3f)' % roc_auc)
