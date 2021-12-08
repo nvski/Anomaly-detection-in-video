@@ -27,6 +27,16 @@ def get_args():
                         help="path to features")
     parser.add_argument('--train_annotation_path', default="Train_Annotation.txt",
                         help="path to annotations")
+
+    save_to_pt_folder_parser = parser.add_mutually_exclusive_group(required=False)
+    save_to_pt_folder_parser.add_argument('--save_to_pt_folder', dest='save_to_pt_folder', action='store_true')
+    save_to_pt_folder_parser.add_argument('--no_save_to_pt_folder', dest='save_to_pt_folder', action='store_false')
+    save_to_pt_folder_parser.set_defaults(save_to_pt_folder=False)
+
+    use_centroid_parser = parser.add_mutually_exclusive_group(required=False)
+    use_centroid_parser.add_argument('--use_centroid', dest='use_centroid', action='store_true')
+    use_centroid_parser.add_argument('--no_use_centroid', dest='use_centroid', action='store_false')
+    use_centroid_parser.set_defaults(use_centroid=False)
     return parser.parse_args()
 
 
@@ -80,7 +90,8 @@ if __name__ == "__main__":
     
     
     train_data_loader = FeaturesLoader(features_path=args.train_features_path,
-                                       annotation_path=args.train_annotation_path)
+                                       annotation_path=args.train_annotation_path,
+                                       iterations=2000)
 
     train_data_iter = torch.utils.data.DataLoader(train_data_loader,
                                             batch_size=1,
@@ -96,8 +107,12 @@ if __name__ == "__main__":
 
     y_trues = torch.tensor([])
     y_preds = torch.tensor([])
-    
-    centroids = get_centroids(model, train_data_iter)
+
+    if args.use_centroid:
+        print('Use normal centroids to calculate the anomaly score')
+        centroids = get_centroids(model, train_data_iter)
+    else:
+        print('Use 1st video segment to calculate the anomaly score')
 
     with torch.no_grad():
         for features, start_end_couples, lengths in tqdm(data_iter):
@@ -120,8 +135,10 @@ if __name__ == "__main__":
                     segment_start_frame = i * segments_len
                     segment_end_frame = (i + 1) * segments_len
                     if args.calc_mode == 'triplet':
-                        #y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0])**2).sum(-1)
-                        y_pred[segment_start_frame: segment_end_frame] = ((output[i] - centroids[0])**2).sum(-1)
+                        if args.use_centroid:
+                            y_pred[segment_start_frame: segment_end_frame] = ((output[i] - centroids[0])**2).sum(-1)
+                        else:
+                            y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0])**2).sum(-1)
                     else: # default MIL calculation
                         y_pred[segment_start_frame: segment_end_frame] = output[i]
 
@@ -147,5 +164,11 @@ if __name__ == "__main__":
 
     os.makedirs('graphs', exist_ok=True)
     plt.savefig(path.join('graphs', 'roc_auc.png'))
-    plt.close()
     print('ROC curve (area = %0.2f)' % roc_auc)
+    if args.save_to_pt_folder:
+        save_folder_path = f"{os.sep}".join(args.model_path.split(os.sep)[:-1])
+        save_name = args.model_path.split(os.sep)[-1].split('.')[0]
+        plt.savefig(path.join(save_folder_path, save_name+'_roc_auc.png'))
+        with open(path.join(save_folder_path, save_name+'_roc_auc.txt'), 'w') as f:
+            f.write('ROC curve (area = %0.2f)' % roc_auc)
+    plt.close()

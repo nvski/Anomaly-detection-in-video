@@ -1,7 +1,10 @@
 import argparse
 import os
+from datetime import datetime
+import uuid
+import json
 from os import path
-
+import inspect
 import torch
 import torch.backends.cudnn as cudnn
 from torch.utils.tensorboard import SummaryWriter
@@ -9,6 +12,7 @@ from torch.utils.tensorboard import SummaryWriter
 from features_loader import FeaturesLoader
 from network.TorchUtils import TorchModel
 from network.anomaly_detector_model import AnomalyDetector, custom_objective, RegularizedLoss
+from network.pytorch_metrics_learning_objective import PytorchMetricLearningObjectiveWithSampling
 from network.triplet_anomaly_detector_model import TripletAnomalyDetector
 from network.triplet_loss import triplet_objective
 from utils.callbacks import DefaultModelCallback, TensorBoardCallback
@@ -18,7 +22,8 @@ custom_namespace = {
     'TripletAnomalyDetector': TripletAnomalyDetector,
     'AnomalyDetector': AnomalyDetector,
     'custom_objective': custom_objective,
-    'triplet_objective': triplet_objective
+    'triplet_objective': triplet_objective,
+    'PytorchMetricLearningObjectiveWithSampling': PytorchMetricLearningObjectiveWithSampling
 }
 
 
@@ -40,20 +45,50 @@ def get_args():
     # optimization
     parser.add_argument('--batch_size', type=int, default=60,
                         help="batch size")
+    # model params
+    parser.add_argument('--network_name', type=str, default='AnomalyDetector',
+                        help="name of network")
     parser.add_argument('--feature_dim', type=int, default=4096,
-                        help="batch size")
+                        help="feature dimensionality")
+    parser.add_argument('--output_dim', type=int, default=128,
+                        help="output dim")
+    parser.add_argument('--dropout_rate', type=float, default=0.5,
+                        help="dropout rate of the linear layers")
+
+    use_last_bn_parser = parser.add_mutually_exclusive_group(required=False)
+    use_last_bn_parser.add_argument('--use_last_bn', dest='use_last_bn', action='store_true')
+    use_last_bn_parser.add_argument('--no_use_last_bn', dest='use_last_bn', action='store_false')
+    use_last_bn_parser.set_defaults(use_last_bn=True)
+
+    norm_out_to_unit_parser = parser.add_mutually_exclusive_group(required=False)
+    norm_out_to_unit_parser.add_argument('--norm_out_to_unit', dest='norm_out_to_unit', action='store_true')
+    norm_out_to_unit_parser.add_argument('--no_norm_out_to_unit', dest='norm_out_to_unit', action='store_false')
+    norm_out_to_unit_parser.set_defaults(norm_out_to_unit=True)
+
+    norm_on_eval_parser = parser.add_mutually_exclusive_group(required=False)
+    norm_on_eval_parser.add_argument('--norm_on_eval', dest='norm_on_eval', action='store_true')
+    norm_on_eval_parser.add_argument('--no_norm_on_eval', dest='norm_on_eval', action='store_false')
+    norm_on_eval_parser.set_defaults(norm_on_eval=True)
+
+
     parser.add_argument('--save_every', type=int, default=1,
                         help="epochs interval for saving the model checkpoints")
+    parser.add_argument('--optimizer', type=str, default='adadelta', help="optimizer")
     parser.add_argument('--lr_base', type=float, default=0.01,
                         help="learning rate")
     parser.add_argument('--iterations_per_epoch', type=int, default=20000,
                         help="number of training iterations")
     parser.add_argument('--epochs', type=int, default=2,
                         help="number of training epochs")
-    parser.add_argument('--network_name', type=str, default='AnomalyDetector',
-                        help="name of network")
     parser.add_argument('--objective_name', type=str, default='custom_objective',
                         help="name of objective function")
+    parser.add_argument('--lambdas', type=float, default=8e-5, help="lambdas in loss function")
+    parser.add_argument('--top_anomaly_frames', type=int, default=3, help="top anomalaly frames (segments) per video")
+    parser.add_argument('--top_normal_frames', type=int, default=3, help="top normal frames (segments) per video")
+    parser.add_argument('--loss_name', type=str, default='TripletMarginLoss',
+                        help="loss name from pytorch metrics learning")
+    parser.add_argument('--miner_name', type=str, default='MultiSimilarityMiner',
+                        help="miner name from pytorch metrics learning")
 
     return parser.parse_args()
 
@@ -64,10 +99,15 @@ if __name__ == "__main__":
     # Register directories
     register_logger(log_file=args.log_file)
     os.makedirs(args.exps_dir, exist_ok=True)
-    models_dir = path.join(args.exps_dir, 'models')
-    tb_dir = path.join(args.exps_dir, 'tensorboard')
+
+    experiment_timestamp = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
+    experiment_unique_hash = str(uuid.uuid4())[:7]
+    exp_name = "_".join([args.network_name, args.objective_name, experiment_timestamp, experiment_unique_hash])
+    models_dir = path.join(args.exps_dir, exp_name)
+    tb_dir = models_dir
     os.makedirs(models_dir, exist_ok=True)
-    os.makedirs(tb_dir, exist_ok=True)
+    with open(path.join(models_dir, 'params.json'), 'w') as fp:
+        json.dump(vars(args), fp, indent=4)
 
     # Optimizations
     device = get_torch_device()
@@ -82,7 +122,18 @@ if __name__ == "__main__":
     if args.checkpoint is not None and path.exists(args.checkpoint):
         model = TorchModel.load_model(args.checkpoint)
     else:
-        network = custom_namespace[args.network_name](args.feature_dim)
+        if args.network_name == 'TripletAnomalyDetector':
+            network_params = {
+                'input_dim': args.feature_dim,
+                'output_dim': args.output_dim,
+                'dropout_rate': args.dropout_rate,
+                'use_last_bn': args.use_last_bn,
+                'norm_out_to_unit': args.norm_out_to_unit,
+                'norm_on_eval': args.norm_on_eval
+            }
+            network = custom_namespace[args.network_name](**network_params)
+        else:
+            network = custom_namespace[args.network_name](args.feature_dim)
         model = TorchModel(network)
 
     model = model.to(device).train()
@@ -92,9 +143,25 @@ if __name__ == "__main__":
         lr = 0.01
         epsilon = 1e-8
     """
-    optimizer = torch.optim.Adadelta(model.parameters(), lr=args.lr_base, eps=1e-8)
+    if args.optimizer == 'adadelta':
+        optimizer = torch.optim.Adadelta(model.parameters(), lr=args.lr_base, eps=1e-8)
+    elif args.optimizer == 'adam':
+        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr_base)
 
-    criterion = RegularizedLoss(network, custom_namespace[args.objective_name]).to(device)
+    if inspect.isfunction(custom_namespace[args.objective_name]):
+        objective = custom_namespace[args.objective_name]
+    elif inspect.isclass(custom_namespace[args.objective_name]):
+        obj_params = {}
+        if args.objective_name == 'PytorchMetricLearningObjectiveWithSampling':
+            obj_params = {
+                'lambdas': args.lambdas,
+                'top_anomaly_frames': args.top_anomaly_frames,
+                'top_normal_frames': args.top_normal_frames,
+                'loss_name': args.loss_name,
+                'miner_name': args.miner_name
+            }
+        objective = custom_namespace[args.objective_name](**obj_params)
+    criterion = RegularizedLoss(network, objective).to(device)
 
     # Callbacks
     tb_writer = SummaryWriter(log_dir=tb_dir)
