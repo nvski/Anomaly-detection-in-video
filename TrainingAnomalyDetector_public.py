@@ -1,5 +1,8 @@
 import argparse
 import os
+import numpy as np
+import random
+
 from os import path
 
 import torch
@@ -21,6 +24,14 @@ custom_namespace = {
     'triplet_objective': triplet_objective,
     'triplet_objective_sampling': triplet_objective_sampling
 }
+
+def set_seed(seed = 42):
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
 
 def get_args():
     parser = argparse.ArgumentParser(description="PyTorch Video Classification Parser")
@@ -46,7 +57,7 @@ def get_args():
                         help="epochs interval for saving the model checkpoints")
     parser.add_argument('--lr_base', type=float, default=0.01,
                         help="learning rate")
-    parser.add_argument('--iterations_per_epoch', type=int, default=20000,
+    parser.add_argument('--iterations_per_epoch', type=int, default=2000,
                         help="number of training iterations")
     parser.add_argument('--epochs', type=int, default=2,
                         help="number of training epochs")
@@ -66,7 +77,9 @@ def get_args():
     parser.add_argument('--top_normal_frames', type=int, default=3,
                         help="number of normal segments in triplet loss")
     parser.add_argument('--margin', type=float, default=0.2,
-                        help="margin constant in triplet lossn")
+                        help="margin constant in triplet loss")
+    parser.add_argument('--optimizer', type=str, default='adadelta', help="optimizer")
+    parser.add_argument('--seed', type=int, default=42, help="random seed")
 
     return parser.parse_args()
 
@@ -85,6 +98,7 @@ if __name__ == "__main__":
     # Optimizations
     device = get_torch_device()
     cudnn.benchmark = True  # enable cudnn tune
+    set_seed(args.seed)
 
     # Data loader
     train_loader = FeaturesLoader(features_path=args.features_path,
@@ -110,7 +124,10 @@ if __name__ == "__main__":
         lr = 0.01
         epsilon = 1e-8
     """
-    optimizer = torch.optim.Adadelta(model.parameters(), lr=args.lr_base, eps=1e-8)
+    if args.optimizer == 'adadelta':
+        optimizer = torch.optim.Adadelta(model.parameters(), lr=args.lr_base, eps=1e-8)
+    elif args.optimizer == 'adam':
+        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr_base)
 
     if 'triplet' in args.objective_name:
         criterion = TripletRegularizedLoss(network, 

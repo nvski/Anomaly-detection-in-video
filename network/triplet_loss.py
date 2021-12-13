@@ -54,7 +54,7 @@ def triplet_objective(normalized_embeddings, y_true):
 
     """
     Triplet loss
-    """
+    """ 
     triplet_loss = (positive_frames - anchors).pow(2).sum(-1).mean() \
                     - (negative_frames - anchors).pow(2).sum(-1).mean() + margin
     triplet_loss = torch.relu(triplet_loss)

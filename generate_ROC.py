@@ -4,7 +4,7 @@ import torch
 import torch.backends.cudnn as cudnn
 
 from network.TorchUtils import TorchModel
-from features_loader import FeaturesLoaderVal, FeaturesLoader
+from features_loader import FeaturesLoaderVal, FeaturesLoader, FeaturesLoaderTrain
 from tqdm import tqdm
 from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
@@ -46,30 +46,32 @@ def get_centroids(model, data_iter):
     with torch.no_grad():
         for features, labels in tqdm(data_iter):
             # features is a batch where each item is a tensor of 32 4096D features
-            features = features.to(device).squeeze()
-            labels = labels.squeeze()
+            features = features.to(device)
+            labels = labels#.squeeze()
+            
             outputs = model(features)  # (batch_size, 32, embed_size)
         
             embed = outputs.mean(1).cpu().numpy()
             y_true = labels.cpu().numpy()
             
-            if normal_embed is None:
-                normal_embed = embed[y_true == 0].mean(0)
-            else:
-                normal_embed += embed[y_true == 0].mean(0)
+            if (y_true == 0).sum():
+                if normal_embed is None and (y_true == 0).sum():
+                    normal_embed = embed[y_true == 0].mean(0)
+                else:
+                    normal_embed += embed[y_true == 0].mean(0)
                 
-            if anomaly_embed is None:
-                anomaly_embed = embed[y_true == 1].mean(0)
-            else:
-                anomaly_embed += embed[y_true == 1].mean(0)
+            if (y_true == 1).sum():
+                if anomaly_embed is None:
+                    anomaly_embed = embed[y_true == 1].mean(0)
+                else:
+                    anomaly_embed += embed[y_true == 1].mean(0)
 
             n_normal += (y_true == 0).sum()
             n_anomaly += (y_true == 1).sum()
-
+            
             torch.cuda.empty_cache()
 
     centroids = np.array([normal_embed/n_normal, anomaly_embed/n_anomaly]) 
-    
     return centroids
     
 
@@ -88,8 +90,8 @@ if __name__ == "__main__":
                                             pin_memory=True)
     
     
-    train_data_loader = FeaturesLoader(features_path=args.train_features_path,
-                                       annotation_path=args.train_annotation_path)
+    train_data_loader = FeaturesLoaderTrain(features_path=args.train_features_path,
+                                            annotation_path=args.train_annotation_path)
 
     train_data_iter = torch.utils.data.DataLoader(train_data_loader,
                                             batch_size=1,
