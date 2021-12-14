@@ -57,7 +57,9 @@ def custom_objective(y_pred, y_true):
     """
     sparsity_loss = anomal_segments_scores.sum(dim=-1)
 
-    final_loss = (hinge_loss + lambdas*smoothed_scores_sum_squared + lambdas*sparsity_loss).mean()
+    final_loss = (
+        hinge_loss + lambdas * smoothed_scores_sum_squared + lambdas * sparsity_loss
+    ).mean()
     return final_loss
 
 
@@ -79,11 +81,25 @@ class RegularizedLoss(torch.nn.Module):
         l2_regularization = self.lambdas * torch.norm(fc2_params, p=2)
         l3_regularization = self.lambdas * torch.norm(fc3_params, p=2)
 
-        return self.objective(y_pred, y_true) + l1_regularization + l2_regularization + l3_regularization
-    
-    
+        return (
+            self.objective(y_pred, y_true)
+            + l1_regularization
+            + l2_regularization
+            + l3_regularization
+        )
+
+
 class TripletRegularizedLoss(torch.nn.Module):
-    def __init__(self, model, original_objective, lambdas=0.001, triplet_lambdas=8e-5, top_anomaly_frames=3, top_normal_frames=3, margin=0.2):
+    def __init__(
+        self,
+        model,
+        original_objective,
+        lambdas=0.001,
+        triplet_lambdas=8e-5,
+        top_anomaly_frames=3,
+        top_normal_frames=3,
+        margin=0.2,
+    ):
         super(TripletRegularizedLoss, self).__init__()
         self.lambdas = lambdas
         self.model = model
@@ -104,9 +120,16 @@ class TripletRegularizedLoss(torch.nn.Module):
         l2_regularization = self.lambdas * torch.norm(fc2_params, p=2)
         l3_regularization = self.lambdas * torch.norm(fc3_params, p=2)
 
-        return self.objective(y_pred, y_true, 
-                              self.triplet_lambdas, 
-                              self.top_anomaly_frames, 
-                              self.top_normal_frames, 
-                              self.margin) + l1_regularization + l2_regularization + l3_regularization
-
+        return (
+            self.objective(
+                y_pred,
+                y_true,
+                self.triplet_lambdas,
+                self.top_anomaly_frames,
+                self.top_normal_frames,
+                self.margin,
+            )
+            + l1_regularization
+            + l2_regularization
+            + l3_regularization
+        )
