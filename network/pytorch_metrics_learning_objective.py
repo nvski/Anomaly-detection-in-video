@@ -1,12 +1,16 @@
 import torch
 from torch import nn
 from torch.nn import functional as F
-from pytorch_metric_learning.miners import MultiSimilarityMiner
-from pytorch_metric_learning.losses import TripletMarginLoss
+from pytorch_metric_learning.miners import MultiSimilarityMiner, TripletMarginMiner, BatchHardMiner
+from pytorch_metric_learning.losses import TripletMarginLoss, CircleLoss, ArcFaceLoss
 
 custom_namespace = {
     'MultiSimilarityMiner': MultiSimilarityMiner,
     'TripletMarginLoss': TripletMarginLoss,
+    'TripletMarginMiner': TripletMarginMiner,
+    'BatchHardMiner': BatchHardMiner,
+    'CircleLoss': CircleLoss,
+    'ArcFaceLoss': ArcFaceLoss
 }
 
 

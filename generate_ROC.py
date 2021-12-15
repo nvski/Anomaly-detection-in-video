@@ -4,7 +4,7 @@ import torch
 import torch.backends.cudnn as cudnn
 
 from network.TorchUtils import TorchModel
-from features_loader import FeaturesLoaderVal, FeaturesLoader
+from features_loader import FeaturesLoaderVal, FeaturesLoader, FeaturesLoaderTrain
 from tqdm import tqdm
 from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
@@ -22,7 +22,7 @@ def get_args():
                         help="set logging file.")
     parser.add_argument('--calc_mode', type=str, default="mil",
                         help="metrics calculation mode")
-    
+
     parser.add_argument('--train_features_path', default='data/anomaly_features',
                         help="path to features")
     parser.add_argument('--train_annotation_path', default="Train_Annotation.txt",
@@ -37,42 +37,55 @@ def get_args():
     use_centroid_parser.add_argument('--use_centroid', dest='use_centroid', action='store_true')
     use_centroid_parser.add_argument('--no_use_centroid', dest='use_centroid', action='store_false')
     use_centroid_parser.set_defaults(use_centroid=False)
+
+    save_output_parser = parser.add_mutually_exclusive_group(required=False)
+    save_output_parser.add_argument('--save_output', dest='save_output', action='store_true')
+    save_output_parser.add_argument('--no_save_output', dest='save_output', action='store_false')
+    save_output_parser.set_defaults(save_output=False)
     return parser.parse_args()
 
 
 def get_centroids(model, data_iter):
-    
     device = torch.device("cuda" if torch.cuda.is_available()
                           else "cpu")
-    
-    normal_embed = np.zeros(128)
-    anomaly_embed = np.zeros(128)
-    
+
+    normal_embed = None
+    anomaly_embed = None
+
     n_normal = 0
     n_anomaly = 0
 
     with torch.no_grad():
         for features, labels in tqdm(data_iter):
             # features is a batch where each item is a tensor of 32 4096D features
-            features = features.to(device).squeeze()
-            labels = labels.squeeze()
+            features = features.to(device)
+            labels = labels  # .squeeze()
+
             outputs = model(features)  # (batch_size, 32, embed_size)
-        
+
             embed = outputs.mean(1).cpu().numpy()
             y_true = labels.cpu().numpy()
-            
-            normal_embed += embed[y_true == 0].mean(0)
-            anomaly_embed += embed[y_true == 1].mean(0)
-            
+
+            if (y_true == 0).sum():
+                if normal_embed is None and (y_true == 0).sum():
+                    normal_embed = embed[y_true == 0].mean(0)
+                else:
+                    normal_embed += embed[y_true == 0].mean(0)
+
+            if (y_true == 1).sum():
+                if anomaly_embed is None:
+                    anomaly_embed = embed[y_true == 1].mean(0)
+                else:
+                    anomaly_embed += embed[y_true == 1].mean(0)
+
             n_normal += (y_true == 0).sum()
             n_anomaly += (y_true == 1).sum()
 
             torch.cuda.empty_cache()
 
-    centroids = np.array([normal_embed/n_normal, anomaly_embed/n_anomaly]) 
-    
+    centroids = np.array([normal_embed / n_normal, anomaly_embed / n_anomaly])
     return centroids
-    
+
 
 if __name__ == "__main__":
     args = get_args()
@@ -87,23 +100,20 @@ if __name__ == "__main__":
                                             shuffle=False,
                                             num_workers=0,  # 4, # change this part accordingly
                                             pin_memory=True)
-    
-    
-    train_data_loader = FeaturesLoader(features_path=args.train_features_path,
-                                       annotation_path=args.train_annotation_path,
-                                       iterations=2000)
+
+    train_data_loader = FeaturesLoaderTrain(features_path=args.train_features_path,
+                                            annotation_path=args.train_annotation_path)
 
     train_data_iter = torch.utils.data.DataLoader(train_data_loader,
-                                            batch_size=1,
-                                            shuffle=False,
-                                            num_workers=0,  # 4, # change this part accordingly
-                                            pin_memory=True)
+                                                  batch_size=1,
+                                                  shuffle=False,
+                                                  num_workers=0,  # 4, # change this part accordingly
+                                                  pin_memory=True)
 
     model = TorchModel.load_model(args.model_path).to(device).eval()
 
     # enable cudnn tune
     cudnn.benchmark = True
-
 
     y_trues = torch.tensor([])
     y_preds = torch.tensor([])
@@ -115,12 +125,13 @@ if __name__ == "__main__":
         print('Use 1st video segment to calculate the anomaly score')
 
     with torch.no_grad():
+        data_cnt = 0
         for features, start_end_couples, lengths in tqdm(data_iter):
             # features is a batch where each item is a tensor of 32 4096D features
             features = features.to(device)
             if args.calc_mode == 'mil':
                 outputs = model(features).squeeze(-1)  # (batch_size, 32)
-            else: # in case of Triplet loss
+            else:  # in case of Triplet loss
                 outputs = model(features)  # (batch_size, 32, embed_size)
             for vid_len, couples, output in zip(lengths, start_end_couples, outputs.cpu().numpy()):
                 y_true = np.zeros(vid_len)
@@ -136,11 +147,22 @@ if __name__ == "__main__":
                     segment_end_frame = (i + 1) * segments_len
                     if args.calc_mode == 'triplet':
                         if args.use_centroid:
-                            y_pred[segment_start_frame: segment_end_frame] = ((output[i] - centroids[0])**2).sum(-1)
+                            y_pred[segment_start_frame: segment_end_frame] = ((output[i] - centroids[0]) ** 2).sum(-1)
                         else:
-                            y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0])**2).sum(-1)
-                    else: # default MIL calculation
+                            y_pred[segment_start_frame: segment_end_frame] = ((output[i] - output[0]) ** 2).sum(-1)
+                    else:  # default MIL calculation
                         y_pred[segment_start_frame: segment_end_frame] = output[i]
+
+                if args.save_output:
+                    save_folder_path = f"{os.sep}".join(args.model_path.split(os.sep)[:-1])
+                    os.makedirs(path.join(save_folder_path, 'output'), exist_ok=True)
+                    target_folder = args.model_path.split(os.sep)[-1].split('.')[0]
+                    os.makedirs(path.join(save_folder_path, 'output', target_folder),
+                                exist_ok=True)
+                    np.save(path.join(save_folder_path, 'output', target_folder, f'{data_cnt}_embed.npy'), output)
+                    np.save(path.join(save_folder_path, 'output', target_folder, f'{data_cnt}_pred.npy'), y_pred)
+                    np.save(path.join(save_folder_path, 'output', target_folder, f'{data_cnt}_true.npy'), y_true)
+                    data_cnt += 1
 
                 if y_trues is None:
                     y_trues = y_true
@@ -163,12 +185,15 @@ if __name__ == "__main__":
     plt.legend(loc="lower right")
 
     os.makedirs('graphs', exist_ok=True)
-    plt.savefig(path.join('graphs', 'roc_auc.png'))
+    fname = 'roc_auc'
+    if args.use_centroid:
+        fname += '_centroid'
+    # plt.savefig(path.join('graphs', f'{fname}.png'))
     print('ROC curve (area = %0.2f)' % roc_auc)
     if args.save_to_pt_folder:
         save_folder_path = f"{os.sep}".join(args.model_path.split(os.sep)[:-1])
         save_name = args.model_path.split(os.sep)[-1].split('.')[0]
-        plt.savefig(path.join(save_folder_path, save_name+'_roc_auc.png'))
-        with open(path.join(save_folder_path, save_name+'_roc_auc.txt'), 'w') as f:
+        plt.savefig(path.join(save_folder_path, save_name + f'{fname}.png'))
+        with open(path.join(save_folder_path, save_name + f'_{fname}.txt'), 'w') as f:
             f.write('ROC curve (area = %0.2f)' % roc_auc)
     plt.close()
