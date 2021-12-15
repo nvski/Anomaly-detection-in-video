@@ -24,35 +24,38 @@ def register_logger(log_file=None, stdout=True):
     if log_file is not None:
         handlers.append(logging.FileHandler(log_file))
 
-    logging.basicConfig(format="%(asctime)s %(message)s",
-                        handlers=handlers,
-                        level=logging.INFO,
-                        )
+    logging.basicConfig(
+        format="%(asctime)s %(message)s",
+        handlers=handlers,
+        level=logging.INFO,
+    )
     logging.root.setLevel(logging.INFO)
 
 
-def build_transforms(mode='c3d'):
-    if mode == 'c3d':
+def build_transforms(mode="c3d"):
+    if mode == "c3d":
         mean = [124 / 255, 117 / 255, 104 / 255]
-        std = [1 / (.0167 * 255)] * 3
+        std = [1 / (0.0167 * 255)] * 3
         resize = 128, 171
         crop = 112
-    elif mode == 'i3d':
+    elif mode == "i3d":
         mean = [0, 0, 0]
         std = [1, 1, 1]
         size = 224
-    elif mode == 'mfnet':
+    elif mode == "mfnet":
         mean = [0.485, 0.456, 0.406]
         std = [0.229, 0.224, 0.225]
         size = 224
     else:
         raise NotImplementedError(f"Mode {mode} not implemented")
 
-    res = transforms.Compose([
-        transforms_video.ToTensorVideo(),
-        transforms_video.ResizeVideo(resize),
-        transforms_video.CenterCropVideo(crop),
-        transforms_video.NormalizeVideo(mean=mean, std=std)
-    ])
+    res = transforms.Compose(
+        [
+            transforms_video.ToTensorVideo(),
+            transforms_video.ResizeVideo(resize),
+            transforms_video.CenterCropVideo(crop),
+            transforms_video.NormalizeVideo(mean=mean, std=std),
+        ]
+    )
 
     return res

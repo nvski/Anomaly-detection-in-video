@@ -30,7 +30,9 @@ class C3D(nn.Module):
 
         self.conv5a = nn.Conv3d(512, 512, kernel_size=(3, 3, 3), padding=(1, 1, 1))
         self.conv5b = nn.Conv3d(512, 512, kernel_size=(3, 3, 3), padding=(1, 1, 1))
-        self.pool5 = nn.MaxPool3d(kernel_size=(2, 2, 2), stride=(2, 2, 2), padding=(0, 1, 1))
+        self.pool5 = nn.MaxPool3d(
+            kernel_size=(2, 2, 2), stride=(2, 2, 2), padding=(0, 1, 1)
+        )
 
         self.fc6 = nn.Linear(8192, 4096)
         self.relu = nn.ReLU()
@@ -90,7 +92,10 @@ class C3D(nn.Module):
             "fc6.bias",
         ]
 
-        ignored_weights = [f"{layer}.{type_}" for layer, type_ in itertools.product(['fc7', 'fc8'], ['bias', 'weight'])]
+        ignored_weights = [
+            f"{layer}.{type_}"
+            for layer, type_ in itertools.product(["fc7", "fc8"], ["bias", "weight"])
+        ]
 
         p_dict = torch.load(self.pretrained)
         s_dict = self.state_dict()
