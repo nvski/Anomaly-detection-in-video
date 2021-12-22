@@ -240,10 +240,7 @@ if __name__ == "__main__":
         lr = 0.01
         epsilon = 1e-8
     """
-    if args.optimizer == "adadelta":
-        optimizer = torch.optim.Adadelta(model.parameters(), lr=args.lr_base, eps=1e-8)
-    elif args.optimizer == "adam":
-        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr_base)
+
 
     if inspect.isfunction(custom_namespace[args.objective_name]):
         objective = custom_namespace[args.objective_name]
@@ -270,6 +267,16 @@ if __name__ == "__main__":
         ).to(device)
     else:
         criterion = RegularizedLoss(network, objective).to(device)
+
+    if args.loss_name == 'ArcFace':
+        opt_params = list(model.parameters()) + list(objective.loss_func.parameters())
+    else:
+        opt_params = model.parameters()
+
+    if args.optimizer == "adadelta":
+        optimizer = torch.optim.Adadelta(opt_params, lr=args.lr_base, eps=1e-8)
+    elif args.optimizer == "adam":
+        optimizer = torch.optim.Adam(opt_params, lr=args.lr_base)
 
     # Callbacks
     tb_writer = SummaryWriter(log_dir=tb_dir)
