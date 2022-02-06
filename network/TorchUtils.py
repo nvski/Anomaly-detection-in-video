@@ -5,6 +5,8 @@ import time
 import torch
 import torch.nn as nn
 
+from tqdm import tqdm
+
 """
 Written by Eitan Kosman
 """
@@ -185,7 +187,7 @@ class TorchModel(nn.Module):
         total_time = 0
         self.train()
         self.notify_callbacks("on_epoch_start", epoch, len(data_iter))
-        for iteration, (batch, targets) in enumerate(data_iter):
+        for iteration, (batch, targets) in enumerate(tqdm(data_iter)):
             self.iteration += 1
             start_time = time.time()
             batch = self.data_to_device(batch, self.device)

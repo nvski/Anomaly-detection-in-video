@@ -132,15 +132,16 @@ def triplet_objective_sampling(
     Here we calculate pairwise distance to pick hard negative examples for each anchor
     """
     n_anom_video, _, _ = anomal_segments_embeddings.shape
-    fp_frame_inds = torch.cdist(anomal_segments_embeddings, anchors).argsort(dim=1)[
-        :, -top_anomaly_frames:, 0
-    ]
-    fp_frame_mask = torch.zeros((n_anom_video, n_frames), dtype=torch.bool).to(
-        anomal_segments_embeddings.device
-    )
-    for row_idx in range(fp_frame_inds.shape[0]):
-        for col_idx in fp_frame_inds[row_idx]:
-            fp_frame_mask[row_idx, col_idx] = True
+    with torch.no_grad():
+        fp_frame_inds = torch.cdist(anomal_segments_embeddings, anchors).argsort(dim=1)[
+            :, -top_anomaly_frames:, 0
+        ]
+        fp_frame_mask = torch.zeros((n_anom_video, n_frames), dtype=torch.bool).to(
+            anomal_segments_embeddings.device
+        )
+        for row_idx in range(fp_frame_inds.shape[0]):
+            for col_idx in fp_frame_inds[row_idx]:
+                fp_frame_mask[row_idx, col_idx] = True
 
     negative_frames = anomal_segments_embeddings[fp_frame_mask].view(
         n_anom_video, -1, embed_dim
