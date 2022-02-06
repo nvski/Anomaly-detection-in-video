@@ -90,7 +90,7 @@ class PytorchMetricLearningObjectiveWithSampling(nn.Module):
 
         negative_frames = normal_segments_embeddings[fp_frame_mask].view(
             n_norm_video, -1, embed_dim
-        )  # (batch/2,top_anomaly_frames, embed_dim)
+        )  # (batch/2,top_normal_frames, embed_dim)
 
         """
         Metric learning loss
@@ -110,10 +110,15 @@ class PytorchMetricLearningObjectiveWithSampling(nn.Module):
         """
         Smoothness of anomalous video
         """
-        smoothed_scores = (
-                anomal_segments_embeddings[:, 1:] - anomal_segments_embeddings[:, :-1]
+        # smoothed_scores = (
+        #         anomal_segments_embeddings[:, 1:] - anomal_segments_embeddings[:, :-1]
+        # )
+        # smoothed_scores_sum_squared = smoothed_scores.pow(2).sum(dim=-1)
+        smoothed_scores_distance = self.loss_func.distance(
+            anomal_segments_embeddings[:, 1:].reshape(-1, embed_dim),
+            anomal_segments_embeddings[:, :-1].reshape(-1, embed_dim)
         )
-        smoothed_scores_sum_squared = smoothed_scores.pow(2).sum(dim=-1)
-
-        final_loss = (triplet_loss + self.lambdas * smoothed_scores_sum_squared).mean()
+        if self.loss_func.distance.is_inverted:
+            smoothed_scores_distance = -smoothed_scores_distance
+        final_loss = (triplet_loss + self.lambdas * smoothed_scores_distance).mean()
         return final_loss
